@@ -31482,7 +31482,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "21-22-donruss-optic-basketball: 13728 -> 13663 cards, 268 -> 227 sections, covers 99.9% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "21-22-panini-black-basketball",
@@ -31510,7 +31512,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "21-22-panini-chronicles-basketball: 11180 -> 11908 cards, 420 -> 89 sections, covers 99.9% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "21-22-panini-contenders-optic-basketball",
@@ -31538,7 +31542,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "21-22-panini-eminence-basketball: 1561 -> 1499 cards, 87 -> 84 sections, covers 95.7% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "21-22-panini-flawless-basketball",
@@ -31566,7 +31572,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "21-22-panini-illusions-basketball: 6475 -> 6378 cards, 134 -> 116 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "21-22-panini-immaculate-collection-basketball",
@@ -31608,7 +31616,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "21-22-panini-mosaic-basketball: 11793 -> 11769 cards, 266 -> 111 sections, covers 99.7% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "21-22-panini-nba-hoops-basketball",
@@ -31678,7 +31688,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "21-22-panini-prizm-basketball: 22980 -> 23698 cards, 174 -> 176 sections, covers 99.3% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "21-22-panini-recon-basketball",
@@ -31720,7 +31732,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "21-22-panini-select-basketball: 16552 -> 16556 cards, 261 -> 181 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "21-22-panini-spectra-basketball",
@@ -31734,7 +31748,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "21-22-panini-spectra-basketball: 7587 -> 7516 cards, 193 -> 121 sections, covers 99.7% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2022-23-bowman-university-chrome-basketball",
@@ -31748,7 +31764,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2022-23-bowman-university-chrome-basketball: 312 -> 4361 cards, 10 -> 67 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2022-23-donruss-optic-premium-box-set-basketball-cards",
@@ -31776,7 +31794,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2022-23-leaf-trinity-basketball: 23 -> 5595 cards, 1 -> 71 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2022-23-panini-chronicles-draft-picks-basketball-cards",
@@ -31832,7 +31852,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2022-23-panini-instant-black-white-rookies-basketball-cards: 36 -> 72 cards, 1 -> 2 sections, covers 0.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2022-23-panini-instant-breakaway-basketball-cards",
@@ -31860,7 +31882,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2022-23-panini-instant-my-city-basketball-cards: 30 -> 94 cards, 1 -> 3 sections, covers 0.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2022-23-panini-instant-nba-draft-night-cards",
@@ -31874,7 +31898,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2022-23-panini-instant-nba-draft-night-cards: 24 -> 24 cards, 1 -> 1 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2022-23-panini-instant-rps-first-look-basketball-cards",
@@ -31888,7 +31914,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2022-23-panini-instant-rps-first-look-basketball-cards: 63 -> 224 cards, 2 -> 7 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2022-23-panini-instant-spotlight-rookies-basketball-cards",
@@ -31930,7 +31958,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2022-23-panini-instant-year-one-basketball-cards: 40 -> 40 cards, 1 -> 1 sections, covers 0.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2022-23-panini-national-treasures-collegiate-basketball-cards",
@@ -32098,7 +32128,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-panini-prizm-wnba-basketball-cards: 309 -> 4002 cards, 11 -> 74 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-panini-prizm-wnba-premium-box-set-basketball-cards",
@@ -32154,7 +32186,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "22-23-donruss-basketball: 7967 -> 500 cards, 135 -> 2 sections, covers 46.5% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "22-23-donruss-elite-basketball",
@@ -32168,7 +32202,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "22-23-donruss-elite-basketball: 6969 -> 6941 cards, 136 -> 121 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "22-23-donruss-optic-basketball",
@@ -32182,7 +32218,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "22-23-donruss-optic-basketball: 16323 -> 500 cards, 262 -> 2 sections, covers 30.6% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "22-23-panini-black-basketball",
@@ -32210,7 +32248,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "22-23-panini-chronicles-basketball: 10641 -> 10642 cards, 410 -> 114 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "22-23-panini-contenders-basketball",
@@ -32252,7 +32292,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "22-23-panini-court-kings-basketball: 3203 -> 3203 cards, 103 -> 99 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "22-23-panini-crown-royale-basketball",
@@ -32266,7 +32308,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "22-23-panini-crown-royale-basketball: 4080 -> 4080 cards, 114 -> 113 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "22-23-panini-flawless-basketball",
@@ -32350,7 +32394,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "22-23-panini-mosaic-basketball: 13083 -> 13085 cards, 198 -> 160 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "22-23-panini-national-treasures-basketball",
@@ -32392,7 +32438,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "22-23-panini-noir-basketball: 3307 -> 3432 cards, 122 -> 96 sections, covers 98.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "22-23-panini-obsidian-basketball",
@@ -32448,7 +32496,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "22-23-panini-photogenic-basketball: 2197 -> 2140 cards, 87 -> 70 sections, covers 98.7% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "22-23-panini-prizm-basketball",
@@ -32504,7 +32554,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "22-23-panini-select-basketball: 16977 -> 16958 cards, 282 -> 204 sections, covers 99.5% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "22-23-panini-spectra-basketball",
@@ -32518,7 +32570,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "22-23-panini-spectra-basketball: 7435 -> 7415 cards, 143 -> 113 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-bowman-best-university-basketball",
@@ -32560,7 +32614,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-bowman-university-chrome-basketball-cards: 340 -> 4636 cards, 11 -> 80 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-donruss-basketball",
@@ -32574,7 +32630,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-donruss-basketball: 804 -> 10928 cards, 25 -> 166 sections, covers 99.4% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-donruss-elite-basketball",
@@ -32588,7 +32646,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-donruss-elite-basketball: 780 -> 7973 cards, 24 -> 135 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-donruss-optic-basketball",
@@ -32602,7 +32662,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-donruss-optic-basketball: 972 -> 19495 cards, 28 -> 250 sections, covers 99.7% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-donruss-turkish-airlines-euroleague-basketball",
@@ -32686,7 +32748,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-panini-court-kings-basketball: 790 -> 3556 cards, 28 -> 106 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-panini-crown-royale-basketball",
@@ -32700,7 +32764,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-panini-crown-royale-basketball: 736 -> 4506 cards, 27 -> 149 sections, covers 91.4% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-panini-crown-royale-turkish-airlines-euroleague-basketball",
@@ -32756,7 +32822,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-panini-immaculate-nba-basketball: 2613 -> 5530 cards, 90 -> 348 sections, covers 92.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-panini-impeccable-basketball",
@@ -32784,7 +32852,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-panini-instant-nba-draft-night-basketball-cards: 33 -> 132 cards, 1 -> 4 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-panini-instant-rps-first-look-basketball-cards",
@@ -32798,7 +32868,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-panini-instant-rps-first-look-basketball-cards: 74 -> 264 cards, 2 -> 6 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-panini-mosaic-basketball-checklist-and-review",
@@ -32812,7 +32884,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-panini-mosaic-basketball-checklist-and-review: 1393 -> 16985 cards, 41 -> 196 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-panini-national-treasures-basketball",
@@ -32854,7 +32928,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-panini-noir-basketball: 1442 -> 4063 cards, 55 -> 141 sections, covers 99.2% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-panini-obsidian-basketball",
@@ -32924,7 +33000,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-panini-photogenic-basketball: 464 -> 2792 cards, 17 -> 89 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-panini-premium-stock-basketball",
@@ -32952,7 +33030,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-panini-prizm-basketball: 1053 -> 23527 cards, 24 -> 178 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-panini-prizm-deca-basketball",
@@ -32966,7 +33046,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-panini-prizm-deca-basketball: 648 -> 5229 cards, 9 -> 47 sections, covers 99.8% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-panini-prizm-draft-picks-basketball-cards",
@@ -32994,7 +33076,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "2023-24-panini-prizm-monopoly-basketball: 183 -> 3153 cards, 6 -> 63 sections, covers 100.0% of current",
+  "at": "2026-10-31"
  },
  {
   "slug": "2023-24-panini-recon-basketball",
