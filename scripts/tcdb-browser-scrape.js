@@ -283,7 +283,11 @@
       const job = st.current = st.vtodo.shift()
       job.started = Date.now()
       try { st.verified.push(await verifyOne(job)) }
-      catch (e) { st.verified.push({ slug: job.slug, verdict: 'error', error: String(e) }) }
+      catch (e) {
+        // Cloudflare block (403): put the job back and stop, instead of burning the whole queue as errors.
+        if (/^Error: 403 /.test(String(e))) { st.vtodo.unshift(job); st.blocked = new Date().toISOString(); break }
+        st.verified.push({ slug: job.slug, verdict: 'error', error: String(e) })
+      }
     }
     st.current = null
     st.vrunning = false
