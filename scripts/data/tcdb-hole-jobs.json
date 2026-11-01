@@ -38915,7 +38915,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +0 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-five-star-baseball",
@@ -38929,7 +38931,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +4 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-gallery-baseball",
@@ -38943,7 +38947,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +7 cards (3 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-gold-label-baseball",
@@ -38999,7 +39005,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +17 cards (2 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-heritage-minor-league-baseball-cards",
@@ -39013,7 +39021,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +188 cards (11 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-high-tek-baseball",
@@ -39055,7 +39065,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +14 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-luminaries-baseball",
@@ -39069,7 +39081,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +15 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-mlb-sticker-collection-baseball-cards",
@@ -39083,7 +39097,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +6 cards (2 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-museum-collection-baseball",
@@ -39097,7 +39113,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +402 cards (5 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-of-the-class-baseball-cards",
@@ -39125,7 +39143,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +36 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-pro-debut-baseball-milb-cards",
@@ -39195,7 +39215,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +313 cards (4 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-total-baseball-cards",
@@ -39223,7 +39245,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +42 cards (3 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-triple-threads-baseball",
@@ -39237,7 +39261,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +15 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-update-series-baseball",
@@ -39335,7 +39361,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +4 cards (3 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-bowman-chrome-baseball",
@@ -39349,7 +39377,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +6 cards (4 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-bowman-chrome-mega-box-baseball-cards",
@@ -39391,7 +39421,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +7 cards (4 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-bowman-draft-sapphire-edition-baseball-cards",
@@ -39405,7 +39437,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +3 cards (2 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-bowman-heritage-baseball",
@@ -39433,7 +39467,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +2 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-bowman-sapphire-baseball",
@@ -39461,7 +39497,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +0 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-bowman-transcendent-collection-baseball",
@@ -39867,7 +39905,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +5 cards (3 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-chrome-ben-baller-edition-baseball",
@@ -39895,7 +39935,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +1 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-chrome-sapphire-baseball",
@@ -39909,7 +39951,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +20 cards (2 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-chrome-update-sapphire-baseball-cards",
@@ -39951,7 +39995,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +1 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-definitive-collection-baseball",
@@ -39965,7 +40011,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +24 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-diamond-icons-baseball",
@@ -40007,7 +40055,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +5 cards (3 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-finest-flashbacks-baseball",
@@ -40035,7 +40085,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +0 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-five-star-baseball",
@@ -40049,7 +40101,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +14 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-future-stars-club-cards",
@@ -40091,7 +40145,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +7 cards (3 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-gypsy-queen-baseball",
@@ -40119,7 +40175,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +16 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-heritage-high-number-baseball",
@@ -40147,7 +40205,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +221 cards (13 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-holiday-mega-box-baseball",
@@ -40175,7 +40235,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +6 cards (2 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-luminaries-baseball",
@@ -40189,7 +40251,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +23 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2020-topps-mlb-sticker-collection-baseball-cards",
