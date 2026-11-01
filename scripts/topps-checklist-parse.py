@@ -4,7 +4,9 @@ usage: parse.py <file.txt>  -> JSON on stdout: [{"title":..., "cards":[{"n","p",
 Topps PDFs: CATEGORY line (BASE / INSERT / AUTOGRAPH / AUTOGRAPH RELIC ...) then SECTION line, then rows
 "  <number>  <Player>   <Team>" separated by 2+ spaces (base rows sometimes use one space after the number).
 """
-import re, sys, json
+import re, sys, json, os
+_TF = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'teams.json') if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'teams.json')) else os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'topps-teams.json')
+TEAMS = (json.load(open(_TF)) if os.path.exists(_TF) else [])
 
 CATEGORIES = {'BASE', 'INSERT', 'INSERTS', 'AUTOGRAPH', 'AUTOGRAPHS', 'AUTOGRAPH RELIC', 'AUTOGRAPH RELICS', 'RELIC', 'RELICS',
               'VARIATION', 'VARIATIONS', 'MEMORABILIA', 'AUTOGRAPHED RELIC', 'AUTO RELIC', 'PATCH', 'PATCHES', 'BOX TOPPER', 'BOX TOPPERS',
@@ -47,6 +49,9 @@ def parse(text):
             # card numbers: digits ("12", "TP-8") or an all-caps code ("RPH-AB", "CD-RB"); skip prose lines
             if not re.search(r"\d", n) and not re.fullmatch(r"[A-Z0-9]{1,8}(?:[-.][A-Za-z0-9]{1,8})*", n): continue
             p = re.sub(r'[®™]', '', p).strip()
+            if not t:   # a row without the column gap: "Darryl Strawberry New York Mets"
+                for tm in TEAMS:
+                    if p.endswith(' ' + tm) and len(p) > len(tm) + 3: t, p = tm, p[:-len(tm) - 1].strip(); break
             rc = bool(re.search(r'\s{2,}(Rookie|RC)\s*$', t)) or t in ('Rookie', 'RC')
             t = re.sub(r'\s{2,}.*$', '', t) if t not in ('Rookie', 'RC') else ''
             t = re.sub(r'[®™]', '', t).strip()
