@@ -1,0 +1,612 @@
+[
+ {
+  "slug": "2020-topps-stadium-club-chrome-baseball",
+  "source": "https://www.cardboardconnection.com/2020-topps-stadium-club-chrome-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "X-Fractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Wave Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Autographs",
+    "name": "Shimmer Refractor",
+    "run": null
+   }
+  ]
+ },
+ {
+  "slug": "2020-topps-sterling-baseball",
+  "source": "https://www.cardboardconnection.com/2020-topps-sterling-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2020-topps-triple-threads-baseball",
+  "source": "https://www.cardboardconnection.com/2020-topps-triple-threads-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2021-22-topps-finest-bundesliga-cards",
+  "source": "https://www.cardboardconnection.com/2021-22-topps-finest-bundesliga-cards/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow Refractor",
+    "run": "/350"
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow Wave Refractor",
+    "run": "/350"
+   },
+   {
+    "parent": "Base",
+    "name": "Pink Refractor",
+    "run": "/300"
+   },
+   {
+    "parent": "Base",
+    "name": "Pink Wave Refractor",
+    "run": "/300"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Wave Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Wave Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Wave Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Wave Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base I Autograph Parallel",
+    "name": "Black Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Base I Autograph Parallel",
+    "name": "Black Wave Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base I Autograph Parallel",
+    "name": "Purple Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base I Autograph Parallel",
+    "name": "Purple Wave Refractor",
+    "run": "/80"
+   },
+   {
+    "parent": "Base I Autograph Parallel",
+    "name": "Blue Refractor",
+    "run": "/65"
+   },
+   {
+    "parent": "Base I Autograph Parallel",
+    "name": "Green Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base I Autograph Parallel",
+    "name": "Green Wave Refractor",
+    "run": "/30"
+   },
+   {
+    "parent": "Base I Autograph Parallel",
+    "name": "Gold Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base I Autograph Parallel",
+    "name": "Orange Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Base I Autograph Parallel",
+    "name": "Orange Wave Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base I Autograph Parallel",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Strikers",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Strikers",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Strikers",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Touch",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Touch",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Touch",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Goalkeepers Die Cut",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Goalkeepers Die Cut",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Goalkeepers Die Cut",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Young Talents",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Young Talents",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Young Talents",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Strikers Autograph Parallel",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Touch Autograph Parallel",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Goalkeepers Die Cut Autograph Parallel",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-22-topps-uefa-champions-league-collection-cards",
+  "source": "https://www.cardboardconnection.com/2021-22-topps-uefa-champions-league-collection-cards/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Sparkle Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Starball Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Foil",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow Foil",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Neon Green Foil",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Icy Blue Foil",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Silver Foil",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Starball Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Icy Black Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Foil",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Autograph Variations",
+    "name": "Blue",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Autograph Variations",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Autograph Variations",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Autograph Variations",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Autograph Variations",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Ultimate Stage Autographs",
+    "name": "Blue",
+    "run": "/99"
+   },
+   {
+    "parent": "Ultimate Stage Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Ultimate Stage Autographs",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Ultimate Stage Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Ultimate Stage Autographs",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1975 Topps Footballers",
+    "name": "Blue Back",
+    "run": null
+   },
+   {
+    "parent": "1975 Topps Footballers",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1975 Topps Footballers",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "1975 Topps Footballers",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "1975 Topps Footballers",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Best of the Best",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Best of the Best",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Best of the Best",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Best of the Best",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Flags of Foundation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Flags of Foundation",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Flags of Foundation",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Flags of Foundation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "Pink",
+    "run": null
+   },
+   {
+    "parent": "Future Stars",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Perfect10n",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Perfect10n",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Perfect10n",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Road to St. Petersburg",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Road to St. Petersburg",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Road to St. Petersburg",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Road to St. Petersburg",
+    "name": "FoilFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-bowman-baseball",
+  "source": "https://www.beckett.com/news/2021-bowman-baseball-cards/",
+  "parallels": [
+   {
+    "parent": "Paper Prospects",
+    "name": "Neon Green Border",
+    "run": "/399"
+   },
+   {
+    "parent": "Paper Prospects",
+    "name": "Fuchsia Border",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Neon Green Border",
+    "run": "/399"
+   },
+   {
+    "parent": "Base",
+    "name": "Fuchsia Border",
+    "run": "/299"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Fuchsia Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Fuchsia Shimmer Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Mini-Diamond Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Yellow Mini-Diamond Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Bowman Scouts Top 100",
+    "name": "Aqua Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Futurists",
+    "name": "Aqua Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Positional Promise",
+    "name": "Aqua Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Talent Pipeline",
+    "name": "Aqua Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "1991 Bowman",
+    "name": "Aqua Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "ROY Favorites",
+    "name": "Aqua Refractor",
+    "run": "/125"
+   }
+  ]
+ },
+ {
+  "slug": "2021-bowman-chrome-baseball",
+  "source": "https://www.cardboardconnection.com/2021-bowman-chrome-baseball-cards",
+  "parallels": [
+   {
+    "parent": "AFL Flashbacks Relics",
+    "name": "Yellow Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Prime Chrome Signatures",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Autograph Relics",
+    "name": "Gold Refractor",
+    "run": "/50"
+   }
+  ]
+ },
+ {
+  "slug": "2021-bowman-draft-baseball",
+  "source": "https://www.cardboardconnection.com/2021-bowman-draft-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2021-bowman-first-edition-baseball",
+  "source": "https://www.cardboardconnection.com/2021-bowman-1st-edition-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2021-bowman-heritage-baseball",
+  "source": "https://www.cardboardconnection.com/2021-bowman-heritage-baseball-cards?amp=1",
+  "parallels": []
+ },
+ {
+  "slug": "2021-bowman-platinum-baseball",
+  "source": "https://www.beckett.com/news/2021-bowman-platinum-baseball-cards/",
+  "parallels": []
+ },
+ {
+  "slug": "2021-bowman-sapphire-edition-baseball",
+  "source": "https://www.cardboardconnection.com/2021-bowman-chrome-sapphire-edition-baseball-cards?amp=1",
+  "parallels": []
+ }
+]

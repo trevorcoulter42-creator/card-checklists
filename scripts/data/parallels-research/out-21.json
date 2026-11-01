@@ -1,0 +1,2509 @@
+[
+ {
+  "slug": "2025-topps-knockout-ufc",
+  "source": "https://www.checklistinsider.com/2025-topps-knockout-ufc",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Sepia",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Bronze",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/188"
+   },
+   {
+    "parent": "Base",
+    "name": "Holo Silver",
+    "run": "/125"
+   },
+   {
+    "parent": "Base",
+    "name": "Lime Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange",
+    "run": "/88"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Holo Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Base",
+    "name": "Emerald",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Ferocity",
+    "name": "Lime Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Ferocity",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Ferocity",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Ferocity",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Ferocity",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Ferocity",
+    "name": "Emerald",
+    "run": "/5"
+   },
+   {
+    "parent": "Ferocity",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Fight DNA",
+    "name": "Lime Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Fight DNA",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Fight DNA",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Fight DNA",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Fight DNA",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Fight DNA",
+    "name": "Emerald",
+    "run": "/5"
+   },
+   {
+    "parent": "Fight DNA",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Final Face Off",
+    "name": "Lime Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Final Face Off",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Final Face Off",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Final Face Off",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Final Face Off",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Final Face Off",
+    "name": "Emerald",
+    "run": "/5"
+   },
+   {
+    "parent": "Final Face Off",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Knockout Artists",
+    "name": "Lime Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Knockout Artists",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Knockout Artists",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Knockout Artists",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Knockout Artists",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Knockout Artists",
+    "name": "Emerald",
+    "run": "/5"
+   },
+   {
+    "parent": "Knockout Artists",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "The Ultimate Fighter",
+    "name": "Lime Green",
+    "run": "/99"
+   },
+   {
+    "parent": "The Ultimate Fighter",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "The Ultimate Fighter",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "The Ultimate Fighter",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "The Ultimate Fighter",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "The Ultimate Fighter",
+    "name": "Emerald",
+    "run": "/5"
+   },
+   {
+    "parent": "The Ultimate Fighter",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Inception",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Inception",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Inception",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Knockout Autographs",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Knockout Autographs",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Knockout Autographs",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Knockout Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Fearless Fighters",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Fearless Fighters",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Fearless Fighters",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Fearless Fighters",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Octagon Warriors",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Octagon Warriors",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Octagon Warriors",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Octagon Warriors",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Full Contact",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Full Contact",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Full Contact",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Full Contact",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Aka Ink",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Aka Ink",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Collageagraphs",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Collageagraphs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Lasting Impact",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Lasting Impact",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Lasting Impact",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "2012 Throwback Signatures",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "2012 Throwback Signatures",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "2012 Throwback Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Tier 1 Dual Relics Autographs",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Tier 1 Dual Relics Autographs",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Tier 1 Dual Relics Autographs",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Tier 1 Dual Relics Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Knockout Autograph Relics",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Knockout Autograph Relics",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Knockout Autograph Relics",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Knockout Autograph Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Autograph Fight Mat Relics",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Autograph Fight Mat Relics",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Autograph Fight Mat Relics",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Autograph Fight Mat Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Knockout Relics",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Knockout Relics",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Knockout Relics",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Knockout Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "1 2 Combo Relics",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "1 2 Combo Relics",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "1 2 Combo Relics",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "1 2 Combo Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Momentous Materials",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Momentous Materials",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Momentous Materials",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Momentous Materials",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Fight Mat Relics",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Fight Mat Relics",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Fight Mat Relics",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "Fight Mat Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "All in Relics",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "All in Relics",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "All in Relics",
+    "name": "Gold",
+    "run": "/8"
+   },
+   {
+    "parent": "All in Relics",
+    "name": "Platinum",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2025-topps-midnight-ufc",
+  "source": "https://www.checklistinsider.com/2025-topps-midnight-ufc",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Zodiac",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Morning",
+    "run": "/125"
+   },
+   {
+    "parent": "Base",
+    "name": "Twilight",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Base",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Glimmer Graphs",
+    "name": "Twilight",
+    "run": "/99"
+   },
+   {
+    "parent": "Glimmer Graphs",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Glimmer Graphs",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Glimmer Graphs",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Glimmer Graphs",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Glimmer Graphs",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Glimmer Graphs",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Twilight",
+    "run": "/99"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Twilight",
+    "run": "/99"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Twilight",
+    "run": "/99"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Twilight",
+    "run": "/99"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Constellations",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Constellations",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Constellations",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Constellations",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Constellations",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Constellations",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Nightfall",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Nightfall",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Nightfall",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Nightfall",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Nightfall",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Nightfall",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "The One and Only",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "The One and Only",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "The One and Only",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "The One and Only",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "The One and Only",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "The One and Only",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Dream Chasers",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Dream Chasers",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Greetings From",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Greetings From",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Night Vision",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Night Vision",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Twilight",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Twilight",
+    "name": "Black Light",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2025-topps-museum-collection-baseball",
+  "source": null,
+  "parallels": []
+ },
+ {
+  "slug": "2025-topps-pro-debut-baseball",
+  "source": "https://www.checklistinsider.com/2025-topps-pro-debut-baseball",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Purple Foil",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Fuchsia Foil",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Sparkle Foil",
+    "run": "/175"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Foil",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Foil",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Foil",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "X-Fractor",
+    "run": null
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Blue Wave Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Purple Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Green Wave Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Aqua Wave Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Aqua Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Gold Mini-Diamond Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Orange Mini-Diamond Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Black Wave Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Red Mini-Diamond Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Future Cornerstones",
+    "name": "Gold Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Future Cornerstones",
+    "name": "Orange Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Future Cornerstones",
+    "name": "Red Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "Future Cornerstones",
+    "name": "FoilFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2025-topps-royalty-ufc-mma",
+  "source": "https://www.checklistinsider.com/2025-topps-royalty-ufc",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": "/35"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/15"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Liquid Silver",
+    "name": "Liquid Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Golden Hall Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Golden Hall Autographs",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Golden Hall Autographs",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Golden Hall Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Imperial Ink",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Imperial Ink",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Imperial Ink",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Imperial Ink",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Pursuit of Greatness Signatures",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Pursuit of Greatness Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Pursuit of Greatness Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Pursuit of Greatness Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Royalty Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Royalty Autographs",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Royalty Autographs",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Royalty Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Royal Seal Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Autographed Jumbo Relic Booklets",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Autographed Jumbo Relic Booklets",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Regalia Relic Signatures",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Regalia Relic Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Regalia Relic Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Regalia Relic Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Royalty Relic Signatures",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Royalty Relic Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Royalty Relic Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Royalty Relic Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Superior Relic Signatures",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Superior Relic Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Superior Relic Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Superior Relic Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Supreme Royalty Signatures",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Supreme Royalty Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Supreme Royalty Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Supreme Royalty Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Grand Royal Relics",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Grand Royal Relics",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Grand Royal Relics",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Grand Royal Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Relic Jewels",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Relic Jewels",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Relic Jewels",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Relic Jewels",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Jumbo Relics",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Jumbo Relics",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookie Jumbo Relics",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Jumbo Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Platinum",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2025-topps-royalty-wwe-wrestling",
+  "source": "https://www.checklistinsider.com/2025-topps-royalty-wwe",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Liquid Silver",
+    "name": "Liquid Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Royalty Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Royalty Autographs",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Royalty Autographs",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Royalty Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Crowning Achievements",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Golden Hall",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Golden Hall",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Golden Hall",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Golden Hall",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Imperial Ink",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Imperial Ink",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Imperial Ink",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Imperial Ink",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Influential Ink",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Influential Ink",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Influential Ink",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Influential Ink",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Pillars of Greatness Signatures",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Pillars of Greatness Signatures",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Pillars of Greatness Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Pillars of Greatness Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Queen of Queens Autograph",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Superstar Triple Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "The Game Autograph",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "The Game Autograph",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "The Rock Retrospective Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "The Rock Retrospective Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Autograph Jumbo Relic Booklet Cards",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Autograph Jumbo Relic Booklet Cards",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Royalty Relic Autographs",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Royalty Relic Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Royalty Relic Autographs",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Royalty Relic Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Superior Relic Signatures",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Superior Relic Signatures",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Superior Relic Signatures",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Superior Relic Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Triumph Relic Signatures",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Triumph Relic Signatures",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Triumph Relic Signatures",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Triumph Relic Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "100 Percent Stratusfaction Relic",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "100 Percent Stratusfaction Relic",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Relic Jewels",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Relic Jewels",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Relic Jewels",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Relic Jewels",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Relic Jewels",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "The Deadman Relics",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "The Deadman Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "U Can’t See Me Relics",
+    "name": "Silver",
+    "run": "/10"
+   },
+   {
+    "parent": "U Can’t See Me Relics",
+    "name": "Platinum",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2025-topps-series-1-baseball",
+  "source": "https://www.checklistinsider.com/2025-topps-series-1-baseball/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Topps Foil Pattern",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Silver Crackle Foilboard",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Diamante Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Holo Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Pink Diamante Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Rainbow Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Pink Holo Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Rainbow Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Holo Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Confetti",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Sandglitter",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Parallel",
+    "run": "/2025"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Rainbow Foil",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Holo Foil",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Rainbow Foil",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Holo Foil",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Rainbow Foil",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Holo Foil",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Vintage Stock",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Independence Day",
+    "run": "/76"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Rainbow Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Holo Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Diamante Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Canvas",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Memorial Day Camo",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Rainbow Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Holo Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Diamante Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Wood",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Rainbow Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Holo Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Diamante Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Rainbow Foil",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Holo Foil",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Diamante Foil",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Base",
+    "name": "Platinum Holo Foil",
+    "run": "/1"
+   },
+   {
+    "parent": "Base",
+    "name": "First Card",
+    "run": "/1"
+   },
+   {
+    "parent": "Flagship Real One Auto",
+    "name": "Green Foil",
+    "run": "/99"
+   },
+   {
+    "parent": "Flagship Real One Auto",
+    "name": "Gold Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Flagship Real One Auto",
+    "name": "Orange Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Flagship Real One Auto",
+    "name": "Black Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "Flagship Real One Auto",
+    "name": "Red Foil",
+    "run": "/5"
+   },
+   {
+    "parent": "Flagship Real One Auto",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Real One Relics",
+    "name": "Gold Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Real One Relics",
+    "name": "Orange Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Real One Relics",
+    "name": "Black Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "Real One Relics",
+    "name": "Red Foil",
+    "run": "/5"
+   },
+   {
+    "parent": "Real One Relics",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1990 Topps Baseball Autograph Cards",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1990 Topps Baseball Autograph Cards",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "1990 Topps Baseball Autograph Cards",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "1990 Topps Baseball Autograph Cards",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "1990 Topps Baseball Autograph Cards",
+    "name": "Platinum",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2025-topps-stadium-club-baseball",
+  "source": null,
+  "parallels": []
+ },
+ {
+  "slug": "2025-topps-star-wars-hyperspace-entertainment",
+  "source": null,
+  "parallels": []
+ },
+ {
+  "slug": "2025-topps-star-wars-meiyo-entertainment",
+  "source": null,
+  "parallels": []
+ },
+ {
+  "slug": "2025-topps-sterling-baseball",
+  "source": null,
+  "parallels": []
+ },
+ {
+  "slug": "2025-topps-tribute-baseball",
+  "source": "https://www.checklistinsider.com/2025-topps-tribute-baseball",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Gold",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Tribute Autographs",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Tribute Autographs",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Tribute Autographs",
+    "name": "Gold",
+    "run": "/75"
+   },
+   {
+    "parent": "Tribute Autographs",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Tribute Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Tribute Autographs",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Tribute Autographs",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Pillars of the Game Autographs",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Pillars of the Game Autographs",
+    "name": "Gold",
+    "run": "/75"
+   },
+   {
+    "parent": "Pillars of the Game Autographs",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Pillars of the Game Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Pillars of the Game Autographs",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Pillars of the Game Autographs",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "League Inauguration Autographs",
+    "name": "Gold",
+    "run": "/75"
+   },
+   {
+    "parent": "League Inauguration Autographs",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "League Inauguration Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "League Inauguration Autographs",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "League Inauguration Autographs",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Autograph Patches",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Autograph Patches",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Autograph Patches",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Prime Patch Autograph Relics",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Prime Patch Autograph Relics",
+    "name": "Black Logo",
+    "run": "/1"
+   },
+   {
+    "parent": "Tribute to Threads Autograph Relics",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Tribute to Threads Autograph Relics",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Tribute to Threads Autograph Relics",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Single Player Dual Relics",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Single Player Dual Relics",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Single Player Dual Relics",
+    "name": "Gold",
+    "run": "/75"
+   },
+   {
+    "parent": "Single Player Dual Relics",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Single Player Dual Relics",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Single Player Dual Relics",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Single Player Dual Relics",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Stamp of Approval",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Stamp of Approval",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Stamp of Approval",
+    "name": "Gold",
+    "run": "/75"
+   },
+   {
+    "parent": "Stamp of Approval",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Stamp of Approval",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Stamp of Approval",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Stamp of Approval",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Tributaries",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Tributaries",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Tributaries",
+    "name": "Gold",
+    "run": "/75"
+   },
+   {
+    "parent": "Tributaries",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Tributaries",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Tributaries",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Tributaries",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Tribute Triple Relics",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Tribute Triple Relics",
+    "name": "Gold",
+    "run": "/75"
+   },
+   {
+    "parent": "Tribute Triple Relics",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Tribute Triple Relics",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Tribute Triple Relics",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Tribute Triple Relics",
+    "name": "Black",
+    "run": "/1"
+   }
+  ]
+ }
+]

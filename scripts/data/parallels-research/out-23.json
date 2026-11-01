@@ -1,0 +1,1770 @@
+[
+ {
+  "slug": "2026-topps-finest-baseball",
+  "source": "https://www.beckett.com/news/2026-topps-finest-baseball-cards/",
+  "parallels": [
+   {
+    "parent": "Base Common",
+    "name": "Yellow",
+    "run": "/275"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Pink",
+    "run": "/250"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Pink Mini Diamond",
+    "run": "/250"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Aqua",
+    "run": "/199"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Aqua Mini Diamond",
+    "run": "/199"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Blue Mini Diamond",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Green Mini Diamond",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Green X-Fractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Purple",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Purple Geometric",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Purple Mini Diamond",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Purple X-Fractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Gold Geometric",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Gold Mini Diamond",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Gold X-Fractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Common",
+    "name": "White",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Common",
+    "name": "White Geometric",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Common",
+    "name": "White Mini Diamond",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Common",
+    "name": "White X-Fractor",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Orange Geometric",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Orange Mini Diamond",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Orange X-Fractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Molten Mercury",
+    "run": "/11"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Black Geometric",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Black Mini Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Black X-Fractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Red Geometric",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Red Mini Diamond",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Red X-Fractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Tie Dye Geometric",
+    "run": "/2"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Yellow",
+    "run": "/275"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Pink",
+    "run": "/250"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Pink Mini Diamond",
+    "run": "/250"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Aqua",
+    "run": "/199"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Aqua Mini Diamond",
+    "run": "/199"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Blue Mini Diamond",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Green Mini Diamond",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Green X-Fractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Purple",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Purple Mini Diamond",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Purple X-Fractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Gold Geometric",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Gold Mini Diamond",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Gold X-Fractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "White",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "White Geometric",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "White Mini Diamond",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "White X-Fractor",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Orange Geometric",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Orange Mini Diamond",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Orange X-Fractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Molten Mercury",
+    "run": "/11"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Black Geometric",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Black Mini Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Black X-Fractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Red Geometric",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Red Mini Diamond",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Red X-Fractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Tie Dye Geometric",
+    "run": "/2"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Yellow",
+    "run": "/275"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Pink",
+    "run": "/250"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Pink Mini Diamond",
+    "run": "/250"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Aqua",
+    "run": "/199"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Aqua Mini Diamond",
+    "run": "/199"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Blue Mini Diamond",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Green Mini Diamond",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Green X-Fractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Purple",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Purple Mini Diamond",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Purple X-Fractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Gold Geometric",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Gold Mini Diamond",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Gold X-Fractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "White",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "White Geometric",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "White Mini Diamond",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "White X-Fractor",
+    "run": "/30"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Orange Geometric",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Orange Mini Diamond",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Orange X-Fractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Black Geometric",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Black Mini Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Black X-Fractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Red Geometric",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Red Mini Diamond",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Red X-Fractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Tie Dye Geometric",
+    "run": "/2"
+   },
+   {
+    "parent": "Base Super Rare",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Super Rare",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Purple",
+    "run": "/75"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Worlds Finest",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Worlds Finest",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Worlds Finest",
+    "name": "Purple",
+    "run": "/75"
+   },
+   {
+    "parent": "Worlds Finest",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Worlds Finest",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Worlds Finest",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Worlds Finest",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Topps Team Finest",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Topps Team Finest",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Topps Team Finest",
+    "name": "Purple",
+    "run": "/75"
+   },
+   {
+    "parent": "Topps Team Finest",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Topps Team Finest",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Topps Team Finest",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Topps Team Finest",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Timelines",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Finest Timelines",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Finest Timelines",
+    "name": "Purple",
+    "run": "/75"
+   },
+   {
+    "parent": "Finest Timelines",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Timelines",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Timelines",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Timelines",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Forces",
+    "name": "Gold Mini Diamond",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Forces",
+    "name": "Orange Mini Diamond",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Forces",
+    "name": "Black Mini Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Forces",
+    "name": "Red Mini Diamond",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Futures",
+    "name": "Gold Mini Diamond",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Futures",
+    "name": "Orange Mini Diamond",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Futures",
+    "name": "Black Mini Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Futures",
+    "name": "Red Mini Diamond",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Phenoms",
+    "name": "Gold Geometric",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Phenoms",
+    "name": "Orange Geometric",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Phenoms",
+    "name": "Black Geometric",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Phenoms",
+    "name": "Red Geometric",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Phenoms",
+    "name": "Tie-Dye Geometric",
+    "run": "/2"
+   },
+   {
+    "parent": "Gusto",
+    "name": "Oil Spill",
+    "run": null
+   },
+   {
+    "parent": "Gusto",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Smashing Through",
+    "name": "Oil Spill",
+    "run": null
+   },
+   {
+    "parent": "Smashing Through",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "The Man",
+    "name": "Oil Spill",
+    "run": null
+   },
+   {
+    "parent": "The Man",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Aqua",
+    "run": "/199"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Purple",
+    "run": "/75"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Gold Geometric",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Orange Geometric",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Black Geometric",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Red Geometric",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Tie Dye Geometric",
+    "run": "/2"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Moments Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Moments Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Moments Autographs",
+    "name": "Orange Geometric",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Moments Autographs",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Moments Autographs",
+    "name": "Black Geometric",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Moments Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Moments Autographs",
+    "name": "Red Geometric",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Moments Autographs",
+    "name": "Tie-Dye Geometric",
+    "run": "/2"
+   },
+   {
+    "parent": "Finest Moments Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Ink",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Finest Ink",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Ink",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Ink",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Ink",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Ink",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Gustographs",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Gustographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Gustographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Personality Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Personality Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Personality Autographs",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Personality Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Personality Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Topps Rookie Cup Anniversary Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Topps Rookie Cup Anniversary Autographs",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Topps Rookie Cup Anniversary Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Topps Rookie Cup Anniversary Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Topps Rookie Cup Dual Autographs",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Topps Rookie Cup Dual Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Topps Rookie Cup Dual Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Mega Autographs",
+    "name": "Mini-Diamond Refractor",
+    "run": null
+   },
+   {
+    "parent": "Finest Mega Autographs",
+    "name": "Aqua Mini-Diamond",
+    "run": "/199"
+   },
+   {
+    "parent": "Finest Mega Autographs",
+    "name": "Blue Mini-Diamond",
+    "run": "/150"
+   },
+   {
+    "parent": "Finest Mega Autographs",
+    "name": "Green Mini-Diamond",
+    "run": "/99"
+   },
+   {
+    "parent": "Finest Mega Autographs",
+    "name": "Purple Mini-Diamond",
+    "run": "/75"
+   },
+   {
+    "parent": "Finest Mega Autographs",
+    "name": "Gold Mini-Diamond",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Mega Autographs",
+    "name": "Orange Mini-Diamond",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Mega Autographs",
+    "name": "Black Mini-Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Mega Autographs",
+    "name": "Red Mini-Diamond",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Mega Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Rookie Patch Autograph",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Finest Rookie Patch Autograph",
+    "name": "Purple",
+    "run": "/75"
+   },
+   {
+    "parent": "Finest Rookie Patch Autograph",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Rookie Patch Autograph",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Rookie Patch Autograph",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Rookie Patch Autograph",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Rookie Patch Autograph",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2026-topps-flagship-football",
+  "source": "https://www.beckett.com/news/2026-topps-flagship-football-cards/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Pink Holo Foil",
+    "run": "/1200"
+   }
+  ]
+ },
+ {
+  "slug": "2026-topps-heritage-baseball",
+  "source": "https://www.checklistinsider.com/2026-topps-heritage-baseball",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Light Purple Bordered",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Dark Yellow Bordered",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Black Bordered",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Flip Stock",
+    "run": null
+   }
+  ]
+ },
+ {
+  "slug": "2026-topps-heritage-football",
+  "source": "https://www.cardboardconnection.com/2026-topps-heritage-football-set-review-and-checklist/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2026-topps-midnight-ufc-mma",
+  "source": "https://www.checklistinsider.com/2026-topps-midnight-ufc",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Zodiac",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Morning",
+    "run": "/125"
+   },
+   {
+    "parent": "Base",
+    "name": "Twilight",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Base",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Twilight",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Twilight",
+    "run": "/99"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Twilight",
+    "run": "/99"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Relic Autographs",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Twilight",
+    "run": "/99"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Fight Glove Relic Autographs",
+    "name": "Daybreak",
+    "run": "/8"
+   },
+   {
+    "parent": "Fight Glove Relic Autographs",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Celestial Combos",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Celestial Combos",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Celestial Combos",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Celestial Combos",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Celestial Combos",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Celestial Combos",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Insomnia",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Lunar Apex",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Lunar Apex",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Lunar Apex",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Lunar Apex",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Lunar Apex",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Lunar Apex",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Night Watch",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Night Watch",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Night Watch",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Night Watch",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Night Watch",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Night Watch",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Zero Hour",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Zero Hour",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Zero Hour",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Zero Hour",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Zero Hour",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Zero Hour",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Cemented",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Cemented",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Last One Standing",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Last One Standing",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Neon Apex",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Neon Apex",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Twilight",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Twilight",
+    "name": "Black Light",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2026-topps-series-1-baseball",
+  "source": "https://www.beckett.com/news/2026-topps-series-1-baseball-parallel-guide-and-image-gallery/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Topps Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Black Spring Training",
+    "run": "/10"
+   }
+  ]
+ },
+ {
+  "slug": "2026-topps-series-2-baseball",
+  "source": null,
+  "parallels": []
+ },
+ {
+  "slug": "2026-topps-tier-one-baseball",
+  "source": null,
+  "parallels": []
+ },
+ {
+  "slug": "22-23-bowman-university-best-basketball",
+  "source": null,
+  "parallels": []
+ },
+ {
+  "slug": "24-25-topps-chrome-basketball",
+  "source": "https://www.checklistinsider.com/2024-25-topps-chrome-basketball",
+  "parallels": [
+   {
+    "parent": "Sky-Light Signatures",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Topps Chrome Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Future Stars Autographs",
+    "name": "Blue Basketball Refractor",
+    "run": null
+   },
+   {
+    "parent": "Future Stars Autographs",
+    "name": "Pink Basketball Refractor",
+    "run": null
+   }
+  ]
+ },
+ {
+  "slug": "25-26-topps-basketball",
+  "source": "https://www.checklistinsider.com/2025-26-topps-basketball",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Blackout",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Surge",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Flash Drop",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Cart Load",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Cyber Circuit",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Doorbuster",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "25-26-topps-chrome-basketball",
+  "source": "https://www.checklistinsider.com/2025-26-topps-chrome-basketball/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Red/White/Blue Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "1st Day Issue Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Geometric Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Geometric Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Silver 1st Day Issue Refractor",
+    "run": "/12"
+   },
+   {
+    "parent": "Base",
+    "name": "Geometric Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Tri-Color 1st Day Issue Refractor",
+    "run": "/8"
+   },
+   {
+    "parent": "Base",
+    "name": "Geometric Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Geometric White Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Next Stop Signatures",
+    "name": "Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Next Stop Signatures",
+    "name": "Geometric Purple Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Next Stop Signatures",
+    "name": "Geometric Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Next Stop Signatures",
+    "name": "Geometric Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Next Stop Signatures",
+    "name": "Geometric Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Next Stop Signatures",
+    "name": "Geometric Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Next Stop Signatures",
+    "name": "Geometric White Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Signature Style",
+    "name": "Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Signature Style",
+    "name": "Geometric Purple Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Signature Style",
+    "name": "Geometric Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Signature Style",
+    "name": "Geometric Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Signature Style",
+    "name": "Geometric Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Signature Style",
+    "name": "Geometric Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Signature Style",
+    "name": "Geometric White Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Sky Write Signatures",
+    "name": "Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Sky Write Signatures",
+    "name": "Geometric Purple Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Sky Write Signatures",
+    "name": "Geometric Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Sky Write Signatures",
+    "name": "Geometric Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Sky Write Signatures",
+    "name": "Geometric Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Sky Write Signatures",
+    "name": "Geometric Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Sky Write Signatures",
+    "name": "Geometric White Refractor",
+    "run": "/2"
+   }
+  ]
+ }
+]

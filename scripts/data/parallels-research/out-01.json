@@ -1,0 +1,863 @@
+[
+ {
+  "slug": "2018-topps-update-series-baseball",
+  "source": "https://www.cardboardconnection.com/2018-topps-update-series-baseball-cards",
+  "parallels": [
+   {
+    "parent": "2018 Hall of Famer Highlights (walmart Exclusive)",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "2018 Hall of Famer Highlights (walmart Exclusive)",
+    "name": "Black",
+    "run": null
+   },
+   {
+    "parent": "2018 Hall of Famer Highlights (walmart Exclusive)",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "2018 Hall of Famer Highlights (walmart Exclusive)",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "2018 Hall of Famer Highlights (walmart Exclusive)",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Bryce Harper Highlights (target Exclusive)",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Bryce Harper Highlights (target Exclusive)",
+    "name": "Black",
+    "run": null
+   },
+   {
+    "parent": "Bryce Harper Highlights (target Exclusive)",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Bryce Harper Highlights (target Exclusive)",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Bryce Harper Highlights (target Exclusive)",
+    "name": "Platinum",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2018-topps-wwe-wrestling",
+  "source": "https://www.cardboardconnection.com/2018-topps-wwe-wrestling-cards/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Bronze",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Silver",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Autograph Parallel",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Autograph Parallel",
+    "name": "Silver",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Autograph Parallel",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Autograph Parallel",
+    "name": "Red",
+    "run": "/1"
+   },
+   {
+    "parent": "Commemorative Championship Card",
+    "name": "Bronze",
+    "run": "/99"
+   },
+   {
+    "parent": "Commemorative Championship Card",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Commemorative Championship Card",
+    "name": "Silver",
+    "run": "/25"
+   },
+   {
+    "parent": "Commemorative Championship Card",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Commemorative Championship Card",
+    "name": "Red",
+    "run": "/1"
+   },
+   {
+    "parent": "Shirt Relic",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Shirt Relic",
+    "name": "Silver",
+    "run": "/25"
+   },
+   {
+    "parent": "Shirt Relic",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Shirt Relic",
+    "name": "Red",
+    "run": "/1"
+   },
+   {
+    "parent": "Summerslam 2017 Mat Relic",
+    "name": "Bronze",
+    "run": "/199"
+   },
+   {
+    "parent": "Summerslam 2017 Mat Relic",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Summerslam 2017 Mat Relic",
+    "name": "Silver",
+    "run": "/25"
+   },
+   {
+    "parent": "Summerslam 2017 Mat Relic",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Summerslam 2017 Mat Relic",
+    "name": "Red",
+    "run": "/1"
+   },
+   {
+    "parent": "Nxt Takeover Brooklyn 2017 Mat Relic",
+    "name": "Bronze",
+    "run": "/199"
+   },
+   {
+    "parent": "Nxt Takeover Brooklyn 2017 Mat Relic",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Nxt Takeover Brooklyn 2017 Mat Relic",
+    "name": "Silver",
+    "run": "/25"
+   },
+   {
+    "parent": "Nxt Takeover Brooklyn 2017 Mat Relic",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Nxt Takeover Brooklyn 2017 Mat Relic",
+    "name": "Red",
+    "run": "/1"
+   },
+   {
+    "parent": "Dual Mat Relic",
+    "name": "Silver",
+    "run": "/25"
+   },
+   {
+    "parent": "Dual Mat Relic",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Dual Mat Relic",
+    "name": "Red",
+    "run": "/1"
+   },
+   {
+    "parent": "Kiss Cards",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Kiss Cards",
+    "name": "Red",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2019-bowman-baseball-cards",
+  "source": "https://www.cardboardconnection.com/2019-bowman-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Sky Blue",
+    "run": "/499"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Paper Prospects",
+    "name": "Camo",
+    "run": null
+   },
+   {
+    "parent": "Base Paper Prospects",
+    "name": "Sky Blue",
+    "run": "/499"
+   },
+   {
+    "parent": "Base Paper Prospects",
+    "name": "Purple",
+    "run": "/250"
+   },
+   {
+    "parent": "Base Paper Prospects",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Paper Prospects",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Paper Prospects",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Paper Prospects",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Paper Prospects",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Paper Prospects",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Atomic",
+    "run": null
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Speckle",
+    "run": "/299"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Purple",
+    "run": "/250"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Blue Shimmer",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Aqua",
+    "run": "/125"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Aqua Shimmer",
+    "run": "/125"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Green Shimmer",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Yellow",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Gold Shimmer",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Orange Shimmer",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Chrome Prospects",
+    "name": "Red Shimmer",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Speckle",
+    "run": "/299"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Purple",
+    "run": "/250"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Atomic",
+    "run": "/100"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Green Shimmer",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Gold Shimmer",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Orange Shimmer",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "Red Shimmer",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospects Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Atomic",
+    "run": "/100"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Paper Prospects Autograph Variation",
+    "name": "Purple",
+    "run": "/250"
+   },
+   {
+    "parent": "Paper Prospects Autograph Variation",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Paper Prospects Autograph Variation",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Paper Prospects Autograph Variation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Paper Prospects Autograph Variation",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Paper Prospects Autograph Variation",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Paper Prospects Autograph Variation",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Dual Bowman Prospect Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Roy Favorites Autograph Variation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Roy Favorites Autograph Variation",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Roy Favorites Autograph Variation",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Roy Favorites Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "2019 Bowman Sterling Continuity Autograph Variation",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "2019 Bowman Sterling Continuity Autograph Variation",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "2019 Bowman Sterling Continuity Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "30th Anniversary Cards",
+    "name": "Atomic",
+    "run": "/150"
+   },
+   {
+    "parent": "30th Anniversary Cards",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "30th Anniversary Cards",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "30th Anniversary Cards",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "30th Anniversary Cards",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "30th Anniversary Cards",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Bowman Scouts' Top 100",
+    "name": "Atomic",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Bowman Scouts' Top 100",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Bowman Scouts' Top 100",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Bowman Scouts' Top 100",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Bowman Scouts' Top 100",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Ready for the Show",
+    "name": "Atomic",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Ready for the Show",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Ready for the Show",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Ready for the Show",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Ready for the Show",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Rookie of the Year Favorites",
+    "name": "Atomic",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Rookie of the Year Favorites",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Rookie of the Year Favorites",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Rookie of the Year Favorites",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Rookie of the Year Favorites",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Talent Pipeline",
+    "name": "Atomic",
+    "run": "/150"
+   },
+   {
+    "parent": "Talent Pipeline",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Talent Pipeline",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Talent Pipeline",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Talent Pipeline",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Talent Pipeline",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "2019 Bowman Sterling Continuity",
+    "name": "Atomic",
+    "run": "/150"
+   },
+   {
+    "parent": "2019 Bowman Sterling Continuity",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "2019 Bowman Sterling Continuity",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "2019 Bowman Sterling Continuity",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "2019 Bowman Sterling Continuity",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2019-bowman-platinum-baseball",
+  "source": "https://www.cardboardconnection.com/2019-bowman-platinum-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Sky Blue",
+    "run": null
+   },
+   {
+    "parent": "Top Prospects",
+    "name": "Sky Blue",
+    "run": null
+   },
+   {
+    "parent": "Shortprinted Base Rookies",
+    "name": "Sky Blue",
+    "run": null
+   },
+   {
+    "parent": "Shortprinted Base Rookies",
+    "name": "Ice",
+    "run": null
+   },
+   {
+    "parent": "Shortprinted Base Rookies",
+    "name": "Purple",
+    "run": "/250"
+   },
+   {
+    "parent": "Shortprinted Base Rookies",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Shortprinted Base Rookies",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Shortprinted Base Rookies",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Shortprinted Base Rookies",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Shortprinted Base Rookies",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Shortprinted Base Rookies",
+    "name": "Foilfractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2019-topps-archives-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-archives-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Topps Coins",
+    "name": "Sky Blue",
+    "run": null
+   }
+  ]
+ },
+ {
+  "slug": "2019-topps-chrome-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-chrome-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "X-Fractor",
+    "run": null
+   }
+  ]
+ },
+ {
+  "slug": "2019-topps-clearly-authentic-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-clearly-authentic-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-definitive-collection-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-definitive-collection-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-diamond-icons-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-diamond-icons-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-finest-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-finest-baseball-mlb-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-five-star-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-five-star-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-gallery-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-gallery-baseball-mlb-cards/amp",
+  "parallels": []
+ }
+]

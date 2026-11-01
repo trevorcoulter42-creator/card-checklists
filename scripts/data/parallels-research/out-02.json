@@ -1,0 +1,476 @@
+[
+ {
+  "slug": "2019-topps-heritage-high-number-baseball",
+  "source": "https://www.checklistcenter.com/?p=26242",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-heritage-minor-league-baseball-cards",
+  "source": "https://www.beckett.com/news/2019-topps-heritage-minors-baseball-cards/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Black",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Flip Stock",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/15"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/1"
+   },
+   {
+    "parent": "Real One Autographs",
+    "name": "Blue",
+    "run": "/99"
+   },
+   {
+    "parent": "Real One Autographs",
+    "name": "Black",
+    "run": "/50"
+   },
+   {
+    "parent": "Real One Autographs",
+    "name": "Player Name Color Change",
+    "run": "/25"
+   },
+   {
+    "parent": "Real One Autographs",
+    "name": "Red",
+    "run": "/1"
+   },
+   {
+    "parent": "Bazooka Autographs",
+    "name": "Red",
+    "run": "/1"
+   },
+   {
+    "parent": "1970 Mint Relics",
+    "name": "Black Quarter",
+    "run": "/50"
+   },
+   {
+    "parent": "1970 Mint Relics",
+    "name": "Red Quarter",
+    "run": "/1"
+   },
+   {
+    "parent": "Clubhouse Collection Relics",
+    "name": "Blue",
+    "run": "/99"
+   },
+   {
+    "parent": "Clubhouse Collection Relics",
+    "name": "Black",
+    "run": "/50"
+   },
+   {
+    "parent": "Clubhouse Collection Relics",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Clubhouse Collection Relics",
+    "name": "Red Patch",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2019-topps-inception-baseball",
+  "source": "https://www.beckett.com/news/2019-topps-inception-baseball-cards/",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-luminaries-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-luminaries-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-mlb-sticker-collection-baseball-cards",
+  "source": null,
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-museum-collection-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-museum-collection-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-opening-day-baseball",
+  "source": "https://www.checklistcenter.com/2019-topps-opening-day-baseball/",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-tier-one-baseball",
+  "source": "https://www.checklistcenter.com/2019-topps-tier-one-baseball/",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-transcendent-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-transcendent-collection-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2019-topps-triple-threads-baseball",
+  "source": "https://www.cardboardconnection.com/2019-topps-triple-threads-baseball-cards",
+  "parallels": [
+   {
+    "parent": "150 Years of Baseball Triple Autograph Relic",
+    "name": "Sapphire",
+    "run": "/3"
+   },
+   {
+    "parent": "Pieces of the Game Autograph Relic",
+    "name": "Sapphire",
+    "run": "/3"
+   }
+  ]
+ },
+ {
+  "slug": "2019-topps-ufc-chrome-mma-cards",
+  "source": "https://www.cardboardconnection.com/2019-topps-ufc-chrome-mma-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "X-Fractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Sepia",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Diamond Hot Box",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Wave",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Fighter Autograph Cards",
+    "name": "Blue Wave",
+    "run": "/75"
+   },
+   {
+    "parent": "Fighter Autograph Cards",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Fighter Autograph Cards",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Fighter Autograph Cards",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Fighter Autograph Cards",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Fighter Autograph Cards",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "2019 UFC Knockout",
+    "name": "Wave",
+    "run": "/99"
+   },
+   {
+    "parent": "2019 UFC Knockout",
+    "name": "Pulsar",
+    "run": "/50"
+   },
+   {
+    "parent": "2019 UFC Knockout",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "UFC Fire",
+    "name": "Wave",
+    "run": "/99"
+   },
+   {
+    "parent": "UFC Fire",
+    "name": "Pulsar",
+    "run": "/50"
+   },
+   {
+    "parent": "UFC Fire",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Octagon of Honor",
+    "name": "Wave",
+    "run": "/99"
+   },
+   {
+    "parent": "Octagon of Honor",
+    "name": "Pulsar",
+    "run": "/50"
+   },
+   {
+    "parent": "Octagon of Honor",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "Wave",
+    "run": "/99"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "Pulsar",
+    "run": "/50"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1984 Topps UFC",
+    "name": "Wave",
+    "run": "/99"
+   },
+   {
+    "parent": "1984 Topps UFC",
+    "name": "Pulsar",
+    "run": "/50"
+   },
+   {
+    "parent": "1984 Topps UFC",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2019-topps-ufc-knockout-ufc",
+  "source": "https://www.cardboardconnection.com/2019-topps-ufc-knockout-mma-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Green",
+    "run": "/175"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/88"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/8"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Knockout Autographs",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Knockout Autographs",
+    "name": "Purple",
+    "run": "/25"
+   },
+   {
+    "parent": "Knockout Autographs",
+    "name": "Red",
+    "run": "/8"
+   },
+   {
+    "parent": "Knockout Autographs",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Knockout Autographed Relics",
+    "name": "Blue",
+    "run": "/35"
+   },
+   {
+    "parent": "Knockout Autographed Relics",
+    "name": "Purple",
+    "run": "/25"
+   },
+   {
+    "parent": "Knockout Autographed Relics",
+    "name": "Red",
+    "run": "/8"
+   },
+   {
+    "parent": "Knockout Autographed Relics",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Autograph Jumbo Fight Mat Relic Cards",
+    "name": "Purple",
+    "run": "/25"
+   },
+   {
+    "parent": "Autograph Jumbo Fight Mat Relic Cards",
+    "name": "Red",
+    "run": "/8"
+   },
+   {
+    "parent": "Autograph Jumbo Fight Mat Relic Cards",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Aka Ink",
+    "name": "Bronze Ink",
+    "run": "/10"
+   },
+   {
+    "parent": "Aka Ink",
+    "name": "Gold Ink",
+    "run": "/1"
+   },
+   {
+    "parent": "UFC Fire Autograph Variation",
+    "name": "Purple",
+    "run": "/25"
+   },
+   {
+    "parent": "UFC Fire Autograph Variation",
+    "name": "Red",
+    "run": "/8"
+   },
+   {
+    "parent": "UFC Fire Autograph Variation",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Knockout Relics",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Knockout Relics",
+    "name": "Purple",
+    "run": "/25"
+   },
+   {
+    "parent": "Knockout Relics",
+    "name": "Red",
+    "run": "/8"
+   },
+   {
+    "parent": "Knockout Relics",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Jumbo Fight Mat Relics",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Jumbo Fight Mat Relics",
+    "name": "Purple",
+    "run": "/25"
+   },
+   {
+    "parent": "Jumbo Fight Mat Relics",
+    "name": "Red",
+    "run": "/8"
+   },
+   {
+    "parent": "Jumbo Fight Mat Relics",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "1-2 Combination Relics",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "1-2 Combination Relics",
+    "name": "Purple",
+    "run": "/25"
+   },
+   {
+    "parent": "1-2 Combination Relics",
+    "name": "Red",
+    "run": "/8"
+   },
+   {
+    "parent": "1-2 Combination Relics",
+    "name": "Gold",
+    "run": "/1"
+   }
+  ]
+ }
+]

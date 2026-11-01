@@ -1,0 +1,402 @@
+[
+ {
+  "slug": "2020-bowman-baseball",
+  "source": "https://www.beckett.com/news/2020-bowman-baseball-cards/",
+  "parallels": [
+   {
+    "parent": "Base Paper",
+    "name": "Yellow",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Paper Prospects I",
+    "name": "Yellow",
+    "run": "/75"
+   },
+   {
+    "parent": "Paper Prospects II",
+    "name": "Yellow",
+    "run": "/75"
+   }
+  ]
+ },
+ {
+  "slug": "2020-bowman-chrome-baseball",
+  "source": "https://beckett.com/news/2020-bowman-chrome-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Purple Refractor",
+    "run": "/250"
+   }
+  ]
+ },
+ {
+  "slug": "2020-bowman-draft-baseball",
+  "source": "https://www.checklistcenter.com/?p=31760",
+  "parallels": []
+ },
+ {
+  "slug": "2020-bowman-draft-sapphire-edition-baseball-cards",
+  "source": "https://beckett.com/news/2020-bowman-draft-sapphire-edition-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Chrome Sapphire Base",
+    "name": "Yellow",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Sapphire Base",
+    "name": "Green",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Sapphire Base",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Sapphire Base",
+    "name": "Aqua",
+    "run": "/20"
+   },
+   {
+    "parent": "Chrome Sapphire Base",
+    "name": "Gold",
+    "run": "/15"
+   },
+   {
+    "parent": "Chrome Sapphire Base",
+    "name": "Purple",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome Sapphire Base",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Sapphire Base",
+    "name": "Padparadscha",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2020-bowman-platinum-baseball",
+  "source": "https://baseballcardpedia.com/index.php/2020_Bowman_Platinum",
+  "parallels": []
+ },
+ {
+  "slug": "2020-topps-chrome-baseball",
+  "source": "https://www.beckett.com/news/2020-topps-chrome-baseball-cards/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Sepia Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "X-Fractor",
+    "run": null
+   }
+  ]
+ },
+ {
+  "slug": "2020-topps-chrome-black-baseball",
+  "source": "https://www.checklistcenter.com/2020-topps-chrome-black-baseball-card-checklist/",
+  "parallels": []
+ },
+ {
+  "slug": "2020-topps-chrome-formula-1-racing",
+  "source": "https://www.beckett.com/news/2020-topps-chrome-formula-1/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Refractor",
+    "run": "/399"
+   },
+   {
+    "parent": "Base",
+    "name": "70th Anniversary Gold Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "70th Anniversary Orange Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Wave Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Wave Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "70th Anniversary Red Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "70th Anniversary SuperFractor",
+    "run": null
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "Purple Refractor",
+    "run": "/399"
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "70th Anniversary Gold Refractor",
+    "run": null
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "70th Anniversary Orange Refractor",
+    "run": null
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "Orange Wave Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "Red Wave Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "70th Anniversary Red Refractor",
+    "run": null
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "70th Anniversary SuperFractor",
+    "run": null
+   },
+   {
+    "parent": "F2 Crew",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Team Logos",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Team Logos",
+    "name": "Purple Refractor",
+    "run": "/399"
+   },
+   {
+    "parent": "Team Logos",
+    "name": "70th Anniversary Gold Refractor",
+    "run": null
+   },
+   {
+    "parent": "Team Logos",
+    "name": "70th Anniversary Orange Refractor",
+    "run": null
+   },
+   {
+    "parent": "Team Logos",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Team Logos",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Team Logos",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Team Logos",
+    "name": "Orange Wave Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Team Logos",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Team Logos",
+    "name": "Red Wave Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Team Logos",
+    "name": "70th Anniversary Red Refractor",
+    "run": null
+   },
+   {
+    "parent": "Team Logos",
+    "name": "70th Anniversary SuperFractor",
+    "run": null
+   },
+   {
+    "parent": "Team Logos",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Track Tags",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Track Tags",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Track Tags",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Track Tags",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1954 Topps World on Wheels",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "1954 Topps World on Wheels",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "1954 Topps World on Wheels",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "1954 Topps World on Wheels",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1954 Topps World on Wheels",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Autograph Variations",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Autograph Variations",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Autograph Variations",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Autograph Variations",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Autograph Variations",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Autograph Variations",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2020-topps-chrome-sapphire-baseball",
+  "source": "https://baseballcardpedia.com/index.php/2020_Topps_Sapphire_Chrome",
+  "parallels": []
+ },
+ {
+  "slug": "2020-topps-clearly-authentic-baseball",
+  "source": "https://www.breakninja.com/baseball/2020-Topps-Clearly-Authentic-Baseball-Checklist.php",
+  "parallels": []
+ },
+ {
+  "slug": "2020-topps-definitive-collection-baseball",
+  "source": "https://baseballcardpedia.com/index.php/2020_Topps_Definitive_Collection",
+  "parallels": []
+ },
+ {
+  "slug": "2020-topps-finest-baseball",
+  "source": "https://baseballcardpedia.com/index.php/2020_Finest",
+  "parallels": []
+ }
+]

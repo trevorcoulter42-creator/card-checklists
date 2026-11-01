@@ -1,0 +1,339 @@
+[
+ {
+  "slug": "2020-topps-five-star-baseball",
+  "source": "https://www.cardboardconnection.com/2020-topps-five-star-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2020-topps-gold-label-baseball",
+  "source": "https://www.beckett.com/news/2020-topps-gold-label-baseball-cards/",
+  "parallels": []
+ },
+ {
+  "slug": "2020-topps-heritage-baseball",
+  "source": "https://www.cardboardconnection.com/2020-topps-heritage-baseball-cards/amp",
+  "parallels": [
+   {
+    "parent": "Spring Mega Box Base Chrome Variations",
+    "name": "Refractor",
+    "run": "/571"
+   },
+   {
+    "parent": "Spring Mega Box Base Chrome Variations",
+    "name": "White Refractor",
+    "run": "/71"
+   },
+   {
+    "parent": "Spring Mega Box Base Chrome Variations",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2020-topps-heritage-minor-league-baseball-cards",
+  "source": "https://www.cardboardconnection.com/2020-topps-heritage-minor-league-baseball-cards/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Blue Border",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "White Border",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Flip Stock",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Red Border",
+    "run": "/1"
+   },
+   {
+    "parent": "Real One Autographs",
+    "name": "Blue Border",
+    "run": "/99"
+   },
+   {
+    "parent": "Real One Autographs",
+    "name": "White Border",
+    "run": "/50"
+   },
+   {
+    "parent": "Real One Autographs",
+    "name": "Image Border Removal",
+    "run": "/25"
+   },
+   {
+    "parent": "Real One Autographs",
+    "name": "Red Border",
+    "run": "/1"
+   },
+   {
+    "parent": "1971 All Star Rookies Autographs",
+    "name": "Red",
+    "run": "/1"
+   },
+   {
+    "parent": "Clubhouse Collection Relics",
+    "name": "Blue",
+    "run": "/99"
+   },
+   {
+    "parent": "Clubhouse Collection Relics",
+    "name": "Black",
+    "run": "/50"
+   },
+   {
+    "parent": "Clubhouse Collection Relics",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Clubhouse Collection Relics",
+    "name": "Red Patch",
+    "run": "/1"
+   },
+   {
+    "parent": "1971 Mint Relics",
+    "name": "Black Quarter",
+    "run": "/50"
+   },
+   {
+    "parent": "1971 Mint Relics",
+    "name": "Red Quarter",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2020-topps-inception-baseball",
+  "source": "https://www.cardboardconnection.com/2020-topps-inception-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2020-topps-luminaries-baseball",
+  "source": "https://www.cardboardconnection.com/2020-topps-luminaries-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2020-topps-mls-soccer",
+  "source": "https://www.cardboardconnection.com/2020-topps-mls-major-league-soccer-cards/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Pitch Prodigies",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Pitch Prodigies",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Pitch Prodigies",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "All-Star",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "All-Star",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "All-Star",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "MLS Duos",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "MLS Duos",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "MLS Duos",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "MLS Superstars",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "MLS Superstars",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "MLS Superstars",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Throwback Topps",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Throwback Topps",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Throwback Topps",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Jumbo Relics",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Jumbo Relics",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Jumbo Relics",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Nameplate Patches",
+    "name": "Crest Patch",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2020-topps-museum-collection-baseball",
+  "source": "https://www.cardboardconnection.com/2020-topps-museum-collection-baseball-cards/amp",
+  "parallels": [
+   {
+    "parent": "Dual Meaningful Material Relics",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Autographed Jumbo Lumber Bat Relics",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Momentous Material Dual Jumbo Patch Autographs Book",
+    "name": "Emerald",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2020-topps-opening-day-baseball",
+  "source": "https://www.cardboardconnection.com/2020-topps-opening-day-baseball-cards/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Red Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Foil",
+    "run": null
+   }
+  ]
+ },
+ {
+  "slug": "2020-topps-rip-baseball",
+  "source": "https://www.beckett.com/news/2020-topps-rip-baseball-cards/",
+  "parallels": []
+ },
+ {
+  "slug": "2020-topps-series-1-baseball",
+  "source": "https://www.cardboardconnection.com/2020-topps-series-1-baseball-variations/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Advanced Stat",
+    "run": "/300"
+   }
+  ]
+ },
+ {
+  "slug": "2020-topps-series-2-baseball",
+  "source": "https://www.cardboardconnection.com/2020-topps-series-2-baseball-cards/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Purple (Meijer)",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow (Walgreens)",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Advanced Stat",
+    "run": "/300"
+   },
+   {
+    "parent": "Topps Reverence Autograph Patches",
+    "name": "Silver",
+    "run": "/5"
+   },
+   {
+    "parent": "Topps Reverence Autograph Patches",
+    "name": "Gold",
+    "run": "/1"
+   }
+  ]
+ }
+]

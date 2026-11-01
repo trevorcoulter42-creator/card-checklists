@@ -1,0 +1,141 @@
+[
+ {
+  "slug": "25-26-topps-chrome-sapphire-basketball",
+  "source": "https://www.checklistinsider.com/2025-26-topps-chrome-sapphire-basketball",
+  "parallels": [
+   {
+    "parent": "Sapphire Selections",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "25-26-topps-cosmic-chrome-basketball",
+  "source": "https://www.checklistinsider.com/2025-26-topps-cosmic-chrome-basketball",
+  "parallels": []
+ },
+ {
+  "slug": "25-26-topps-finest-basketball",
+  "source": "https://www.beckett.com/news/2025-26-topps-finest-basketball-parallel-guide-and-image-gallery/",
+  "parallels": [
+   {
+    "parent": "Base Uncommon",
+    "name": "Purple Geometric Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Blue Geometric Refractor",
+    "run": "/50"
+   }
+  ]
+ },
+ {
+  "slug": "25-26-topps-holiday-basketball",
+  "source": "https://www.checklistinsider.com/2025-26-topps-holiday-basketball",
+  "parallels": []
+ },
+ {
+  "slug": "25-26-topps-midnight-basketball",
+  "source": "https://www.checklistinsider.com/2025-26-topps-midnight-basketball",
+  "parallels": [
+   {
+    "parent": "Midnight Oil Marks",
+    "name": "Equinox",
+    "run": "/20"
+   },
+   {
+    "parent": "Dark Marks Rookies",
+    "name": "Twilight",
+    "run": "/199"
+   },
+   {
+    "parent": "Dark Matter Rookie Autographs",
+    "name": "Twilight",
+    "run": "/199"
+   },
+   {
+    "parent": "Midnight Sun Rookie Signatures",
+    "name": "Twilight",
+    "run": "/199"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs II",
+    "name": "Summer Solstice",
+    "run": "/50"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs II",
+    "name": "Winter Solstice",
+    "run": "/35"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs II",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Stroke of Midnight Autographs II",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs II",
+    "name": "Equinox",
+    "run": "/20"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs II",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs II",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs II",
+    "name": "Witching Hour",
+    "run": "/3"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs II",
+    "name": "Black Light",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "25-26-topps-signature-class-basketball",
+  "source": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball",
+  "parallels": [
+   {
+    "parent": "Base Veteran Class",
+    "name": "Indigo",
+    "run": "/175"
+   },
+   {
+    "parent": "Base Rookie Class",
+    "name": "Indigo",
+    "run": "/175"
+   },
+   {
+    "parent": "Base Chrome Veteran Class",
+    "name": "Indigo Refractor",
+    "run": "/175"
+   },
+   {
+    "parent": "Base Chrome Rookie Class",
+    "name": "Indigo Refractor",
+    "run": "/175"
+   },
+   {
+    "parent": "Base Chrome Rookie Class",
+    "name": "Pink Refractor",
+    "run": "/75"
+   }
+  ]
+ }
+]

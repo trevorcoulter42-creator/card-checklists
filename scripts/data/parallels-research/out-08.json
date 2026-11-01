@@ -1,0 +1,648 @@
+[
+ {
+  "slug": "2022-bowman-inception-baseball-cards",
+  "source": "https://baseballcardpedia.com/index.php/2022_Bowman_Inception",
+  "parallels": [
+   {
+    "parent": "Base Prospects",
+    "name": "Blue Foil",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Blue Foil Pattern II",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Fuchsia Foil",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Gold Foil Pattern II",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Gold Foil Pattern III",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Orange Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Red Foil",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Red Foil Pattern II",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Inception Silver Signings",
+    "name": "Gold Rainbow Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Inception Silver Signings",
+    "name": "Gold Rainbow Foil Inception",
+    "run": "/1"
+   },
+   {
+    "parent": "Primordial Prospect Autographs",
+    "name": "Blue Foil",
+    "run": "/75"
+   },
+   {
+    "parent": "Primordial Prospect Autographs",
+    "name": "Gold Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Primordial Prospect Autographs",
+    "name": "Orange Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Primordial Prospect Autographs",
+    "name": "Red Foil",
+    "run": "/5"
+   },
+   {
+    "parent": "Primordial Prospect Autographs",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Inception Autograph Dual Relic Cards",
+    "name": "Gold Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Inception Autograph Dual Relic Cards",
+    "name": "Orange Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Inception Autograph Dual Relic Cards",
+    "name": "Red Foil",
+    "run": "/5"
+   },
+   {
+    "parent": "Inception Autograph Dual Relic Cards",
+    "name": "FoilFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2022-topps-archives-baseball",
+  "source": "https://www.cardboardconnection.com/2022-topps-archives-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Base 1963 Background Replacement Variation",
+    "name": "Silver Foil",
+    "run": "/99"
+   },
+   {
+    "parent": "Base 1963 Background Replacement Variation",
+    "name": "Red Hot Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Base 1963 Background Replacement Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Base 1978 Design Variation",
+    "name": "Silver Foil",
+    "run": "/99"
+   },
+   {
+    "parent": "Base 1978 Design Variation",
+    "name": "Red Hot Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Base 1978 Design Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1987 Future Stars Rookie Cup Variation",
+    "name": "Silver Foil",
+    "run": "/99"
+   },
+   {
+    "parent": "1987 Future Stars Rookie Cup Variation",
+    "name": "Red Hot Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "1987 Future Stars Rookie Cup Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2022-topps-chrome-baseball",
+  "source": "https://www.beckett.com/news/2022-topps-chrome-baseball-cards/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Black and White Mini Diamond Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Mini-Diamond Aqua Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Pinstriped",
+    "name": "Grass Green Speckle Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Veteran Autographs",
+    "name": "Green Refractor",
+    "run": "/99"
+   }
+  ]
+ },
+ {
+  "slug": "2022-topps-chrome-black-baseball",
+  "source": "https://www.beckett.com/news/2022-topps-chrome-black-baseball-cards/",
+  "parallels": []
+ },
+ {
+  "slug": "2022-topps-chrome-formula-1-racing",
+  "source": "https://www.cardboardconnection.com/2022-topps-chrome-formula-1-racing-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Checker Flag X-Fractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple/Green Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold/Purple Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Orange/Red Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Red/Green Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Refractor",
+    "run": "/399"
+   },
+   {
+    "parent": "Base",
+    "name": "Mini Diamonds Refractor",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Checker Flag X-Fractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Pink Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Checker Flag X-Fractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Wave Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Checker Flag X-Fractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Wave Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Checker Flag X-Fractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1968 Topps Hot Rods",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "1968 Topps Hot Rods",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "1968 Topps Hot Rods",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "1968 Topps Hot Rods",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1968 Topps Hot Rods",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Art Du Grand Prix",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Art Du Grand Prix",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Art Du Grand Prix",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Constructors Coalition",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Constructors Coalition",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Constructors Coalition",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Constructors Coalition",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Constructors Coalition",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Speed Demons",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Speed Demons",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Speed Demons",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Speed Demons",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Speed Demons",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Autographs Variation",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Autographs Variation",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Autographs Variation",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Autographs Variation",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Autographs Variation",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Autographs Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2022-topps-chrome-logofractor-baseball",
+  "source": "https://www.beckett.com/news/2022-topps-chrome-logofractor-edition-baseball-cards/",
+  "parallels": []
+ },
+ {
+  "slug": "2022-topps-chrome-platinum-anniversary-baseball",
+  "source": "https://www.cardboardconnection.com/2022-topps-chrome-platinum-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Blue Atomic",
+    "run": "/100"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Atomic",
+    "run": "/100"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Wave",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Prism",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Prism",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Red Prism",
+    "run": null
+   }
+  ]
+ },
+ {
+  "slug": "2022-topps-chrome-sapphire-edition-baseball",
+  "source": "https://www.cardboardconnection.com/2022-topps-chrome-sapphire-edition-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2022-topps-chrome-sonic-baseball-cards",
+  "source": "https://www.cardboardconnection.com/2022-topps-chrome-sonic-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Black & White RayWave",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Prism",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple/Yellow Sonic Pulse",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua/Pink Sonic Pulse",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua RayWave",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Green/Yellow Sonic Pulse",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Green RayWave",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue/Yellow Sonic Pulse",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold RayWave",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange/Black Sonic Pulse",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red RayWave",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Red/Black Sonic Pulse",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Short Prints",
+    "name": "Green RayWave",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Short Prints",
+    "name": "Gold RayWave",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Short Prints",
+    "name": "Orange/Black Sonic Pulse",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Short Prints",
+    "name": "Red/Black Sonic Pulse",
+    "run": "/5"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Black & White RayWave",
+    "run": "/10"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Red/Black Sonic Pulse",
+    "run": "/5"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "Black & White RayWave",
+    "run": "/10"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "Red/Black Sonic Pulse",
+    "run": "/5"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1996 Youthquake",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "1996 Youthquake",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1996 Youthquake",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "1996 Youthquake",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "1996 Youthquake",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Expose",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Expose",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Expose",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Expose",
+    "name": "Red",
+    "run": "/5"
+   }
+  ]
+ },
+ {
+  "slug": "2022-topps-clearly-authentic-baseball",
+  "source": "https://www.cardboardconnection.com/2022-topps-clearly-authentic-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2022-topps-definitive-collection-baseball",
+  "source": "https://www.cardboardconnection.com/2022-topps-definitive-collection-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2022-topps-diamond-icons-baseball",
+  "source": "https://www.cardboardconnection.com/2022-topps-diamond-icons-baseball-cards",
+  "parallels": []
+ }
+]

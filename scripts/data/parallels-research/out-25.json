@@ -1,0 +1,345 @@
+[
+ {
+  "slug": "2022-topps-finest-star-wars-entertainment",
+  "source": "https://www.cardboardconnection.com/2022-topps-finest-star-wars-trading-cards/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Extended Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Extended Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Extended Base",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Purple",
+    "run": "/299"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Blue",
+    "run": "/199"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Aqua",
+    "run": "/199"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Prime Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Prime Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "The Book of Boba Fett Autograph Variation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "The Book of Boba Fett Autograph Variation",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "The Book of Boba Fett Autograph Variation",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "The Book of Boba Fett Autograph Variation",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "The Book of Boba Fett Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "The Mandalorian Autograph Variation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "The Mandalorian Autograph Variation",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "The Mandalorian Autograph Variation",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "The Mandalorian Autograph Variation",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "The Mandalorian Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Galaxy’s Finest Heroes Die-Cut",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Galaxy’s Finest Heroes Die-Cut",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Galaxy’s Finest Heroes Die-Cut",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Galaxy’s Finest Heroes Die-Cut",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "The Bad Batch",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "The Bad Batch",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "The Bad Batch",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "The Book of Boba Fett",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "The Book of Boba Fett",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "The Book of Boba Fett",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "The High Republic Concept Art",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "The High Republic Concept Art",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "The High Republic Concept Art",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "The Mandalorian",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "The Mandalorian",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "The Mandalorian",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2025-bowman-baseball",
+  "source": "https://www.checklistinsider.com/2025-bowman-baseball?noamp=mobile",
+  "parallels": [
+   {
+    "parent": "RetroFractor Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   }
+  ]
+ },
+ {
+  "slug": "2025-bowman-draft-baseball",
+  "source": "https://www.checklistinsider.com/2025-bowman-draft-baseball?noamp=mobile",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Red Border",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Purple Geometric Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Blue Geometric Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Aqua Geometric Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Green Geometric Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Yellow Geometric Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Gold Geometric Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Orange Geometric Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Black Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Red Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospect Autographs",
+    "name": "HTA Choice Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Prospect Autographs",
+    "name": "Green Lava Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospect Autographs",
+    "name": "Gold Shimmer Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Prospect Autographs",
+    "name": "Orange Wave Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Prospect Autographs",
+    "name": "Red X-Fractor",
+    "run": "/5"
+   }
+  ]
+ },
+ {
+  "slug": "2026-topps-chrome-star-wars-entertainment",
+  "source": "https://www.checklistcenter.com/2026-topps-chrome-star-wars-entertainment-card-checklist/",
+  "parallels": []
+ }
+]

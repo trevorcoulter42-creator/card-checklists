@@ -1,0 +1,202 @@
+[
+ {
+  "slug": "2023-bowman-baseball",
+  "source": "https://www.cardboardconnection.com/2023-bowman-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2023-bowman-chrome-baseball",
+  "source": "https://www.cardboardconnection.com/2023-bowman-chrome-baseball-cards/amp",
+  "parallels": [
+   {
+    "parent": "Bowman Chrome Prospects RetroFractor Variation",
+    "name": "Gold",
+    "run": "/50"
+   }
+  ]
+ },
+ {
+  "slug": "2023-bowman-chrome-sapphire-edition-baseball",
+  "source": "https://www.cardboardconnection.com/2023-bowman-chrome-sapphire-edition-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2023-bowman-sapphire-edition-baseball",
+  "source": "https://www.cardboardconnection.com/2023-bowman-sapphire-edition-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2023-bowman-university-chrome-sapphire-football",
+  "source": "https://www.cardboardconnection.com/2023-bowman-university-chrome-sapphire-football-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2023-topps-big-league-baseball",
+  "source": "https://www.cardboardconnection.com/2023-topps-big-league-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2023-topps-chrome-baseball",
+  "source": "https://www.cardboardconnection.com/2023-topps-chrome-baseball-cards/amp",
+  "parallels": [
+   {
+    "parent": "Rookie Autographs",
+    "name": "B&W Mini-Diamond",
+    "run": null
+   }
+  ]
+ },
+ {
+  "slug": "2023-topps-chrome-black-baseball",
+  "source": "https://www.cardboardconnection.com/2023-topps-chrome-black-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2023-topps-chrome-sapphire-baseball-cards",
+  "source": "https://www.cardboardconnection.com/2023-topps-chrome-sapphire-baseball-cards/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Padparadscha",
+    "run": "/1"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "Gold",
+    "run": "/50"
+   }
+  ]
+ },
+ {
+  "slug": "2023-topps-chrome-sapphire-formula-1-racing",
+  "source": "https://www.checklistinsider.com/2023-topps-chrome-sapphire-formula-1",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Aqua Sapphire",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Sapphire",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Sapphire",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black & White Image Sapphire",
+    "run": "/15"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Sapphire",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Sapphire",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Padparadscha Sapphire",
+    "run": "/1"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Aqua Sapphire",
+    "run": "/99"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Gold Sapphire",
+    "run": "/50"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Orange Sapphire",
+    "run": "/25"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Red Sapphire",
+    "run": "/5"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Padparadscha Sapphire",
+    "run": "/1"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2023-topps-chrome-star-wars-galaxy-entertainment",
+  "source": "https://www.cardboardconnection.com/2023-topps-chrome-star-wars-galaxy-trading-cards/amp",
+  "parallels": [
+   {
+    "parent": "Darth Vaders Bounty Hunters",
+    "name": "Wave",
+    "run": "/35"
+   },
+   {
+    "parent": "Women of Star Wars",
+    "name": "Wave",
+    "run": "/35"
+   },
+   {
+    "parent": "Galactic Visions",
+    "name": "Wave",
+    "run": "/35"
+   },
+   {
+    "parent": "Return of the Jedi 40th Anniversary Poster Art Tribute",
+    "name": "Wave",
+    "run": "/35"
+   }
+  ]
+ },
+ {
+  "slug": "2023-topps-chrome-update-series-baseball",
+  "source": "https://www.cardboardconnection.com/2023-topps-chrome-update-series-baseball-cards/amp",
+  "parallels": []
+ }
+]

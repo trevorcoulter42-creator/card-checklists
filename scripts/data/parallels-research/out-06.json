@@ -1,0 +1,1016 @@
+[
+ {
+  "slug": "2021-topps-big-league-baseball",
+  "source": "https://www.beckett.com/news/2021-topps-big-league-baseball-cards/",
+  "parallels": [
+   {
+    "parent": "Base Veterans and Rookies",
+    "name": "Green Foil",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Big League Best",
+    "name": "Green Foil",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Award Winners",
+    "name": "Green Foil",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Highlights",
+    "name": "Green Foil",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Veterans and Rookies",
+    "name": "Red Foil",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-chrome-black-baseball",
+  "source": "https://www.beckett.com/news/2021-topps-chrome-black-baseball-cards/",
+  "parallels": []
+ },
+ {
+  "slug": "2021-topps-chrome-formula-1-racing",
+  "source": "https://beckett.com/news/2021-topps-chrome-formula-1",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Checker Flag",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple/Green Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold/Purple Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Orange/Red Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Red/Green Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Refractor",
+    "run": "/399"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Checker Flag",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Checker Flag",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Checker Flag",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Wave Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Checker Flag",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Wave Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Black and White RayWave",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Green RayWave",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold RayWave",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Red RayWave",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Black RayWave",
+    "run": "/1"
+   },
+   {
+    "parent": "1961 Topps Sport Cars",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "1961 Topps Sport Cars",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "1961 Topps Sport Cars",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "1961 Topps Sport Cars",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Path to the Podium",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Path to the Podium",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Path to the Podium",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Path to the Podium",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Red Liners/Max Out",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Red Liners/Max Out",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Red Liners/Max Out",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Red Liners/Max Out",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1961 Topps Sport Cars",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Path to the Podium",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-chrome-platinum-anniversary-baseball-cards",
+  "source": "https://www.beckett.com/news/2021-topps-chrome-platinum-anniversary-baseball-cards/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Black and White Mini-Diamond Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Prism Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "X-Fractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Wave Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Mini Diamond Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Atomic Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Base",
+    "name": "Green/Yellow 70th Anniversary Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Rose Gold Mini Diamond Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Mini-Diamond Platinum 70th Anniversary Refractor",
+    "run": "/70"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold/Rose Gold 70th Anniversary Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange/Yellow 70th Anniversary Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black/Gold 70th Anniversary Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red/Black 70th Anniversary Mini-Diamond Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Aqua Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Blue Prism Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Platinum Wave 70th Anniversary Mini Diamond Refractor",
+    "run": "/70"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Pink Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-chrome-star-wars-galaxy-entertainment",
+  "source": "https://www.beckett.com/news/2021-topps-star-wars-chrome-galaxy/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Atomic Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Wave Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Prism Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Mojo Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "X-Fractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Galaxy Autographs",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Galaxy Autographs",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Galaxy Autographs",
+    "name": "Purple Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Galaxy Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Galaxy Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Galaxy Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Global Posters",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Global Posters",
+    "name": "Purple Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Global Posters",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Global Posters",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Global Posters",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Vintage Star Wars",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Vintage Star Wars",
+    "name": "Purple Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Vintage Star Wars",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Vintage Star Wars",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Vintage Star Wars",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-chrome-star-wars-legacy-entertainment",
+  "source": "https://www.cardboardconnection.com/2021-topps-chrome-star-wars-legacy-trading-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Mandalorian Concept Art",
+    "name": "Green Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Mandalorian Concept Art",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Mandalorian Concept Art",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Mandalorian Concept Art",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Mandalorian Concept Art",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Visions Concept Art",
+    "name": "Green Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Visions Concept Art",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Visions Concept Art",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Visions Concept Art",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Visions Concept Art",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Wielders of the Lightsaber",
+    "name": "Green Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Wielders of the Lightsaber",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Wielders of the Lightsaber",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Wielders of the Lightsaber",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Wielders of the Lightsaber",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-chrome-tennis",
+  "source": "https://www.beckett.com/news/2021-topps-chrome-tennis-cards/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Black and White Mini-Diamond Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Clay Court Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Wave Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Mini-Diamond Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue RayWave Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Rose Gold Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Rose Gold Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Black and White Mini-Diamond Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Black and White RayWave Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Aces",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Aces",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Battle of the Baselines",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Battle of the Baselines",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Ring of Honor",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Ring of Honor",
+    "name": "Red Refractor",
+    "run": "/5"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-finest-baseball",
+  "source": "https://www.cardboardconnection.com/2021-topps-finest-baseball-cards/amp",
+  "parallels": [
+   {
+    "parent": "Finest Rookies Design Variation",
+    "name": "Kintsukuroi Black/Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Rookies Design Variation",
+    "name": "Kintsukuroi Red/Gold Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1997 Topps Finest Masters",
+    "name": "Kintsukuroi Black/Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "1997 Topps Finest Masters",
+    "name": "Kintsukuroi Red/Gold Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Career Die-Cut",
+    "name": "Kintsukuroi Black/Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Career Die-Cut",
+    "name": "Kintsukuroi Red/Gold Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Legacies",
+    "name": "Kintsukuroi Black/Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Legacies",
+    "name": "Kintsukuroi Red/Gold Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Legacies Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Legacies Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Legacies Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-finest-flashbacks-baseball",
+  "source": "https://www.beckett.com/news/2021-topps-finest-flashbacks-baseball-cards/",
+  "parallels": []
+ },
+ {
+  "slug": "2021-topps-five-star-baseball",
+  "source": "https://www.cardboardconnection.com/2021-topps-five-star-baseball-cards/amp",
+  "parallels": []
+ },
+ {
+  "slug": "2021-topps-formula-1-racing",
+  "source": "https://www.beckett.com/news/2021-topps-formula-1-racing-cards/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Checker Flag",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Sparkle Foil",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "F1 Relics",
+    "name": "Blue",
+    "run": "/99"
+   },
+   {
+    "parent": "F1 Relics",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "F1 Relics",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "F1 Relics",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "F1 Relics",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Apex Predators",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Apex Predators",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Apex Predators",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Apex Predators",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Debrief",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Debrief",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Debrief",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Debrief",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Flags of Foundation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Flags of Foundation",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Flags of Foundation",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Flags of Foundation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Topps 1961 Sports Cars",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Topps 1961 Sports Cars",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Topps 1961 Sports Cars",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Topps 1961 Sports Cars",
+    "name": "FoilFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-gallery-baseball",
+  "source": "https://www.cardboardconnection.com/2021-topps-gallery-baseball-cards/amp",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Printer Proof",
+    "run": null
+   }
+  ]
+ }
+]

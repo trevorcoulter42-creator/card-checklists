@@ -1,0 +1,4369 @@
+[
+ {
+  "slug": "2024-bowman-baseball",
+  "source": "https://www.checklistinsider.com/2024-bowman-baseball",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Sky Blue Border",
+    "run": "/499"
+   },
+   {
+    "parent": "Base",
+    "name": "Neon Green Border",
+    "run": "/399"
+   },
+   {
+    "parent": "Base",
+    "name": "Fuchsia Border",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Border",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Pattern",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Pink Border",
+    "run": "/175"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Border",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Pattern",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Border",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Pattern",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow Border",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Border",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Border",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Pattern",
+    "run": "/15"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Border",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Platinum Border (Rainbow Foil)",
+    "run": "/1"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Sky Blue Border",
+    "run": "/499"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Neon Green Border",
+    "run": "/399"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Fuchsia Border",
+    "run": "/299"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Purple Border",
+    "run": "/250"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Purple Pattern",
+    "run": "/199"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Pink Border",
+    "run": "/175"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Blue Border",
+    "run": "/150"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Blue Pattern",
+    "run": "/150"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Green Border",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Green Pattern",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Yellow Border",
+    "run": "/75"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Gold Border",
+    "run": "/50"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Orange Border",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Chartreuse Border",
+    "run": "/15"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Red Border",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Paper Prospects",
+    "name": "Platinum Border",
+    "run": "/1"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Lunar Glow",
+    "run": null
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Mini-Diamond Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Pearl Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Base Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Lava Refractor",
+    "run": "/399"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Speckle Refractor",
+    "run": "/299"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Purple RayWave Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Fuchsia Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Fuchsia Lunar Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Blue RayWave Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Blue Shimmer Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Aqua Lunar Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Aqua Shimmer Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Green Grass Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Green Shimmer Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Yellow Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Yellow Lunar Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Gold Shimmer Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Orange Shimmer Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Rose Gold Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Rose Gold Mini-Diamond",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "Red Lava Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Chrome Prospects",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Retrofractor Variation",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Retrofractor Variation",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Retrofractor Variation",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Retrofractor Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Retrofractor Autograph Variation",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Retrofractor Autograph Variation",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Retrofractor Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Base Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Speckle Refractor",
+    "run": "/299"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Blue Lunar Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Mini-Diamond Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Green Grass Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Green Shimmer Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Yellow Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Gold Shimmer Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Orange Shimmer Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Pearl Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "Red Lava Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospect Autographs I",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Paper Prospect Retail Autographs",
+    "name": "Purple Border",
+    "run": "/250"
+   },
+   {
+    "parent": "Paper Prospect Retail Autographs",
+    "name": "Blue Border",
+    "run": "/150"
+   },
+   {
+    "parent": "Paper Prospect Retail Autographs",
+    "name": "Green Border",
+    "run": "/99"
+   },
+   {
+    "parent": "Paper Prospect Retail Autographs",
+    "name": "Gold Border",
+    "run": "/50"
+   },
+   {
+    "parent": "Paper Prospect Retail Autographs",
+    "name": "Orange Border",
+    "run": "/25"
+   },
+   {
+    "parent": "Paper Prospect Retail Autographs",
+    "name": "Red Border",
+    "run": "/5"
+   },
+   {
+    "parent": "Paper Prospect Retail Autographs",
+    "name": "Platinum Border",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Base Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Mini-Diamond Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Yellow Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2024-bowman-best-university-football",
+  "source": "https://www.checklistinsider.com/2024-bowman-university-best-football",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Speckle Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Refractor",
+    "run": "/225"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Refractor",
+    "run": "/149"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Base",
+    "name": "Pink Lava Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Mini Diamond Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Teal Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Base",
+    "name": "Lime Green Geometric Refractor",
+    "run": "/35"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Geometric Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Teal Geometric Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Geometric Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Pink Lava Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Green Mini Diamond Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Yellow Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Teal Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Red Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Orange Geometric Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Teal Geometric Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Black Geometric Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Elements of the Game Autograph Variation",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Elements of the Game Autograph Variation",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Elements of the Game Autograph Variation",
+    "name": "Red Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Elements of the Game Autograph Variation",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Elements of the Game Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Elements of the Game Autograph Variation",
+    "name": "Orange Geometric Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Elements of the Game Autograph Variation",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Elements of the Game Autograph Variation",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Elements of the Game Autograph Variation",
+    "name": "Black Geometric Refractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die Cut Autograph Variation",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die Cut Autograph Variation",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die Cut Autograph Variation",
+    "name": "Red Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die Cut Autograph Variation",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die Cut Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die Cut Autograph Variation",
+    "name": "Orange Geometric Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die Cut Autograph Variation",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die Cut Autograph Variation",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die Cut Autograph Variation",
+    "name": "Black Geometric Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Bowman Masterpieces Autograph Variation",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Bowman Masterpieces Autograph Variation",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Masterpieces Autograph Variation",
+    "name": "Red Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Bowman Masterpieces Autograph Variation",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Masterpieces Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Bowman Masterpieces Autograph Variation",
+    "name": "Orange Geometric Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Masterpieces Autograph Variation",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Bowman Masterpieces Autograph Variation",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Masterpieces Autograph Variation",
+    "name": "Black Geometric Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Red Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Orange Geometric Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Black Geometric Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "Black Geometric Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Prospect Jumbo Relic Autographs",
+    "name": "Second Honor Roll",
+    "run": "/99"
+   },
+   {
+    "parent": "Prospect Jumbo Relic Autographs",
+    "name": "First Honor Roll",
+    "run": "/49"
+   },
+   {
+    "parent": "Prospect Jumbo Relic Autographs",
+    "name": "Distinguished Honor Roll",
+    "run": "/25"
+   },
+   {
+    "parent": "Prospect Jumbo Relic Autographs",
+    "name": "Valedictorian",
+    "run": "/1"
+   },
+   {
+    "parent": "Bowman Masterpieces",
+    "name": "Speckle Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Masterpieces",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Masterpieces",
+    "name": "Teal Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Bowman Masterpieces",
+    "name": "Red Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Bowman Masterpieces",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Masterpieces",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Bowman Masterpieces",
+    "name": "Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Masterpieces",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Bowman Masterpieces",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Masterpieces",
+    "name": "Black Geometric Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Elements of the Game",
+    "name": "Speckle Refractor",
+    "run": null
+   },
+   {
+    "parent": "Elements of the Game",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Elements of the Game",
+    "name": "Teal Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Elements of the Game",
+    "name": "Red Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Elements of the Game",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Elements of the Game",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Elements of the Game",
+    "name": "Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Elements of the Game",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Elements of the Game",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Elements of the Game",
+    "name": "Black Geometric Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Field Day",
+    "name": "Speckle Refractor",
+    "run": null
+   },
+   {
+    "parent": "Field Day",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Field Day",
+    "name": "Teal Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Field Day",
+    "name": "Red Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Field Day",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Field Day",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Field Day",
+    "name": "Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Field Day",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Field Day",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Field Day",
+    "name": "Black Geometric Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die-Cuts",
+    "name": "Speckle Refractor",
+    "run": null
+   },
+   {
+    "parent": "Gunslingers and Bandits Die-Cuts",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die-Cuts",
+    "name": "Teal Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die-Cuts",
+    "name": "Red Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die-Cuts",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die-Cuts",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die-Cuts",
+    "name": "Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Gunslingers and Bandits Die-Cuts",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die-Cuts",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Gunslingers and Bandits Die-Cuts",
+    "name": "Black Geometric Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Making the Grade",
+    "name": "Speckle Refractor",
+    "run": null
+   },
+   {
+    "parent": "Making the Grade",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Making the Grade",
+    "name": "Teal Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Making the Grade",
+    "name": "Red Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Making the Grade",
+    "name": "White Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Making the Grade",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Making the Grade",
+    "name": "Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Making the Grade",
+    "name": "Red Geometric Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Making the Grade",
+    "name": "White Geometric Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Making the Grade",
+    "name": "Black Geometric Refractor",
+    "run": "/2"
+   },
+   {
+    "parent": "Let’s Go!",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Mirror Image Fusion",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Shock and Awe",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2024-bowman-chrome-baseball",
+  "source": "https://www.checklistinsider.com/2024-bowman-chrome-baseball",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Base",
+    "name": "Fuchsia Refractor",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua RayWave Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Wave Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Pearl Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Shimmer Refractor",
+    "run": null
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Speckle Refractor",
+    "run": "/299"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Purple Shimmer Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Fuchsia Shimmer Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Reptilian Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Aqua Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Reptilian Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Green Shimmer Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Yellow Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Reptilian Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Gold Shimmer Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Pearl Refractor",
+    "run": null
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Orange Shimmer Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Reptilian Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Reptilian Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Red Shimmer Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospects",
+    "name": "Reptilian Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Set Retrofractor Variation",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Set Retrofractor Variation",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Set Retrofractor Variation",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Set Retrofractor Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Set Retrofractor Autograph Variation",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Set Retrofractor Autograph Variation",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Set Retrofractor Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Speckle Refractor",
+    "run": "/299"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Blue Raywave",
+    "run": "/150"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Reptilian Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "HTA Choice",
+    "run": "/150"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Mini Diamond Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Green Lava Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Reptilian Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Yellow Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Gold Mini Diamond",
+    "run": "/50"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Gold Shimmer Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Orange Wave Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Orange Shimmer Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Red Shimmer Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Red Wave Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "Reptilian Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Chrome Prospect Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Rookie Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Short Print Image Variation Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Gladiators of the Diamond Autograph Variations",
+    "name": "Gold Mini Diamond Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Gladiators of the Diamond Autograph Variations",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Gladiators of the Diamond Autograph Variations",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Gladiators of the Diamond Autograph Variations",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "My 1st Bowman Autographs",
+    "name": "Gold Mini Diamond Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "My 1st Bowman Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "My 1st Bowman Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Prime Chrome Signatures",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Prime Chrome Signatures",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Prime Chrome Signatures",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Auto Relics",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Auto Relics",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Auto Relics",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2024-bowman-draft-baseball",
+  "source": "https://www.checklistinsider.com/2024-bowman-draft-baseball",
+  "parallels": [
+   {
+    "parent": "Bowman Base",
+    "name": "Sky Blue",
+    "run": "/499"
+   },
+   {
+    "parent": "Bowman Base",
+    "name": "Blue Border",
+    "run": "/150"
+   },
+   {
+    "parent": "Bowman Base",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Base",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Bowman Base",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Base",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Base",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Sky Blue Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Lunar Glow Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Sparkles Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Fuchsia Lunar Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Aqua Wave Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Aqua Lunar Crater",
+    "run": "/125"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Steel Metal Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Green Grass Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Yellow Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Yellow Lunar Crater",
+    "run": "/75"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Rose Gold Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Rose Gold Lava Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Red Lava Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Pearl Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Gumball Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Sunflower Seeds Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Peanuts Refractor",
+    "run": null
+   },
+   {
+    "parent": "Bowman Chrome Base",
+    "name": "Popcorn Refractor",
+    "run": null
+   },
+   {
+    "parent": "Chrome College Variations",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome College Variations",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome College Variations",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome College Variations",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Aqua Lava Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Blue Wave Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "HTA Choice Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Green Lava Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Yellow Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Sparkles Refractor",
+    "run": "/71"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Gold Shimmer Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Orange Wave Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Black X-Fractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Red Lava Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Red X-Fractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Gumball Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Sunflower Seeds Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Peanuts Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Prospect Autograph Variation",
+    "name": "Popcorn Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Draft Night Autograph Variation",
+    "name": "Gold Mini-Diamond Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Bowman Draft Night Autograph Variation",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Draft Night Autograph Variation",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Draft Night Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Class of 2024 Autographs",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Class of 2024 Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Class of 2024 Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Class of 2024 Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Plasma Power Autograph Variation",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Plasma Power Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Prospect Dual Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Prospect Dual Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Prospect Dual Autographs",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Prospect Dual Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Prospect Dual Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Picked for Excellence Autograph Booklet",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2024-bowman-sapphire-baseball",
+  "source": "https://beckett.com/news/2024-bowman-sapphire-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Green Sapphire",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Sapphire",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Sapphire",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Sapphire",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Sapphire",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Padpradascha Sapphire",
+    "run": "/1"
+   },
+   {
+    "parent": "Bowman Sapphire Chrome Prospects Autographs",
+    "name": "Green Sapphire",
+    "run": "/99"
+   },
+   {
+    "parent": "Bowman Sapphire Chrome Prospects Autographs",
+    "name": "Gold Sapphire",
+    "run": "/50"
+   },
+   {
+    "parent": "Bowman Sapphire Chrome Prospects Autographs",
+    "name": "Orange Sapphire",
+    "run": "/25"
+   },
+   {
+    "parent": "Bowman Sapphire Chrome Prospects Autographs",
+    "name": "Black Sapphire",
+    "run": "/10"
+   },
+   {
+    "parent": "Bowman Sapphire Chrome Prospects Autographs",
+    "name": "Red Sapphire",
+    "run": "/5"
+   },
+   {
+    "parent": "Bowman Sapphire Chrome Prospects Autographs",
+    "name": "Padpradascha Sapphire",
+    "run": "/1"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "Superfractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2024-bowman-sterling-baseball",
+  "source": "https://www.checklistinsider.com/2024-bowman-sterling-baseball",
+  "parallels": [
+   {
+    "parent": "Base Prospects",
+    "name": "Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Mini-Diamond Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Sterling Silver Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Speckle Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Magenta Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Blue Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Blue Sterling Scintillate Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Copper Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Black Lava Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "Red Sterling Scintillate Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Prospects",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Mini-Diamond Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Sterling Silver Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Speckle Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Magenta Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Blue Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Blue Sterling Scintillate Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Copper Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Black Lava Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "Red Sterling Scintillate Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Rookies",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Sterling Tek",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Sterling Tek",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Sterling Tek",
+    "name": "Rose Gold",
+    "run": "/15"
+   },
+   {
+    "parent": "Sterling Tek",
+    "name": "Aqua",
+    "run": "/10"
+   },
+   {
+    "parent": "Sterling Tek",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Sterling Tek",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Wave Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Purple Refractor",
+    "run": "/120"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Sterling Silver Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Speckle Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Orange Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Blue Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Blue Sterling Scintillate Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Rose Gold Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Black Lava Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Red Sterling Scintillate Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Prospect Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookies Autographs",
+    "name": "Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Rookies Autographs",
+    "name": "Wave Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Rookies Autographs",
+    "name": "Sterling Silver Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Rookies Autographs",
+    "name": "Speckle Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Rookies Autographs",
+    "name": "Orange Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Rookies Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Rookies Autographs",
+    "name": "Blue Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookies Autographs",
+    "name": "Rose Gold Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Rookies Autographs",
+    "name": "Black Lava Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookies Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookies Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Sterling Extravaganza Autographs",
+    "name": "Blue Sterling Scintillate Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Sterling Extravaganza Autographs",
+    "name": "Rose Gold Mini-Diamond Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Sterling Extravaganza Autographs",
+    "name": "Black Mini-Diamond Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Sterling Extravaganza Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Sterling Extravaganza Autographs",
+    "name": "Canary Diamond Refractor",
+    "run": "/3"
+   },
+   {
+    "parent": "Sterling Extravaganza Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Dual Refractor Autographs",
+    "name": "Rose Gold Mini-Diamond Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Dual Refractor Autographs",
+    "name": "Black Mini-Diamond Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Dual Refractor Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Dual Refractor Autographs",
+    "name": "Canary Diamond Refractor",
+    "run": "/3"
+   },
+   {
+    "parent": "Dual Refractor Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Triple Refractor Autographs",
+    "name": "Rose Gold Mini-Diamond Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Triple Refractor Autographs",
+    "name": "Black Mini-Diamond Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Triple Refractor Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Triple Refractor Autographs",
+    "name": "Canary Diamond Refractor",
+    "run": "/3"
+   },
+   {
+    "parent": "Triple Refractor Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2024-bowmans-best-baseball",
+  "source": "https://www.checklistinsider.com/2024-bowmans-best-baseball",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Wave Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Mini-Diamond Refractor",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Mojo Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Lava Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue X-Fractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Mini-Diamond Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow Lazer Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Lava Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Lava Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Prospects",
+    "name": "Wave Refractor",
+    "run": null
+   },
+   {
+    "parent": "Prospects",
+    "name": "Mini-Diamond Refractor",
+    "run": "/299"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Purple Mojo Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Aqua Lava Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Blue X-Fractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Green Mini-Diamond Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Yellow Lazer Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Gold Lava Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Prospects",
+    "name": "Red Lava Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Prospects",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Gold Mini-Diamond Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Orange X-Fractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Teal Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "Red Lava Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Best of 2024 Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "2024 MLB All Star Futures Game Chrome Autograph Relics",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "2024 MLB All Star Futures Game Chrome Autograph Relics",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "2024 MLB All Star Futures Game Chrome Autograph Relics",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "2024 MLB All Star Futures Game Chrome Autograph Relics",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "2024 MLB All Star Futures Game Chrome Autograph Relics",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "2024 MLB All Star Futures Game Chrome Autograph Relics",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "2024 MLB All Star Futures Game Chrome Autograph Relics",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "2024 MLB All Star Futures Game Chrome Autograph Relics",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Quad Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Family Tree Dual Autographs",
+    "name": "Mini-Diamond Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Family Tree Dual Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Family Tree Triple Autographs",
+    "name": "Mini-Diamond Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Family Tree Triple Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1955 Bowman Anime",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "1955 Bowman Anime",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1955 Bowman Anime",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "2024 MLB All-Star Futures Game",
+    "name": "Lava Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "2024 MLB All-Star Futures Game",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Bowman Showpieces",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2024-topps-allen-ginter-baseball",
+  "source": "https://www.checklistcenter.com/2024-topps-allen-ginter-baseball-card-checklist/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Mini",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Allen & Ginter Back Mini",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Black Border Mini",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Border Mini",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Foil Filagree",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Foil Filagree",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "No Number Mini",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Brooklyn Back Mini",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Wood Mini",
+    "run": "/1"
+   },
+   {
+    "parent": "Base",
+    "name": "Glossy",
+    "run": "/1"
+   },
+   {
+    "parent": "Base",
+    "name": "Glossy Mini",
+    "run": "/1"
+   },
+   {
+    "parent": "Base SP",
+    "name": "Mini",
+    "run": null
+   },
+   {
+    "parent": "Base SP",
+    "name": "Allen & Ginter Back Mini",
+    "run": null
+   },
+   {
+    "parent": "Base SP",
+    "name": "Black Border Mini",
+    "run": null
+   },
+   {
+    "parent": "Base SP",
+    "name": "Gold Border Mini",
+    "run": null
+   },
+   {
+    "parent": "Base SP",
+    "name": "Foil Filagree",
+    "run": null
+   },
+   {
+    "parent": "Base SP",
+    "name": "Gold Foil Filagree",
+    "run": "/50"
+   },
+   {
+    "parent": "Base SP",
+    "name": "No Number Mini",
+    "run": "/50"
+   },
+   {
+    "parent": "Base SP",
+    "name": "Brooklyn Back Mini",
+    "run": "/25"
+   },
+   {
+    "parent": "Base SP",
+    "name": "Wood Mini",
+    "run": "/1"
+   },
+   {
+    "parent": "Base SP",
+    "name": "Glossy",
+    "run": "/1"
+   },
+   {
+    "parent": "Base SP",
+    "name": "Glossy Mini",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Chrome",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Mini Baseball Autograph Cards I",
+    "name": "Blue Frame",
+    "run": "/50"
+   },
+   {
+    "parent": "Mini Baseball Autograph Cards I",
+    "name": "Black Frame",
+    "run": "/25"
+   },
+   {
+    "parent": "Mini Baseball Autograph Cards I",
+    "name": "Red Ink",
+    "run": "/10"
+   },
+   {
+    "parent": "Mini Non Baseball Autograph Cards",
+    "name": "Blue Border",
+    "run": "/50"
+   },
+   {
+    "parent": "Mini Non Baseball Autograph Cards",
+    "name": "Black Border",
+    "run": "/25"
+   },
+   {
+    "parent": "Mini Non Baseball Autograph Cards",
+    "name": "Red Ink",
+    "run": "/10"
+   },
+   {
+    "parent": "Dual Autograph Cards",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Quad Autograph Cards",
+    "name": "Red Ink",
+    "run": "/10"
+   },
+   {
+    "parent": "Full Size Autograph Cards",
+    "name": "Red",
+    "run": "/15"
+   }
+  ]
+ },
+ {
+  "slug": "2024-topps-archives-baseball",
+  "source": "https://www.checklistcenter.com/?p=52280",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Archives",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Black",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Pink",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Rainbow",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Sparkle",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Hot",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Hot",
+    "run": "/15"
+   },
+   {
+    "parent": "Base",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1961 Topps Design Variation",
+    "name": "Red Hot Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "1961 Topps Design Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1970 Topps Design Variation",
+    "name": "Red Hot Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "1970 Topps Design Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1994 Topps Design Variation",
+    "name": "Red Hot Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "1994 Topps Design Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1961 Topps Image Variation",
+    "name": "Red Hot Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "1961 Topps Image Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1970 Topps Image Variation",
+    "name": "Red Hot Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "1970 Topps Image Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1994 Topps Image Variation",
+    "name": "Red Hot Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "1994 Topps Image Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1995 at the Break",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "1995 at the Break",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1995 at the Break",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "1995 at the Break",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1999 New Breed",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "1999 New Breed",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1999 New Breed",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "1999 New Breed",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "2006 Own the Game",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "2006 Own the Game",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "2006 Own the Game",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "2006 Own the Game",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1968 Fan Favorites Autographs",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "1968 Fan Favorites Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1968 Fan Favorites Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "1968 Fan Favorites Autographs",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "1968 Fan Favorites Autographs",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1983 Fan Favorites Autographs",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "1983 Fan Favorites Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1983 Fan Favorites Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "1983 Fan Favorites Autographs",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "1983 Fan Favorites Autographs",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1995 Fan Favorites Autographs",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "1995 Fan Favorites Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1995 Fan Favorites Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "1995 Fan Favorites Autographs",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "1995 Fan Favorites Autographs",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "2000 Fan Favorites Autographs",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "2000 Fan Favorites Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "2000 Fan Favorites Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "2000 Fan Favorites Autographs",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "2000 Fan Favorites Autographs",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1968 Topps Action All Stars Autograph Variation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1968 Topps Action All Stars Autograph Variation",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "1968 Topps Action All Stars Autograph Variation",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "1968 Topps Action All Stars Autograph Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "2006 Own the Game Autograph Variation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "2006 Own the Game Autograph Variation",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "2006 Own the Game Autograph Variation",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "2006 Own the Game Autograph Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1999 New Breed Autograph Variation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1999 New Breed Autograph Variation",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "1999 New Breed Autograph Variation",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "1999 New Breed Autograph Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Fan Favorites Autographs Premium",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Fan Favorites Autographs Premium",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Fan Favorites Autographs Premium",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Fan Favorites Autographs Premium",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1990 Batting Leaders Autograph Variation",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1990 Batting Leaders Autograph Variation",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "1990 Batting Leaders Autograph Variation",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "1990 Batting Leaders Autograph Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1995 at the Break Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "1995 at the Break Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "1995 at the Break Autographs",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "1995 at the Break Autographs",
+    "name": "FoilFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2024-topps-brooklyn-collection-baseball",
+  "source": "https://www.beckett.com/news/2024-topps-brooklyn-collection-baseball-cards/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Chartreuse",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Black",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Orange",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Platinum",
+    "run": null
+   },
+   {
+    "parent": "Brooklyn Die-Cut Variations",
+    "name": "Red",
+    "run": null
+   },
+   {
+    "parent": "Brooklyn Die-Cut Variations",
+    "name": "Platinum",
+    "run": null
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Black",
+    "run": null
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Gold",
+    "run": null
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Orange",
+    "run": null
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Purple",
+    "run": null
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Red",
+    "run": null
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Platinum",
+    "run": null
+   }
+  ]
+ },
+ {
+  "slug": "2024-topps-chrome-baseball",
+  "source": "https://www.beckett.com/news/2024-topps-chrome-baseball-cards/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Pink Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Prism Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "RayWave Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Sepia Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "X-Fractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Negative Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Lightboard Logo",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Magenta Speckle Refractor",
+    "run": "/350"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Speckle Refractor",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Sonar Purple Refractor",
+    "run": "/275"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Lava Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "RayWave Aqua Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "RayWave Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Sonar Blue Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Wave Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "RayWave Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Sonar Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Wave Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "RayWave Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Big Apple Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Wave Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "RayWave Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "RayWave Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Frozenfractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Wave Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "RayWave Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1989 Topps Baseball",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "1989 Topps Baseball",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "1989 Topps Baseball",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "1989 Topps Baseball",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "1989 Topps Baseball",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1989 Topps Baseball",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1989 Topps Baseball Chrome Layer Variation",
+    "name": "Black Wave Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "1989 Topps Baseball Chrome Layer Variation",
+    "name": "Red RayWave Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1989 Topps Baseball Chrome Layer Variation",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome All Etch",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome All Etch",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome All Etch",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome All Etch",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome All Etch",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome All Etch Rookie Rush",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome All Etch Rookie Rush",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome All Etch Rookie Rush",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome All Etch Rookie Rush",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome All Etch Rookie Rush",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Topps Chrome Expose",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Fanatical",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Fanatical",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Fanatical",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Future Stars",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Let’s Go",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Strokes",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Strokes",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Strokes",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Strokes",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Strokes",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Summertime in the Park",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Summertime in the Park",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Summertime in the Park",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Summertime in the Park",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Summertime in the Park",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Ultraviolet All-Stars",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Ultraviolet All-Stars",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Ultraviolet All-Stars",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Ultraviolet All-Stars",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Ultraviolet All-Stars",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Youthquake",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Youthquake",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Youthquake",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Youthquake",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Youthquake",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Black and White Mini Diamond Refractor",
+    "run": null
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Refractor",
+    "run": "/499"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Purple Speckle Refractor",
+    "run": "/299"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Purple Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Aqua Wave Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Blue RayWave Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Gold Wave Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Orange Wave Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Red Wave Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Legend Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Legend Autographs",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome Legend Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Legend Autographs",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Seamhead Signatures",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Seamhead Signatures",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Seamhead Signatures",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Seamhead Signatures",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1989 Topps Baseball Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "1989 Topps Baseball Autographs",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "1989 Topps Baseball Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "1989 Topps Baseball Autographs",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Topps Chrome Ultraviolet All Stars Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Topps Chrome Ultraviolet All Stars Autographs",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Topps Chrome Ultraviolet All Stars Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Topps Chrome Ultraviolet All Stars Autographs",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "On the Spot Die Cut Autographs",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "On the Spot Die Cut Autographs",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "On the Spot Die Cut Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "On the Spot Die Cut Autographs",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Topps Chrome Authentics",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Topps Chrome Authentics",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Topps Chrome Authentics",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Topps Chrome Authentics",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Topps Chrome Authentics",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Topps Chrome Authentics",
+    "name": "Superfractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2024-topps-chrome-black-baseball",
+  "source": "https://ripped.topps.com/2024-topps-chrome-black-checklist-spotlight",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Mini-Diamond Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Wave Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Lava Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Mini-Diamond Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Rose Gold Wave Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Base",
+    "name": "Magenta Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Depth of Darkness",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Depth of Darkness",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Autograph Cards I",
+    "name": "Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Autograph Cards I",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Autograph Cards I",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Autograph Cards I",
+    "name": "Gold Mini-Diamond Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Autograph Cards I",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Autograph Cards I",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Autograph Cards I",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Ivory Autographs",
+    "name": "Gold Trim Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Ivory Autographs",
+    "name": "Red Trim Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Ivory Autographs",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Pitch Black Pairings Dual Autographs",
+    "name": "Gold Trim Refractor",
+    "run": "/20"
+   },
+   {
+    "parent": "Pitch Black Pairings Dual Autographs",
+    "name": "Red Trim Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Pitch Black Pairings Dual Autographs",
+    "name": "Superfractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Super Futures Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Super Futures Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Super Futures Autographs",
+    "name": "Superfractor",
+    "run": "/1"
+   }
+  ]
+ }
+]

@@ -1,0 +1,3999 @@
+[
+ {
+  "slug": "2023-24-topps-chrome-overtime-elite-basketball",
+  "source": "https://www.checklistinsider.com/2023-24-topps-chrome-ote-basketball",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Base Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "OTE Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua & Green OTE Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Red & Yellow OTE Refractor",
+    "run": "/149"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Basketball Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black & White OTE Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1976 Topps Baseball",
+    "name": "Base Refractor",
+    "run": null
+   },
+   {
+    "parent": "1976 Topps Baseball",
+    "name": "Blue Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "1976 Topps Baseball",
+    "name": "Green Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "1976 Topps Baseball",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "1976 Topps Baseball",
+    "name": "Orange Basketball Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "1976 Topps Baseball",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "After School Rules",
+    "name": "Base Refractor",
+    "run": null
+   },
+   {
+    "parent": "After School Rules",
+    "name": "Blue Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "After School Rules",
+    "name": "Green Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "After School Rules",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "After School Rules",
+    "name": "Orange Basketball Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "After School Rules",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Run It",
+    "name": "Base Refractor",
+    "run": null
+   },
+   {
+    "parent": "Run It",
+    "name": "Blue Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Run It",
+    "name": "Green Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Run It",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Run It",
+    "name": "Orange Basketball Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Run It",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Hurricane",
+    "name": "Base Refractor",
+    "run": null
+   },
+   {
+    "parent": "Hurricane",
+    "name": "Blue Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Hurricane",
+    "name": "Green Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Hurricane",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Hurricane",
+    "name": "Orange Basketball Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Hurricane",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Phys Ed",
+    "name": "Base Refractor",
+    "run": null
+   },
+   {
+    "parent": "Phys Ed",
+    "name": "Blue Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Phys Ed",
+    "name": "Green Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Phys Ed",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Phys Ed",
+    "name": "Orange Basketball Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Phys Ed",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Superfly",
+    "name": "Orange Basketball Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Superfly",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Exposé",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Ball Stars Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Ball Stars Autographs",
+    "name": "Orange Basketball Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Ball Stars Autographs",
+    "name": "Black & White OTE Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Ball Stars Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Ball Stars Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Aqua OTE Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Green Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Orange Basketball Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Black & White OTE Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2023-24-topps-chrome-sapphire-uefa-club-competitions-soccer",
+  "source": "https://www.checklistinsider.com/2023-24-topps-chrome-sapphire-uefa",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Yellow Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Sapphire",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Sapphire",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Sapphire",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Sapphire",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Padparadscha Sapphire",
+    "run": "/1"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Green Sapphire",
+    "run": "/99"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Yellow Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Gold Sapphire",
+    "run": "/50"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Orange Sapphire",
+    "run": "/25"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Black Sapphire",
+    "run": "/10"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Red Sapphire",
+    "run": "/5"
+   },
+   {
+    "parent": "Image Variations",
+    "name": "Padparadscha Sapphire",
+    "run": "/1"
+   },
+   {
+    "parent": "Wonderkids Sapphire",
+    "name": "Green Sapphire",
+    "run": "/99"
+   },
+   {
+    "parent": "Wonderkids Sapphire",
+    "name": "Yellow Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Wonderkids Sapphire",
+    "name": "Gold Sapphire",
+    "run": "/50"
+   },
+   {
+    "parent": "Wonderkids Sapphire",
+    "name": "Orange Sapphire",
+    "run": "/25"
+   },
+   {
+    "parent": "Wonderkids Sapphire",
+    "name": "Black Sapphire",
+    "run": "/10"
+   },
+   {
+    "parent": "Wonderkids Sapphire",
+    "name": "Red Sapphire",
+    "run": "/5"
+   },
+   {
+    "parent": "Wonderkids Sapphire",
+    "name": "Padparadscha Sapphire",
+    "run": "/1"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Sapphire Selections",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Sapphire Autograph Cards",
+    "name": "Gold Sapphire",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Sapphire Autograph Cards",
+    "name": "Orange Sapphire",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Sapphire Autograph Cards",
+    "name": "Black Sapphire",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome Sapphire Autograph Cards",
+    "name": "Red Sapphire",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Sapphire Autograph Cards",
+    "name": "Padparadscha Sapphire",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2023-24-topps-chrome-uefa-club-competitions-soccer",
+  "source": "https://www.checklistinsider.com/2023-24-topps-chrome-uefa-club-competitions",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Prism",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Prism",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Pulsar Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Magenta X-Fractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Magenta Prism",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Neon Green Wave Refractor",
+    "run": "/399"
+   },
+   {
+    "parent": "Base",
+    "name": "Violet Speckle Refractor",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Pink Geometric Refractor",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Pink Lava Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Night Vision RayWave",
+    "run": "/225"
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Lava Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Wave Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple Ray Wave Refractor",
+    "run": "/175"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Shimmer Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Geometric Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Lava Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Color Match Refractor",
+    "run": "/100"
+   },
+   {
+    "parent": "Base",
+    "name": "Neon Green Lava Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Green Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "ToppsFractor",
+    "run": "/52"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Geometric Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Lava Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Geometric Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "XI Refractor",
+    "run": "/11"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Violet Speckle",
+    "run": "/299"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Pink Shimmer",
+    "run": "/250"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Aqua Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Aqua Lava",
+    "run": null
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Neon Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Blue Wave",
+    "run": "/75"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "ToppsFractor",
+    "run": "/52"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Gold Lava",
+    "run": null
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Orange Lava",
+    "run": null
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Black Lava",
+    "run": null
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "Red Lava",
+    "run": null
+   },
+   {
+    "parent": "Chrome Autograph Cards",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Neon Green Wave",
+    "run": "/399"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Pink Shimmer",
+    "run": "/250"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Aqua Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Aqua Lava",
+    "run": null
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Neon Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Blue Wave",
+    "run": "/75"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "ToppsFractor",
+    "run": "/52"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Gold Lava",
+    "run": null
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Orange Lava",
+    "run": null
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Black Lava",
+    "run": null
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "Red Lava",
+    "run": null
+   },
+   {
+    "parent": "Future Stars Chrome Autograph Card",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Dual Autograph Cards",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Chrome Dual Autograph Cards",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome Dual Autograph Cards",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Dual Autograph Cards",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Chrome Triple Autograph Cards",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Chrome Triple Autograph Cards",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Chrome Triple Autograph Cards",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars Autograph Cards",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars Autograph Cards",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Black Lazer Autograph Cards",
+    "name": "Black/Magenta Lazer Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Black Lazer Autograph Cards",
+    "name": "Black/Blue Lazer Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Black Lazer Autograph Cards",
+    "name": "Black/Gold Lazer Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Black Lazer Autograph Cards",
+    "name": "Black/Neon Green Lazer Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Black Lazer Autograph Cards",
+    "name": "Black/Orange Lazer Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Black Lazer Autograph Cards",
+    "name": "Red/Black Lazer Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Black Lazer Autograph Cards",
+    "name": "Nightshade Lazer Refractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Global Attraction Autograph Cards",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Global Attraction Autograph Cards",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Global Attraction Autograph Cards",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Marks of Excellence On-Card Autograph Cards",
+    "name": "Green Foil",
+    "run": "/99"
+   },
+   {
+    "parent": "Marks of Excellence On-Card Autograph Cards",
+    "name": "Gold Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "Marks of Excellence On-Card Autograph Cards",
+    "name": "Orange Foil",
+    "run": "/25"
+   },
+   {
+    "parent": "Marks of Excellence On-Card Autograph Cards",
+    "name": "Purple Foil",
+    "run": "/10"
+   },
+   {
+    "parent": "Marks of Excellence On-Card Autograph Cards",
+    "name": "Red Foil",
+    "run": "/5"
+   },
+   {
+    "parent": "Marks of Excellence On-Card Autograph Cards",
+    "name": "Black Foil",
+    "run": "/1"
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Aqua Wave Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Yellow Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Blue Wave Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Gold Lava",
+    "run": null
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Orange Lava",
+    "run": null
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Black Lava",
+    "run": null
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Red Lava",
+    "run": null
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1998 Topps Chrome Shooting Stars",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Golazo",
+    "name": "Aqua Wave Refractor",
+    "run": "/199"
+   },
+   {
+    "parent": "Golazo",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Golazo",
+    "name": "Yellow Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Golazo",
+    "name": "Blue Wave Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Golazo",
+    "name": "Gold Lava",
+    "run": null
+   },
+   {
+    "parent": "Golazo",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Golazo",
+    "name": "Orange Lava",
+    "run": null
+   },
+   {
+    "parent": "Golazo",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Golazo",
+    "name": "Black Lava",
+    "run": null
+   },
+   {
+    "parent": "Golazo",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Golazo",
+    "name": "Red Lava",
+    "run": null
+   },
+   {
+    "parent": "Golazo",
+    "name": "Red Refractor",
+    "run": "/5"
+   }
+  ]
+ },
+ {
+  "slug": "2023-24-topps-cosmic-chrome-basketball",
+  "source": "https://www.checklistinsider.com/topps-cosmic-chrome-basketball",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Nucleus Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Pink Galaxy Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Aqua Equinox Refractor",
+    "run": "/149"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Moon Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Green Space Dust Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "White Hole Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Interstellar Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Galactic Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Eclipse Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Flare Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Cosmic Chrome Autograph Variation",
+    "name": "Gold Interstellar Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Cosmic Chrome Autograph Variation",
+    "name": "Orange Galactic Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Cosmic Chrome Autograph Variation",
+    "name": "Black Eclipse Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Cosmic Chrome Autograph Variation",
+    "name": "Red Flare Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Cosmic Chrome Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Milky Way Marks Refractor Autographs",
+    "name": "Gold Interstellar Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Milky Way Marks Refractor Autographs",
+    "name": "Orange Galactic Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Milky Way Marks Refractor Autographs",
+    "name": "Black Eclipse Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Milky Way Marks Refractor Autographs",
+    "name": "Red Flare Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Milky Way Marks Refractor Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Equinox Refractor Autographs",
+    "name": "Gold Interstellar Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Equinox Refractor Autographs",
+    "name": "Orange Galactic Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Equinox Refractor Autographs",
+    "name": "Black Eclipse Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Equinox Refractor Autographs",
+    "name": "Red Flare Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Equinox Refractor Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "First Flight Signatures Refractor",
+    "name": "Gold Interstellar Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "First Flight Signatures Refractor",
+    "name": "Orange Galactic Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "First Flight Signatures Refractor",
+    "name": "Black Eclipse Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "First Flight Signatures Refractor",
+    "name": "Red Flare Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "First Flight Signatures Refractor",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Extraterrestrial Talent",
+    "name": "Blue Moon Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Extraterrestrial Talent",
+    "name": "Gold Interstellar Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Extraterrestrial Talent",
+    "name": "Orange Galactic Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Extraterrestrial Talent",
+    "name": "Black Eclipse Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Extraterrestrial Talent",
+    "name": "Red Flare Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Extraterrestrial Talent",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Galaxy Greats",
+    "name": "Blue Moon Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Galaxy Greats",
+    "name": "Gold Interstellar Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Galaxy Greats",
+    "name": "Orange Galactic Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Galaxy Greats",
+    "name": "Black Eclipse Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Galaxy Greats",
+    "name": "Red Flare Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Galaxy Greats",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Launched into Orbit",
+    "name": "Blue Moon Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Launched into Orbit",
+    "name": "Gold Interstellar Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Launched into Orbit",
+    "name": "Orange Galactic Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Launched into Orbit",
+    "name": "Black Eclipse Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Launched into Orbit",
+    "name": "Red Flare Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Launched into Orbit",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Star Clusters",
+    "name": "Blue Moon Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Star Clusters",
+    "name": "Gold Interstellar Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Star Clusters",
+    "name": "Orange Galactic Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Star Clusters",
+    "name": "Black Eclipse Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Star Clusters",
+    "name": "Red Flare Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Star Clusters",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2023-24-topps-finest-basketball",
+  "source": "https://www.checklistinsider.com/2023-24-topps-finest-basketball",
+  "parallels": [
+   {
+    "parent": "Base Common",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Common",
+    "name": "Checkerboard Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Common",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Purple Checkerboard Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Blue Checkerboard Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Die-Cut Refractor",
+    "run": "/74"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Gold Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Common",
+    "name": "Black Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Black Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Common",
+    "name": "Red/Black Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Common",
+    "name": "Red/Black Vapor Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Common",
+    "name": "Red Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Checkerboard Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Purple Checkerboard Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Blue Checkerboard Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Die-Cut Refractor",
+    "run": "/35"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Gold Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Black Refractor",
+    "run": "/20"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Red/Black Vapor Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Gold Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Red/Black Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Uncommon",
+    "name": "Red Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Checkerboard Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Purple Checkerboard Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Blue Checkerboard Refractor",
+    "run": "/49"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Die-Cut Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Black Refractor",
+    "run": "/15"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Red/Black Vapor Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Gold Refractor",
+    "run": "/8"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Red/Black Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base Rare",
+    "name": "Red Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Black Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Red/Black Vapor Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Blue Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Gold Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Black Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Red/Black Vapor Geometric",
+    "run": null
+   },
+   {
+    "parent": "Finest Autographs",
+    "name": "Red Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Rookie Finest Autographs",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Rookie Finest Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Rookie Finest Autographs",
+    "name": "Black Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Finest Autographs",
+    "name": "Red/Black Vapor Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookie Finest Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Finest Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Finest Autographs",
+    "name": "Blue Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Rookie Finest Autographs",
+    "name": "Gold Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Rookie Finest Autographs",
+    "name": "Black Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Rookie Finest Autographs",
+    "name": "Red/Black Vapor Geometric",
+    "run": null
+   },
+   {
+    "parent": "Rookie Finest Autographs",
+    "name": "Red Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Flashback Autographs",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Flashback Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Flashback Autographs",
+    "name": "Black Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Flashback Autographs",
+    "name": "Red/Black Vapor Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Flashback Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Flashback Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Flashback Autographs",
+    "name": "Blue Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Flashback Autographs",
+    "name": "Gold Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Flashback Autographs",
+    "name": "Black Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Flashback Autographs",
+    "name": "Red/Black Vapor Geometric",
+    "run": null
+   },
+   {
+    "parent": "Flashback Autographs",
+    "name": "Red Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Masters Autographs",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Masters Autographs",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Masters Autographs",
+    "name": "Black Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Masters Autographs",
+    "name": "Red/Black Vapor Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Masters Autographs",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Masters Autographs",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Masters Autographs",
+    "name": "Blue Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Masters Autographs",
+    "name": "Gold Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Masters Autographs",
+    "name": "Black Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Masters Autographs",
+    "name": "Red/Black Vapor Geometric",
+    "run": null
+   },
+   {
+    "parent": "Masters Autographs",
+    "name": "Red Geometric Refractor",
+    "run": null
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Checkerboard Refractor",
+    "run": null
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Purple Checkerboard Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Blue Checkerboard Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Die-Cut Refractor",
+    "run": "/74"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Black Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Arrivals",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Debut",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Debut",
+    "name": "Checkerboard Refractor",
+    "run": null
+   },
+   {
+    "parent": "Debut",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Debut",
+    "name": "Purple Checkerboard Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Debut",
+    "name": "Blue Checkerboard Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Debut",
+    "name": "Die-Cut Refractor",
+    "run": "/74"
+   },
+   {
+    "parent": "Debut",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Debut",
+    "name": "Black Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Debut",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Finishers",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Finishers",
+    "name": "Checkerboard Refractor",
+    "run": null
+   },
+   {
+    "parent": "Finishers",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Finishers",
+    "name": "Purple Checkerboard Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Finishers",
+    "name": "Blue Checkerboard Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Finishers",
+    "name": "Die-Cut Refractor",
+    "run": "/74"
+   },
+   {
+    "parent": "Finishers",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Finishers",
+    "name": "Black Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Finishers",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Showstoppers",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Showstoppers",
+    "name": "Checkerboard Refractor",
+    "run": null
+   },
+   {
+    "parent": "Showstoppers",
+    "name": "Blue Refractor",
+    "run": "/150"
+   },
+   {
+    "parent": "Showstoppers",
+    "name": "Purple Checkerboard Refractor",
+    "run": "/125"
+   },
+   {
+    "parent": "Showstoppers",
+    "name": "Blue Checkerboard Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Showstoppers",
+    "name": "Die-Cut Refractor",
+    "run": "/74"
+   },
+   {
+    "parent": "Showstoppers",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Showstoppers",
+    "name": "Black Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Showstoppers",
+    "name": "Red Refractor",
+    "run": "/5"
+   }
+  ]
+ },
+ {
+  "slug": "2023-24-topps-g-league-basketball",
+  "source": "https://checklistinsider.com/2023-24-topps-g-league-basketball",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Bronze",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange",
+    "run": "/149"
+   },
+   {
+    "parent": "Base",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Pink",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Topps Chrome",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Topps Chrome",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Topps Chrome",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Topps Chrome",
+    "name": "Pink Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Topps Chrome",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Topps Chrome",
+    "name": "SuperRefractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Green Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Pink Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "Black Refractor",
+    "run": "/10"
+   },
+   {
+    "parent": "Autograph Cards",
+    "name": "SuperRefractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Ankle Breaker",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Ankle Breaker",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Ankle Breaker",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Ankle Breaker",
+    "name": "Pink",
+    "run": "/25"
+   },
+   {
+    "parent": "Ankle Breaker",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Ankle Breaker",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Marksman",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Marksman",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Marksman",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Marksman",
+    "name": "Pink",
+    "run": "/25"
+   },
+   {
+    "parent": "Marksman",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Marksman",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Take It To The Rack",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Take It To The Rack",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Take It To The Rack",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Take It To The Rack",
+    "name": "Pink",
+    "run": "/25"
+   },
+   {
+    "parent": "Take It To The Rack",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Take It To The Rack",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Draft Bound",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Draft Bound",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Draft Bound",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Draft Bound",
+    "name": "Pink",
+    "run": "/25"
+   },
+   {
+    "parent": "Draft Bound",
+    "name": "Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Draft Bound",
+    "name": "Platinum",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2023-24-topps-midnight-basketball",
+  "source": "https://www.checklistcenter.com/2023-24-topps-midnight-basketball-card-checklist/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Zodiac",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Morning",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Twilight",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Dusk",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Moon Beam",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Base",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Twilight",
+    "run": null
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Dusk",
+    "run": "/60"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Moon Beam",
+    "run": "/50"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Horizon Signatures",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Horizon Signatures",
+    "name": "Twilight",
+    "run": null
+   },
+   {
+    "parent": "Rookie Horizon Signatures",
+    "name": "Dusk",
+    "run": null
+   },
+   {
+    "parent": "Rookie Horizon Signatures",
+    "name": "Moon Beam",
+    "run": "/50"
+   },
+   {
+    "parent": "Rookie Horizon Signatures",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Horizon Signatures",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Rookie Horizon Signatures",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Horizon Signatures",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Twilight",
+    "run": null
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Dusk",
+    "run": null
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Moon Beam",
+    "run": "/50"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Jersey Autographs",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Constellations",
+    "name": "Twilight",
+    "run": null
+   },
+   {
+    "parent": "Constellations",
+    "name": "Dusk",
+    "run": null
+   },
+   {
+    "parent": "Constellations",
+    "name": "Moon Beam",
+    "run": "/50"
+   },
+   {
+    "parent": "Constellations",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Constellations",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Constellations",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Constellations",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Twilight",
+    "run": null
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Dusk",
+    "run": null
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Moon Beam",
+    "run": "/50"
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Lunar Tide",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Nightball",
+    "name": "Twilight",
+    "run": null
+   },
+   {
+    "parent": "Nightball",
+    "name": "Dusk",
+    "run": null
+   },
+   {
+    "parent": "Nightball",
+    "name": "Moon Beam",
+    "run": "/50"
+   },
+   {
+    "parent": "Nightball",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Nightball",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Nightball",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Nightball",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Star Studded",
+    "name": "Twilight",
+    "run": null
+   },
+   {
+    "parent": "Star Studded",
+    "name": "Dusk",
+    "run": null
+   },
+   {
+    "parent": "Star Studded",
+    "name": "Moon Beam",
+    "run": "/50"
+   },
+   {
+    "parent": "Star Studded",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Star Studded",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Star Studded",
+    "name": "Daybreak",
+    "run": "/5"
+   },
+   {
+    "parent": "Star Studded",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Twilight",
+    "run": null
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Moon Beam",
+    "run": null
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Dusk",
+    "run": "/30"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Moonrise",
+    "run": "/25"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Midnight",
+    "run": "/12"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Day Break",
+    "run": "/5"
+   },
+   {
+    "parent": "Stroke of Midnight Autographs",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "After Hours",
+    "name": "Black Light",
+    "run": "/1"
+   },
+   {
+    "parent": "Dream Chasers",
+    "name": "Black Light",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2023-24-topps-motif-basketball",
+  "source": "https://www.checklistcenter.com/2023-24-topps-motif-basketball-card-checklist/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Base",
+    "name": "Gallery Certification",
+    "run": "/3"
+   },
+   {
+    "parent": "Motif Rookie Relic Auto",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Motif Rookie Relic Auto",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Motif Rookie Relic Auto",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Motif Rookie Relic Auto",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Motif Rookie Relic Auto",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Motif Rookie Quad Relic Autographs",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Motif Rookie Quad Relic Autographs",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Motif Rookie Quad Relic Autographs",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Motif Rookie Quad Relic Autographs",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Motif Rookie Quad Relic Autographs",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Acrylic Drip Autographs",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Acrylic Drip Autographs",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Acrylic Drip Autographs",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Acrylic Drip Autographs",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Acrylic Drip Autographs",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Canvas Champions Autographs",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Canvas Champions Autographs",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Canvas Champions Autographs",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Canvas Champions Autographs",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Canvas Champions Autographs",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Gallery Graphs",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Gallery Graphs",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Gallery Graphs",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Gallery Graphs",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Gallery Graphs",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Headline Signatures",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Headline Signatures",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Headline Signatures",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Headline Signatures",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Headline Signatures",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Legends of the Court Signatures",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Legends of the Court Signatures",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Legends of the Court Signatures",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Legends of the Court Signatures",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Legends of the Court Signatures",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Motif Endorsements",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Motif Endorsements",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Motif Endorsements",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Motif Endorsements",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Motif Endorsements",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Legends of the Court Relic",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Legends of the Court Relic",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Legends of the Court Relic",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Legends of the Court Relic",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Legends of the Court Relic",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Motif Rookie Relics",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Motif Rookie Relics",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Motif Rookie Relics",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Motif Rookie Relics",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Motif Rookie Relics",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Motif Rookie Relics Dual",
+    "name": "Ultramarine Blue",
+    "run": null
+   },
+   {
+    "parent": "Motif Rookie Relics Dual",
+    "name": "Cadmium Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Motif Rookie Relics Dual",
+    "name": "Winsor Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Motif Rookie Relics Dual",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Motif Rookie Relics Dual",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Legends of the Court Dual Signatures",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Legends of the Court Dual Signatures",
+    "name": "Quinn Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Legends of the Court Triple Signatures",
+    "name": "Pyrrol Scarlet",
+    "run": "/5"
+   },
+   {
+    "parent": "Legends of the Court Triple Signatures",
+    "name": "Quinn Gold",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2023-24-topps-museum-collection-uefa-soccer",
+  "source": "https://www.checklistinsider.com/2023-24-topps-museum-collection-uefa-champions-league",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Amethyst",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Black Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Aquamarine",
+    "run": "/199"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Citrine",
+    "run": "/150"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Amethyst",
+    "run": "/99"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Black Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Momentous Material Jumbo Relics",
+    "name": "Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Momentous Material Jumbo Relics",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Momentous Material Jumbo Relics",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Momentous Material Jumbo Relics",
+    "name": "Black Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Momentous Material Jumbo Relics",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Momentous Material Prime Patch Relics",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Reverence Relics",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Supreme Materials Relic Book Card",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Archival Dual Autographs",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Legendary Ink Framed Autographs",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Supreme Script Autographed Book Card",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Supreme Script Autographed Relic Book Card",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Single Player Triple Relics",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Single Player Triple Relics",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Archival Autographs",
+    "name": "Amethyst",
+    "run": "/99"
+   },
+   {
+    "parent": "Archival Autographs",
+    "name": "Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Archival Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Archival Autographs",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Archival Autographs",
+    "name": "Black Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Archival Autographs",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Reverence Autographs",
+    "name": "Amethyst",
+    "run": "/99"
+   },
+   {
+    "parent": "Rookie Reverence Autographs",
+    "name": "Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Rookie Reverence Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Rookie Reverence Autographs",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Reverence Autographs",
+    "name": "Black Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookie Reverence Autographs",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Framed Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Framed Autographs",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Framed Autographs",
+    "name": "Black Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Framed Autographs",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Museum Autograph Relics",
+    "name": "Aquamarine",
+    "run": "/199"
+   },
+   {
+    "parent": "Museum Autograph Relics",
+    "name": "Citrine",
+    "run": "/150"
+   },
+   {
+    "parent": "Museum Autograph Relics",
+    "name": "Amethyst",
+    "run": "/99"
+   },
+   {
+    "parent": "Museum Autograph Relics",
+    "name": "Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Museum Autograph Relics",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Museum Autograph Relics",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Museum Autograph Relics",
+    "name": "Black Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Museum Autograph Relics",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Momentous Material Jumbo Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Momentous Material Jumbo Autographs",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Momentous Material Jumbo Autographs",
+    "name": "Black Diamond",
+    "run": "/10"
+   },
+   {
+    "parent": "Momentous Material Jumbo Autographs",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Single Player Signature Swatches Dual Relic Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Single Player Signature Swatches Dual Relic Autographs",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Single Player Signature Swatches Dual Relic Autographs",
+    "name": "Emerald",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2023-24-topps-royalty-basketball",
+  "source": "https://www.checklistcenter.com/2023-24-topps-royalty-basketball-card-checklist/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": "/35"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Pink",
+    "run": "/15"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Patch Auto",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Patch Auto",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookie Patch Auto",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Patch Auto",
+    "name": "Tags",
+    "run": "/1"
+   },
+   {
+    "parent": "Court Circular Autographs",
+    "name": "Blue",
+    "run": "/20"
+   },
+   {
+    "parent": "Court Circular Autographs",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Court Circular Autographs",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Court Circular Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Dual Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Triple Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Influential Ink",
+    "name": "Blue",
+    "run": "/45"
+   },
+   {
+    "parent": "Influential Ink",
+    "name": "Gold",
+    "run": "/20"
+   },
+   {
+    "parent": "Influential Ink",
+    "name": "Green",
+    "run": "/10"
+   },
+   {
+    "parent": "Influential Ink",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Pillars of Greatness Signatures",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Pillars of Greatness Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Pillars of Greatness Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Pillars of Greatness Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Pursuit of Greatness Signatures",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Pursuit of Greatness Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Pursuit of Greatness Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Pursuit of Greatness Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Regalia Relic Signatures",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Regalia Relic Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Regalia Relic Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Regalia Relic Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Relic Signatures",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Relic Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Relic Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Relic Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Superior Jersey Signatures",
+    "name": "Blue",
+    "run": "/20"
+   },
+   {
+    "parent": "Superior Jersey Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Superior Jersey Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Superior Jersey Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Blue",
+    "run": "/20"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Superior Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Blue",
+    "run": "/20"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Regalia Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Jumbo Relics",
+    "name": "Blue",
+    "run": "/20"
+   },
+   {
+    "parent": "Rookie Jumbo Relics",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookie Jumbo Relics",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Jumbo Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Round Ball Relics",
+    "name": "Blue",
+    "run": "/20"
+   },
+   {
+    "parent": "Round Ball Relics",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Round Ball Relics",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Round Ball Relics",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Blue",
+    "run": "/20"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Green",
+    "run": "/5"
+   },
+   {
+    "parent": "Star Relics",
+    "name": "Platinum",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2023-24-topps-three-basketball",
+  "source": "https://www.checklistinsider.com/2023-24-topps-3-basketball",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Bronze",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Rookie 3 Patch Auto Horizontal",
+    "name": "Bronze",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Rookie 3 Patch Auto Horizontal",
+    "name": "Blue",
+    "run": "/15"
+   },
+   {
+    "parent": "Base Rookie 3 Patch Auto Horizontal",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Rookie 3 Patch Auto Horizontal",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Rookie 3 Patch Auto Horizontal",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Rookie 3 Patch Auto Vertical",
+    "name": "Bronze",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Rookie 3 Patch Auto Vertical",
+    "name": "Blue",
+    "run": "/15"
+   },
+   {
+    "parent": "Base Rookie 3 Patch Auto Vertical",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Base Rookie 3 Patch Auto Vertical",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Rookie 3 Patch Auto Vertical",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Full Court Signs",
+    "name": "Bronze",
+    "run": "/25"
+   },
+   {
+    "parent": "Full Court Signs",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Full Court Signs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Full Court Signs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Raindrops Signatures",
+    "name": "Bronze",
+    "run": "/25"
+   },
+   {
+    "parent": "Raindrops Signatures",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Raindrops Signatures",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Raindrops Signatures",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Re Markable",
+    "name": "Bronze",
+    "run": "/25"
+   },
+   {
+    "parent": "Re Markable",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Re Markable",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Re Markable",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Serendipitous Sigs",
+    "name": "Bronze",
+    "run": "/25"
+   },
+   {
+    "parent": "Serendipitous Sigs",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Serendipitous Sigs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Serendipitous Sigs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Bronze",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Rookie Relic Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Triple Relic Autographs",
+    "name": "Bronze",
+    "run": "/25"
+   },
+   {
+    "parent": "Triple Relic Autographs",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Triple Relic Autographs",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Triple Relic Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Relic Autographs Prime",
+    "name": "Bronze",
+    "run": "/25"
+   },
+   {
+    "parent": "Relic Autographs Prime",
+    "name": "Blue",
+    "run": "/15"
+   },
+   {
+    "parent": "Relic Autographs Prime",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Relic Autographs Prime",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Relic Autographs Prime",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Architects",
+    "name": "Blue",
+    "run": "/15"
+   },
+   {
+    "parent": "Architects",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Architects",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Architects",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Ice Water",
+    "name": "Blue",
+    "run": "/15"
+   },
+   {
+    "parent": "Ice Water",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Ice Water",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Ice Water",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Knockout",
+    "name": "Blue",
+    "run": "/15"
+   },
+   {
+    "parent": "Knockout",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Knockout",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Knockout",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Monsters of the Deep",
+    "name": "Blue",
+    "run": "/15"
+   },
+   {
+    "parent": "Monsters of the Deep",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Monsters of the Deep",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Monsters of the Deep",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Triple Double",
+    "name": "Blue",
+    "run": "/15"
+   },
+   {
+    "parent": "Triple Double",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Triple Double",
+    "name": "Red",
+    "run": "/5"
+   },
+   {
+    "parent": "Triple Double",
+    "name": "Platinum",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2023-24-topps-uefa-club-competitions-soccer",
+  "source": "https://www.checklistinsider.com/2023-24-topps-uefa-club-competitions",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Pink Sparkle",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Purple FB",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Navy Blue",
+    "run": "/250"
+   },
+   {
+    "parent": "Base",
+    "name": "Neon Green",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Black & White Icy",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Blue Inferno",
+    "run": "/125"
+   },
+   {
+    "parent": "Base",
+    "name": "Green FB",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Icy Blue FB",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold FB",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange FB",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Icy Black FB",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Red FB",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Best of the Best – 2022-23 Moments",
+    "name": "Icy Blue FB",
+    "run": "/99"
+   },
+   {
+    "parent": "Best of the Best – 2022-23 Moments",
+    "name": "Gold FB",
+    "run": "/50"
+   },
+   {
+    "parent": "Best of the Best – 2022-23 Moments",
+    "name": "Orange FB",
+    "run": "/25"
+   },
+   {
+    "parent": "Best of the Best – 2022-23 Moments",
+    "name": "Red FB",
+    "run": "/5"
+   },
+   {
+    "parent": "Best of the Best – 2022-23 Moments",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "European Nights",
+    "name": "Icy Blue FB",
+    "run": "/99"
+   },
+   {
+    "parent": "European Nights",
+    "name": "Gold FB",
+    "run": "/50"
+   },
+   {
+    "parent": "European Nights",
+    "name": "Orange FB",
+    "run": "/25"
+   },
+   {
+    "parent": "European Nights",
+    "name": "Red FB",
+    "run": "/5"
+   },
+   {
+    "parent": "European Nights",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Historic Hat Tricks",
+    "name": "Icy Blue FB",
+    "run": "/99"
+   },
+   {
+    "parent": "Historic Hat Tricks",
+    "name": "Gold FB",
+    "run": "/50"
+   },
+   {
+    "parent": "Historic Hat Tricks",
+    "name": "Orange FB",
+    "run": "/25"
+   },
+   {
+    "parent": "Historic Hat Tricks",
+    "name": "Red FB",
+    "run": "/5"
+   },
+   {
+    "parent": "Historic Hat Tricks",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Now Starring…",
+    "name": "Icy Blue FB",
+    "run": "/99"
+   },
+   {
+    "parent": "Now Starring…",
+    "name": "Gold FB",
+    "run": "/50"
+   },
+   {
+    "parent": "Now Starring…",
+    "name": "Orange FB",
+    "run": "/25"
+   },
+   {
+    "parent": "Now Starring…",
+    "name": "Red FB",
+    "run": "/5"
+   },
+   {
+    "parent": "Now Starring…",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Road to the Final",
+    "name": "Icy Blue FB",
+    "run": "/99"
+   },
+   {
+    "parent": "Road to the Final",
+    "name": "Gold FB",
+    "run": "/50"
+   },
+   {
+    "parent": "Road to the Final",
+    "name": "Orange FB",
+    "run": "/25"
+   },
+   {
+    "parent": "Road to the Final",
+    "name": "Red FB",
+    "run": "/5"
+   },
+   {
+    "parent": "Road to the Final",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Road to Final Autograph",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Future Stars Autograph",
+    "name": "Icy Blue FB",
+    "run": "/99"
+   },
+   {
+    "parent": "Future Stars Autograph",
+    "name": "Gold FB",
+    "run": "/50"
+   },
+   {
+    "parent": "Future Stars Autograph",
+    "name": "Orange FB",
+    "run": "/25"
+   },
+   {
+    "parent": "Future Stars Autograph",
+    "name": "Icy Black",
+    "run": "/10"
+   },
+   {
+    "parent": "Future Stars Autograph",
+    "name": "Red FB",
+    "run": "/5"
+   },
+   {
+    "parent": "Future Stars Autograph",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Topps Superstar Relic Cards",
+    "name": "Purple FB",
+    "run": "/299"
+   },
+   {
+    "parent": "Topps Superstar Relic Cards",
+    "name": "Neon Green FB",
+    "run": "/199"
+   },
+   {
+    "parent": "Topps Superstar Relic Cards",
+    "name": "Blue FB",
+    "run": "/99"
+   },
+   {
+    "parent": "Topps Superstar Relic Cards",
+    "name": "Gold FB",
+    "run": "/50"
+   },
+   {
+    "parent": "Topps Superstar Relic Cards",
+    "name": "Orange FB",
+    "run": "/25"
+   },
+   {
+    "parent": "Topps Superstar Relic Cards",
+    "name": "Red FB",
+    "run": "/5"
+   },
+   {
+    "parent": "Topps Superstar Relic Cards",
+    "name": "FoilFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Topps Superstar Relics Autograph Variation",
+    "name": "FoilFractor",
+    "run": "/1"
+   }
+  ]
+ }
+]

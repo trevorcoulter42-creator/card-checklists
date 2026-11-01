@@ -1,0 +1,990 @@
+[
+ {
+  "slug": "2021-topps-pro-debut-baseball-cards",
+  "source": "https://www.cardboardconnection.com/2021-topps-pro-debut-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/150"
+   },
+   {
+    "parent": "Base",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Refractor",
+    "run": "/99"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Aqua Refractor",
+    "run": "/75"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Chrome",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Major Scale",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Major Scale",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "Major Scale",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "MiLB Legends",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "MiLB Legends",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "MiLB Legends",
+    "name": "Black",
+    "run": "/1"
+   },
+   {
+    "parent": "The Cogeneration",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "The Cogeneration",
+    "name": "Orange",
+    "run": "/25"
+   },
+   {
+    "parent": "The Cogeneration",
+    "name": "Black",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-series-1-baseball",
+  "source": "https://www.beckett.com/news/2021-topps-series-1-baseball-cards/",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Royal Blue",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Green Foil",
+    "run": "/499"
+   },
+   {
+    "parent": "Base",
+    "name": "Advanced Stats",
+    "run": "/300"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Foil",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Foil",
+    "run": "/199"
+   },
+   {
+    "parent": "Base",
+    "name": "Rip Party",
+    "run": "/10"
+   },
+   {
+    "parent": "1986 Topps Baseball",
+    "name": "Green",
+    "run": null
+   },
+   {
+    "parent": "Topps 1952 Redux",
+    "name": "Red",
+    "run": "/70"
+   },
+   {
+    "parent": "Topps 1952 Redux",
+    "name": "Black",
+    "run": "/25"
+   },
+   {
+    "parent": "Topps 1952 Redux",
+    "name": "Platinum",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-series-2-baseball",
+  "source": "https://www.beckett.com/news/?p=230468",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Royal Blue",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Yellow",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Green Foilboard",
+    "run": "/499"
+   },
+   {
+    "parent": "Base",
+    "name": "Advanced Stats",
+    "run": "/300"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Foilboard",
+    "run": "/299"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Foilboard",
+    "run": "/199"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-stadium-club-chrome-baseball-cards",
+  "source": "https://www.cardboardconnection.com/2021-topps-stadium-club-chrome-baseball-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Wave Refractor",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Beam Team",
+    "name": "Wave Refractor",
+    "run": null
+   },
+   {
+    "parent": "Beam Team",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Beam Team",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Beam Team",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Crystal Ball",
+    "name": "Wave Refractor",
+    "run": null
+   },
+   {
+    "parent": "Crystal Ball",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Crystal Ball",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Crystal Ball",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Virtual Reality",
+    "name": "Wave Refractor",
+    "run": null
+   },
+   {
+    "parent": "Virtual Reality",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Virtual Reality",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Virtual Reality",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Gold Refractor",
+    "run": "/50"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Orange Refractor",
+    "run": "/25"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Base Autograph Variation",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "1991 Stadium Club Design Autograph Variations",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "1991 Stadium Club Design Autograph Variations",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Beam Team Autograph Variations",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Beam Team Autograph Variations",
+    "name": "SuperFractor",
+    "run": "/1"
+   },
+   {
+    "parent": "Lone Star Signatures",
+    "name": "Red Refractor",
+    "run": "/5"
+   },
+   {
+    "parent": "Lone Star Signatures",
+    "name": "SuperFractor",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-star-wars-masterwork-entertainment",
+  "source": "https://www.checklistcenter.com/?p=36731",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Orange",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Black",
+    "run": "/5"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Blue Foil",
+    "run": "/99"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Rainbow Foil",
+    "run": "/50"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Canvas",
+    "run": "/25"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Wood",
+    "run": "/10"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Silver Framed",
+    "run": "/5"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Gold Framed",
+    "run": "/1"
+   },
+   {
+    "parent": "Dual Autograph Cards",
+    "name": "Canvas",
+    "run": "/25"
+   },
+   {
+    "parent": "Dual Autograph Cards",
+    "name": "Wood",
+    "run": "/10"
+   },
+   {
+    "parent": "Dual Autograph Cards",
+    "name": "Black",
+    "run": "/5"
+   },
+   {
+    "parent": "Dual Autograph Cards",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Triple Autograph Cards",
+    "name": "Wood",
+    "run": "/10"
+   },
+   {
+    "parent": "Triple Autograph Cards",
+    "name": "Black",
+    "run": "/5"
+   },
+   {
+    "parent": "Triple Autograph Cards",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Manufactured Character Medallion Cards",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Manufactured Character Medallion Cards",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Manufactured Character Medallion Cards",
+    "name": "Orange",
+    "run": "/10"
+   },
+   {
+    "parent": "Manufactured Character Medallion Cards",
+    "name": "Black",
+    "run": "/5"
+   },
+   {
+    "parent": "Manufactured Character Medallion Cards",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Jumbo Costume Relic Relics",
+    "name": "Purple",
+    "run": "/25"
+   },
+   {
+    "parent": "Jumbo Costume Relic Relics",
+    "name": "Orange",
+    "run": "/10"
+   },
+   {
+    "parent": "Jumbo Costume Relic Relics",
+    "name": "Black",
+    "run": "/5"
+   },
+   {
+    "parent": "Jumbo Costume Relic Relics",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Stamp Cards",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "Stamp Cards",
+    "name": "Purple",
+    "run": "/50"
+   },
+   {
+    "parent": "Stamp Cards",
+    "name": "Orange",
+    "run": "/10"
+   },
+   {
+    "parent": "Stamp Cards",
+    "name": "Gold",
+    "run": "/1"
+   },
+   {
+    "parent": "Lucasfilm 50th Anniversary",
+    "name": "Rainbow Foil",
+    "run": "/299"
+   },
+   {
+    "parent": "Lucasfilm 50th Anniversary",
+    "name": "Canvas",
+    "run": "/25"
+   },
+   {
+    "parent": "Lucasfilm 50th Anniversary",
+    "name": "Wood",
+    "run": "/10"
+   },
+   {
+    "parent": "Out of the Box",
+    "name": "Rainbow Foil",
+    "run": "/299"
+   },
+   {
+    "parent": "Out of the Box",
+    "name": "Canvas",
+    "run": "/25"
+   },
+   {
+    "parent": "Out of the Box",
+    "name": "Wood",
+    "run": "/10"
+   },
+   {
+    "parent": "Welcome to the Darkside",
+    "name": "Rainbow Foil",
+    "run": "/299"
+   },
+   {
+    "parent": "Welcome to the Darkside",
+    "name": "Canvas",
+    "run": "/25"
+   },
+   {
+    "parent": "Welcome to the Darkside",
+    "name": "Wood",
+    "run": "/10"
+   },
+   {
+    "parent": "Welcome to the Dark Side",
+    "name": "Rainbow Foil",
+    "run": "/299"
+   },
+   {
+    "parent": "Welcome to the Dark Side",
+    "name": "Canvas",
+    "run": "/25"
+   },
+   {
+    "parent": "Welcome to the Dark Side",
+    "name": "Wood",
+    "run": "/10"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-star-wars-stellar-signatures-entertainment",
+  "source": "https://www.cardboardconnection.com/2021-topps-star-wars-stellar-signatures-trading-cards",
+  "parallels": [
+   {
+    "parent": "On Card Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Green",
+    "run": "/20"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Purple",
+    "run": "/10"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Gold",
+    "run": "/5"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Galactic Black",
+    "run": "/1"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Rebel Alliance Orange",
+    "run": "/1"
+   },
+   {
+    "parent": "On Card Autographs",
+    "name": "Imperial Red",
+    "run": "/1"
+   },
+   {
+    "parent": "On Card Dual Autographs",
+    "name": "Purple",
+    "run": "/10"
+   },
+   {
+    "parent": "On Card Dual Autographs",
+    "name": "Gold",
+    "run": "/5"
+   },
+   {
+    "parent": "On Card Dual Autographs",
+    "name": "Galactic Black",
+    "run": "/1"
+   },
+   {
+    "parent": "On Card Dual Autographs",
+    "name": "Rebel Alliance Orange",
+    "run": "/1"
+   },
+   {
+    "parent": "On Card Dual Autographs",
+    "name": "Imperial Red",
+    "run": "/1"
+   },
+   {
+    "parent": "On Card Quad Autographs",
+    "name": "Blue",
+    "run": "/25"
+   },
+   {
+    "parent": "On Card Quad Autographs",
+    "name": "Green",
+    "run": "/20"
+   },
+   {
+    "parent": "On Card Quad Autographs",
+    "name": "Cyan",
+    "run": "/15"
+   },
+   {
+    "parent": "On Card Quad Autographs",
+    "name": "Purple",
+    "run": "/10"
+   },
+   {
+    "parent": "On Card Quad Autographs",
+    "name": "Gold",
+    "run": "/5"
+   },
+   {
+    "parent": "On Card Quad Autographs",
+    "name": "Galactic Black",
+    "run": "/1"
+   },
+   {
+    "parent": "On Card Quad Autographs",
+    "name": "Rebel Alliance Orange",
+    "run": "/1"
+   },
+   {
+    "parent": "On Card Quad Autographs",
+    "name": "Imperial Red",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2021-topps-sterling-baseball",
+  "source": "https://www.checklistcenter.com/2021-topps-sterling-baseball-card-checklist/",
+  "parallels": []
+ },
+ {
+  "slug": "2021-topps-tier-one-baseball",
+  "source": "https://www.cardboardconnection.com/2021-topps-tier-one-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2021-topps-tribute-baseball",
+  "source": "https://www.beckett.com/news/2021-topps-tribute-baseball-cards/",
+  "parallels": []
+ },
+ {
+  "slug": "2021-topps-triple-threads-baseball",
+  "source": "https://www.cardboardconnection.com/2021-topps-triple-threads-baseball-cards",
+  "parallels": []
+ },
+ {
+  "slug": "2021-topps-wwe-nxt-wrestling",
+  "source": "https://www.cardboardconnection.com/2021-topps-wwe-nxt-wrestling-cards",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Purple",
+    "run": null
+   },
+   {
+    "parent": "Base",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Base",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "We Are Nxt Autograph Variation",
+    "name": "Green",
+    "run": "/99"
+   },
+   {
+    "parent": "We Are Nxt Autograph Variation",
+    "name": "Purple",
+    "run": "/75"
+   },
+   {
+    "parent": "We Are Nxt Autograph Variation",
+    "name": "Blue",
+    "run": "/50"
+   },
+   {
+    "parent": "We Are Nxt Autograph Variation",
+    "name": "Red",
+    "run": "/25"
+   },
+   {
+    "parent": "We Are Nxt Autograph Variation",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "We Are Nxt Autograph Variation",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Finn Balor Tribute Auto",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Finn Balor Tribute Auto",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Nxt Almuni Autograph Variation",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Nxt Almuni Autograph Variation",
+    "name": "Platinum",
+    "run": "/1"
+   },
+   {
+    "parent": "Tag Team Autographs",
+    "name": "Gold",
+    "run": "/10"
+   },
+   {
+    "parent": "Tag Team Autographs",
+    "name": "Platinum",
+    "run": "/1"
+   }
+  ]
+ },
+ {
+  "slug": "2022-23-topps-museum-collection-uefa-champions-league-cards",
+  "source": "https://ripped.topps.com/2022-2023-topps-museum-collection-uefa-champions-league-checklist-spotlight",
+  "parallels": [
+   {
+    "parent": "Base",
+    "name": "Copper",
+    "run": "/125"
+   },
+   {
+    "parent": "Base",
+    "name": "Amethyst",
+    "run": "/99"
+   },
+   {
+    "parent": "Base",
+    "name": "Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Base",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Base",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Base",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Amethyst",
+    "run": "/99"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Meaningful Material Single Relics",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Archival Autographs",
+    "name": "Amethyst",
+    "run": "/99"
+   },
+   {
+    "parent": "Archival Autographs",
+    "name": "Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Archival Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Archival Autographs",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Archival Autographs",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Reverence Autographs",
+    "name": "Amethyst",
+    "run": "/99"
+   },
+   {
+    "parent": "Rookie Reverence Autographs",
+    "name": "Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Rookie Reverence Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Rookie Reverence Autographs",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Rookie Reverence Autographs",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Momentous Material Jumbo Relics",
+    "name": "Sapphire",
+    "run": "/75"
+   },
+   {
+    "parent": "Momentous Material Jumbo Relics",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Momentous Material Jumbo Relics",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Momentous Material Jumbo Relics",
+    "name": "Emerald Patch",
+    "run": "/1"
+   },
+   {
+    "parent": "Single Player Triple Relics",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Single Player Triple Relics",
+    "name": "Emerald Patch",
+    "run": "/1"
+   },
+   {
+    "parent": "Momentous Material Prime Patch Relics",
+    "name": "Emerald Patch",
+    "run": "/1"
+   },
+   {
+    "parent": "Rookie Reverence Relics",
+    "name": "Emerald Patch",
+    "run": "/1"
+   },
+   {
+    "parent": "Supreme Materials Relic Books",
+    "name": "Emerald Patch",
+    "run": "/1"
+   },
+   {
+    "parent": "Framed Autographs",
+    "name": "Gold",
+    "run": "/50"
+   },
+   {
+    "parent": "Framed Autographs",
+    "name": "Ruby",
+    "run": "/25"
+   },
+   {
+    "parent": "Framed Autographs",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Archival Dual Autographs",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Legendary Ink Framed Autographs - on Card",
+    "name": "Emerald",
+    "run": "/1"
+   },
+   {
+    "parent": "Supreme Script Autographed Book Card",
+    "name": "Emerald",
+    "run": "/1"
+   }
+  ]
+ }
+]
