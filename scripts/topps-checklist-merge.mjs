@@ -30,6 +30,20 @@ for (const pair of JSON.parse(readFileSync(pairsFile, 'utf8'))) {
   const path = repo + 'public/data/' + pair.slug + '.json'
   if (!existsSync(path)) { report.push(pair.slug + ': no file'); continue }
   const set = JSON.parse(readFileSync(path, 'utf8'))
+  // Some copies have no card numbers at all (team-sorted lists). Give those cards their official numbers,
+  // by surname within the matching official section — or its parent ("Base Refractor" -> "Base") — when unique.
+  let numbered = 0
+  const offByKey = new Map(pair.sections.map(s => [key(s.title), s]))
+  for (const s of set.sections) {
+    if (s.cards.filter(c => !num(c.n)).length < s.cards.length / 2) continue
+    const k = key(s.title)
+    let o = offByKey.get(k)
+    if (!o) { let best = null; for (const [ok, os] of offByKey) if ((k === ok || k.startsWith(ok + ' ')) && (!best || ok.length > key(best.title).length)) best = os; o = best }
+    if (!o) continue
+    const bySur = new Map()
+    for (const c of o.cards) { const sn = surname(c.p); bySur.set(sn, bySur.has(sn) ? null : c.n) }
+    for (const c of s.cards) if (!num(c.n)) { const n = bySur.get(surname(c.p)); if (n) { c.n = n; numbered++ } }
+  }
   const byKey = new Map()
   for (const s of set.sections) { const k = key(s.title); if (!byKey.has(k)) byKey.set(k, s) }
   const everywhere = new Set(set.sections.flatMap(s => s.cards.map(c => num(c.n) + '|' + surname(c.p))))
@@ -61,7 +75,7 @@ for (const pair of JSON.parse(readFileSync(pairsFile, 'utf8'))) {
   const complete = official > 0 && present + added >= official
   let unhid = false
   if (complete && (set.incomplete || set.incompleteWhy)) { delete set.incomplete; delete set.incompleteWhy; unhid = true }
-  if (added || unhid) {
+  if (added || unhid || numbered) {
     set.toppsChecklist = pair.url
     if (WRITE) writeFileSync(path, JSON.stringify(set))
     setsChanged++; totalAdded += added
@@ -70,7 +84,7 @@ for (const pair of JSON.parse(readFileSync(pairsFile, 'utf8'))) {
   if (job && WRITE && (job.status === 'verify' || job.status === 'todo')) {
     Object.assign(job, { status: 'done', note: `topps official checklist: +${added} cards (${newSecs} new sections)${unhid ? ', un-hidden' : ''}`, at: new Date().toISOString().slice(0, 10) })
   }
-  report.push(`${pair.slug}: official ${official}, already had ${present}, +${added} (${newSecs} new sections)${unhid ? ' UNHID' : ''}`)
+  report.push(`${pair.slug}: official ${official}, already had ${present}, +${added} (${newSecs} new sections)${numbered ? `, numbered ${numbered}` : ''}${unhid ? ' UNHID' : ''}`)
 }
 if (WRITE) writeFileSync(jobsPath, JSON.stringify(jobs, null, 1) + '\n')
 console.log(report.join('\n'))
