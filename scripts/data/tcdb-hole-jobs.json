@@ -38143,7 +38143,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +74 cards (4 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2018-bowman-mega-box-chrome-baseball-cards",
@@ -38273,7 +38275,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +72 cards (5 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2018-topps-heritage-minor-league-baseball-cards",
@@ -38387,7 +38391,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +873 cards (29 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-bowman-baseball-cards",
@@ -38473,7 +38479,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +125 cards (7 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-bowman-sterling-baseball",
@@ -38831,7 +38839,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +218 cards (3 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-diamond-icons-baseball",
@@ -38875,7 +38885,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +69 cards (4 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-finest-baseball-mlb-cards",
