@@ -47,13 +47,13 @@ for (const pair of JSON.parse(readFileSync(pairsFile, 'utf8'))) {
       for (const c of o.cards) {
         if (have.has(num(c.n))) { present++; continue }
         if (everywhere.has(num(c.n) + '|' + surname(c.p))) { present++; continue }   // listed under another section already
-        mine.cards.push({ n: c.n, p: c.p, ...(c.t ? { t: c.t } : {}) }); have.add(num(c.n)); added++
+        mine.cards.push({ n: c.n, p: c.p, ...(c.t ? { t: c.t } : {}), ...(c.x ? { x: c.x } : {}) }); have.add(num(c.n)); added++
       }
     } else {
       const fresh = o.cards.filter(c => !everywhere.has(num(c.n) + '|' + surname(c.p)))
       present += o.cards.length - fresh.length
       if (fresh.length) {
-        set.sections.push({ title: o.title, cards: fresh.map(c => ({ n: c.n, p: c.p, ...(c.t ? { t: c.t } : {}) })) })
+        set.sections.push({ title: o.title, cards: fresh.map(c => ({ n: c.n, p: c.p, ...(c.t ? { t: c.t } : {}), ...(c.x ? { x: c.x } : {}) })) })
         added += fresh.length; newSecs++
       }
     }

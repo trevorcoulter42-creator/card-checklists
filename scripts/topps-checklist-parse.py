@@ -9,6 +9,7 @@ import re, sys, json
 CATEGORIES = {'BASE', 'INSERT', 'INSERTS', 'AUTOGRAPH', 'AUTOGRAPHS', 'AUTOGRAPH RELIC', 'AUTOGRAPH RELICS', 'RELIC', 'RELICS',
               'VARIATION', 'VARIATIONS', 'MEMORABILIA', 'AUTOGRAPHED RELIC', 'AUTO RELIC', 'PATCH', 'PATCHES', 'BOX TOPPER', 'BOX TOPPERS',
               'SHORT PRINT', 'SHORT PRINTS', 'SSP', 'SP', 'MANUFACTURED', 'BOOK', 'BOOKLET', 'BOOKLETS', 'CUT SIGNATURE', 'CUT SIGNATURES'}
+ACRO = ['MVP', 'MLB', 'NBA', 'NFL', 'NHL', 'UFC', 'WWE', 'MLS', 'UEFA', 'NBL', 'RC', 'SP', 'SSP', 'USA', 'HOF', 'NIL', 'F1', 'UK', 'NPB', 'WNBA', 'AL', 'NL']
 SMALL = {'of', 'the', 'and', 'a', 'an', 'in', 'on', 'at', 'to', 'for', 'by', 'vs', 'de'}
 
 def title_case(s):
@@ -19,7 +20,10 @@ def title_case(s):
         elif re.fullmatch(r"[ivx]+", w) and len(w) <= 4: out.append(w.upper())
         else: out.append('-'.join(p[:1].upper() + p[1:] for p in w.split('-')))
     t = ' '.join(out)
-    return 'Base' if t in ('Base Cards', 'Base Card', 'Base Set') else t
+    for a in ACRO: t = re.sub(r'\b' + a.capitalize() + r'\b', a, t)
+    t = re.sub(r'^Base Cards?\b', 'Base', t)
+    t = re.sub(r'^Base( Set)?( [IVX]+)?$', 'Base', t)
+    return t
 
 HEAD = re.compile(r"^[A-Z0-9][A-Z0-9 &'’.:/()!\-+#]{2,}$")
 ROW = re.compile(r"^\s*([A-Za-z0-9]+(?:[-.][A-Za-z0-9]+)*)\s+(\S.*?)(?:\s{2,}(\S.*?))?\s*$")
@@ -42,10 +46,15 @@ def parse(text):
             n, p, t = m.group(1), m.group(2).strip(), (m.group(3) or '').strip()
             # card numbers: digits ("12", "TP-8") or an all-caps code ("RPH-AB", "CD-RB"); skip prose lines
             if not re.search(r"\d", n) and not re.fullmatch(r"[A-Z0-9]{1,8}(?:[-.][A-Za-z0-9]{1,8})*", n): continue
+            p = re.sub(r'[®™]', '', p).strip()
+            rc = bool(re.search(r'\s{2,}(Rookie|RC)\s*$', t)) or t in ('Rookie', 'RC')
+            t = re.sub(r'\s{2,}.*$', '', t) if t not in ('Rookie', 'RC') else ''
+            t = re.sub(r'[®™]', '', t).strip()
             c = {'n': n, 'p': p}
             if t: c['t'] = t
+            if rc: c['x'] = 'RC'
             cur['cards'].append(c)
-    return [s for s in sections if s['cards']]
+    return [s for s in sections if s['cards'] and not re.search(r'sell sheet|checklist card', s['title'], re.I)]
 
 if __name__ == '__main__':
     print(json.dumps(parse(open(sys.argv[1], encoding='utf-8', errors='replace').read()), ensure_ascii=False))
