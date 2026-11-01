@@ -34851,7 +34851,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +332 cards (7 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2024-fanatics-under-wraps-nba-jerseys-basketball-jersey",
@@ -34991,7 +34993,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +315 cards (10 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2024-25-bowman-best-university-basketball",
@@ -35005,7 +35009,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +321 cards (9 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2024-25-bowman-chrome-university-basketball",
@@ -35019,7 +35025,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +235 cards (11 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2024-25-donruss-basketball",
@@ -35173,7 +35181,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +81 cards (5 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2024-25-topps-g-league-basketball",
@@ -35187,7 +35197,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +25 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2025-donruss-wnba-basketball",
@@ -35299,7 +35311,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +170 cards (5 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "24-25-donruss-optic-basketball",
@@ -35509,7 +35523,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +40 cards (2 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "24-25-topps-finest-basketball",
@@ -35523,7 +35539,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +0 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "24-25-topps-inception-basketball",
@@ -35537,7 +35555,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +0 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2025-26-bowman-university-best-basketball",
@@ -35551,7 +35571,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +386 cards (10 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2025-26-panini-contenders-euroleague-basketball",
@@ -35607,7 +35629,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +81 cards (3 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "25-26-bowman-basketball",
@@ -35747,7 +35771,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +23 cards (14 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "25-26-topps-chrome-basketball",
@@ -35761,7 +35787,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +49 cards (6 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "25-26-topps-chrome-black-basketball",
@@ -35789,7 +35817,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +1 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "25-26-topps-chrome-update-sapphire-basketball",
@@ -35845,7 +35875,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +77 cards (5 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "25-26-topps-definitive-collection-basketball",
@@ -35873,7 +35905,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +1 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "25-26-topps-holiday-basketball",
@@ -35887,7 +35921,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +4 cards (3 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "25-26-topps-inception-basketball",
@@ -35901,7 +35937,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +0 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "25-26-topps-midnight-basketball",
@@ -35915,7 +35953,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +25 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "25-26-topps-motif-basketball",
@@ -35971,7 +36011,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +5 cards (4 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "25-26-topps-three-basketball",
@@ -35985,7 +36027,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +0 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "1914-cracker-jack",
@@ -38197,7 +38241,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +453 cards (15 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2018-topps-allen-ginter-x-baseball-cards",
@@ -38211,7 +38257,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +105 cards (2 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2018-topps-gallery-baseball",
@@ -38239,7 +38287,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +181 cards (9 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2018-topps-mlb-sticker-collection-baseball",
@@ -38351,7 +38401,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +339 cards (15 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-bowman-chrome-baseball",
@@ -38435,7 +38487,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +0 cards (0 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-bowmans-best-baseball",
@@ -38673,7 +38727,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +71 cards (7 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-baseball-complete-factory-set",
@@ -38715,7 +38771,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +6 cards (5 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-chrome-sapphire-edition-baseball-cards",
@@ -38757,7 +38815,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +1 cards (1 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-definitive-collection-baseball",
@@ -38785,7 +38845,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "verify"
+  "status": "done",
+  "note": "topps official checklist: +28 cards (3 new sections)",
+  "at": "2026-11-01"
  },
  {
   "slug": "2019-topps-dynasty-baseball",
