@@ -247,7 +247,9 @@
   "why": [
    "Break Ninja preview cut off (players sorted by first name stop before N)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2022-panini-player-of-the-day-football: 249 -> 634 cards, 8 -> 7 sections, covers 74.6% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "2022-presidents-choice-solid-gold-hockey",
@@ -533,7 +535,9 @@
   "why": [
    "Break Ninja preview cut off at 250 cards (A–M players only)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2020-leaf-metal-perfect-game-all-american-classic-baseball: 250 -> 5259 cards, 49 -> 98 sections, covers 100.0% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "2020-leaf-trinity-baseball",
@@ -612,7 +616,9 @@
   "why": [
    "Break Ninja preview cut off at 250 cards (A–M players only)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2021-leaf-flash-baseball: 250 -> 1640 cards, 48 -> 68 sections, covers 100.0% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "2021-leaf-flash-football",
@@ -624,7 +630,9 @@
   "why": [
    "Break Ninja preview cut off at 250 cards (A–M players only)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2021-leaf-flash-football: 250 -> 2854 cards, 65 -> 71 sections, covers 100.0% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "2021-leaf-memories-college-football",
@@ -722,7 +730,9 @@
   "why": [
    "Break Ninja preview cut off at 250 cards (A–M players only)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2021-leaf-ultimate-draft-football: 250 -> 3986 cards, 86 -> 167 sections, covers 87.5% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "2021-leaf-valiant-baseball",
@@ -881,7 +891,9 @@
   "why": [
    "Break Ninja preview cut off at 250 cards (A–M players only)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2021-pro-set-power-football: 250 -> 1268 cards, 28 -> 28 sections, covers 100.0% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "2021-sage-aspire-football",
@@ -1060,7 +1072,9 @@
   "why": [
    "Break Ninja preview cut off at 250 cards (A–M players only)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2022-leaf-draft-football: 250 -> 4862 cards, 150 -> 140 sections, covers 0.0% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "2022-leaf-exotic-football",
@@ -1096,7 +1110,9 @@
   "why": [
    "Break Ninja preview cut off at 250 cards (A–M players only)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2022-leaf-flash-football: 250 -> 10817 cards, 196 -> 222 sections, covers 100.0% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "2022-leaf-metal-draft-football",
@@ -1108,7 +1124,9 @@
   "why": [
    "Break Ninja preview cut off at 250 cards (A–M players only)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2022-leaf-metal-draft-football: 250 -> 26110 cards, 220 -> 508 sections, covers 100.0% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "2022-leaf-metal-perfect-game-aac-baseball",
@@ -2929,7 +2947,9 @@
   "why": [
    "Break Ninja preview cut off at 250 cards (A–M players only)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "21-22-pro-set-power-basketball: 250 -> 2498 cards, 45 -> 99 sections, covers 100.0% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "21-22-topps-chrome-ote-elite-basketball",
@@ -3333,7 +3353,9 @@
   "why": [
    "Break Ninja preview cut off at 250 cards (A–M players only)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "25-26-topps-gold-uefa-club-competitions-soccer-card: 250 -> 2394 cards, 73 -> 17 sections, covers 11.1% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "25-26-topps-inception-uefa-club-competitions-soccer-card",
@@ -6586,7 +6608,9 @@
   "why": [
    "base skips 16 numbers in #1-250 (e.g. 99, 113, 130, 131, 132)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2019-donruss-football: 7823 -> 9026 cards, 159 -> 129 sections, covers 89.3% of current",
+  "at": "2026-11-03"
  },
  {
   "slug": "2025-topps-heritage-baseball",
