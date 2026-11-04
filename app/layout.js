@@ -33,26 +33,26 @@ body { overflow-x: clip; }
 .hq-lockup { display: inline-flex; align-items: center; gap: 12px; cursor: pointer; text-decoration: none; border-radius: 6px; }
 .hq-wordmark { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 30px; line-height: 1; letter-spacing: -0.03em; color: #ECEEF3; }
 .hq-navlinks { display: flex; align-items: stretch; gap: 8px; height: 76px; margin-left: 56px; }
-.hq-navlink { position: relative; display: inline-flex; align-items: center; height: 76px; padding: 0 12px; background: none; border: 0; cursor: pointer; font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; color: #A3ABBD; transition: color 120ms; border-radius: 6px; }
+.hq-navlink { position: relative; display: inline-flex; align-items: center; height: 76px; padding: 0 12px; background: none; border: 0; cursor: pointer; font-family: 'Chakra Petch', system-ui, sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; color: #A3ABBD; transition: color 120ms; border-radius: 6px; }
 .hq-navlink:hover, .hq-navlink[aria-current="page"] { color: #ECEEF3; }
 .hq-navlink[aria-current="page"]::after { content: ''; position: absolute; left: 12px; right: 12px; bottom: -1px; height: 3px; background: #3B6EF5; border-radius: 2px 2px 0 0; }
 .hq-header-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
 .hq-hsearch { display: flex; align-items: center; gap: 8px; width: 240px; height: 42px; box-sizing: border-box; padding: 0 10px 0 12px; background: #121623; border: 1px solid #232A3D; border-radius: 8px; transition: border-color 120ms, opacity 150ms; }
 .hq-hsearch:hover { border-color: #2E3852; }
 .hq-hsearch:focus-within { border-color: #3B6EF5; }
-.hq-hsearch input { flex: 1; min-width: 0; background: none; border: 0; outline: none; color: #ECEEF3; font: 400 13px 'Inter', system-ui, sans-serif; }
+.hq-hsearch input { flex: 1; min-width: 0; background: none; border: 0; outline: none; color: #ECEEF3; font: 400 13px 'Chakra Petch', system-ui, sans-serif; }
 .hq-hsearch input:focus-visible, .hq-omni-input:focus-visible { outline: none !important; }   /* the box around it shows focus; an outline over the typed text hid it */
 .hq-hsearch input::placeholder { color: #6F788C; }
-.hq-hsearch kbd { font: 500 12px 'Inter', system-ui, sans-serif; color: #8A93A8; border: 1px solid #2A3247; border-radius: 4px; padding: 1px 5px; }
+.hq-hsearch kbd { font: 500 12px 'Chakra Petch', system-ui, sans-serif; color: #8A93A8; border: 1px solid #2A3247; border-radius: 4px; padding: 1px 5px; }
 .hq-hsearch.hq-hidden { opacity: 0; pointer-events: none; visibility: hidden; }
-.hq-signin { height: 42px; padding: 0 18px; box-sizing: border-box; background: #151A27; border: 1px solid #2A3247; border-radius: 8px; color: #ECEEF3; font: 700 16px 'Barlow Condensed', 'Arial Narrow', sans-serif; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; white-space: nowrap; transition: background 120ms, border-color 120ms; }
+.hq-signin { height: 42px; padding: 0 18px; box-sizing: border-box; background: #151A27; border: 1px solid #2A3247; border-radius: 8px; color: #ECEEF3; font: 700 16px 'Chakra Petch', system-ui, sans-serif; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; white-space: nowrap; transition: background 120ms, border-color 120ms; }
 .hq-signin:hover { background: #1C2233; border-color: #3A4562; }
 .hq-signin:active { background: #121623; }
 .hq-iconbtn { display: none; width: 44px; height: 44px; align-items: center; justify-content: center; background: none; border: 0; border-radius: 8px; color: #ECEEF3; cursor: pointer; }
 .hq-iconbtn[aria-expanded="true"] { background: #151A27; }
 .hq-header :focus-visible { outline: 2px solid #7FA2FF; outline-offset: -6px; border-radius: 6px; }
 .hq-sheet { position: fixed; left: 0; right: 0; top: 60px; height: calc(100dvh - 60px); background: #0B0E17; z-index: 49; display: flex; flex-direction: column; padding: 12px 8px 0; box-sizing: border-box; }
-.hq-sheet-row { display: flex; align-items: center; justify-content: space-between; height: 48px; padding: 0 12px; border-radius: 8px; background: none; border: 0; color: #A3ABBD; font: 500 16px 'Inter', system-ui, sans-serif; cursor: pointer; text-align: left; }
+.hq-sheet-row { display: flex; align-items: center; justify-content: space-between; height: 48px; padding: 0 12px; border-radius: 8px; background: none; border: 0; color: #A3ABBD; font: 500 16px 'Chakra Petch', system-ui, sans-serif; cursor: pointer; text-align: left; }
 .hq-sheet-row[aria-current="page"] { background: #151A27; color: #ECEEF3; }
 .hq-sheet-row[aria-current="page"]::after { content: ''; width: 6px; height: 6px; border-radius: 999px; background: #3B6EF5; }
 .hq-sheet-foot { margin-top: auto; padding: 16px 8px; border-top: 1px solid #1C2233; }
@@ -124,6 +124,11 @@ html.hq-deep .hq-main::before { content: 'Loading…'; display: block; text-alig
 // star field. Colours used across the site live in these variables (lib/theme.js
 // points at them), so re-tinting the site is a change here.
 const THEME_CSS = `
+@font-face { font-family: 'Chakra Petch'; font-weight: 400; font-display: swap; src: url(/fonts/chakra-petch-400.woff2) format('woff2'); }
+@font-face { font-family: 'Chakra Petch'; font-weight: 500; font-display: swap; src: url(/fonts/chakra-petch-500.woff2) format('woff2'); }
+@font-face { font-family: 'Chakra Petch'; font-weight: 600; font-display: swap; src: url(/fonts/chakra-petch-600.woff2) format('woff2'); }
+@font-face { font-family: 'Chakra Petch'; font-weight: 700 900; font-display: swap; src: url(/fonts/chakra-petch-700.woff2) format('woff2'); }
+@font-face { font-family: 'Michroma'; font-weight: 400 900; font-display: swap; src: url(/fonts/michroma.woff2) format('woff2'); }
 :root {
   --hq-bg: #070b17;
   --hq-panel: rgba(10, 15, 31, 0.84);
@@ -162,6 +167,33 @@ body { background: transparent !important; -webkit-tap-highlight-color: transpar
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #6f9dff, #3b6ef5); border-radius: 5px; border: 2px solid rgba(0, 0, 0, 0.6); }
 
+/* ---------- Type (Command Center v3.1) ---------- */
+body { font-family: 'Chakra Petch', system-ui, sans-serif !important; }
+/* Page titles: Michroma, upper-case, tracked, with a soft blue glow. Michroma is wide, so sizes come down. */
+h1 { font-family: 'Michroma', 'Chakra Petch', sans-serif !important; font-weight: 400 !important; letter-spacing: 0.05em !important; line-height: 1.18 !important; text-transform: uppercase; text-shadow: 0 0 22px rgba(111, 157, 255, 0.35); overflow-wrap: anywhere; }
+.hq-main h1 { font-size: clamp(20px, 3vw, 30px) !important; }
+.hq-main .hq-hero h1 { font-size: clamp(26px, 5vw, 58px) !important; line-height: 1.12 !important; }
+.hq-navlink { font-weight: 600 !important; font-size: 14px !important; letter-spacing: 0.18em !important; }
+.hq-signin { font-weight: 600 !important; font-size: 13px !important; letter-spacing: 0.16em !important; }
+
+/* ---------- Controls: glass keys, blue primary, recessed inputs ---------- */
+[style*="background:#3B6EF5"], [style*="background: rgb(59, 110, 245)"], [style*="background-color: rgb(59, 110, 245)"] {
+  background: linear-gradient(180deg, #86adff, #4572d9) !important;
+  box-shadow: 0 0 20px -6px rgba(111, 157, 255, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+}
+button[style*="--hq-surface"]:not([role="option"]) { border-color: rgba(111, 157, 255, 0.32) !important; }
+button[style*="--hq-surface"]:not([role="option"]):hover { border-color: rgba(111, 157, 255, 0.7) !important; box-shadow: 0 0 16px -4px rgba(111, 157, 255, 0.5); color: #fff !important; }
+input[style*="border"]:not([type="checkbox"]):not([type="radio"]):not([type="range"]), select[style*="border"], textarea[style*="border"] {
+  background: rgba(3, 7, 16, 0.55) !important; border-color: rgba(111, 157, 255, 0.24) !important;
+}
+input:focus, select:focus, textarea:focus { border-color: rgba(111, 157, 255, 0.75) !important; box-shadow: 0 0 0 3px rgba(111, 157, 255, 0.15) !important; }
+input[type="checkbox"], input[type="radio"] { accent-color: #6f9dff; }
+a { text-underline-offset: 3px; }
+@media (max-width: 639px) {
+  .hq-main h1 { font-size: clamp(18px, 5.6vw, 24px) !important; }
+  .hq-main .hq-hero h1 { font-size: clamp(22px, 7.4vw, 30px) !important; }
+}
+
 /* Phone tab bar (Pong HQ style) — hidden on wider screens */
 .hq-tabbar { display: none; }
 @media (max-width: 639px) {
@@ -176,7 +208,7 @@ body { background: transparent !important; -webkit-tap-highlight-color: transpar
   .hq-tabbar button {
     display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
     height: 58px; padding: 0; border: 0; background: none; cursor: pointer; color: #8A93A8;
-    font: 700 11px 'Barlow Condensed', 'Arial Narrow', sans-serif; letter-spacing: 0.1em; text-transform: uppercase;
+    font: 600 10.5px 'Chakra Petch', system-ui, sans-serif; letter-spacing: 0.12em; text-transform: uppercase;
   }
   .hq-tabbar button.on { color: #fff; }
   .hq-tabbar button.on svg { color: #9fbfff; filter: drop-shadow(0 0 6px rgba(111, 157, 255, 0.9)); }
@@ -200,7 +232,7 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@800&text=CardHQ&display=swap"
           rel="stylesheet"
         />
         <style dangerouslySetInnerHTML={{ __html: RESPONSIVE_CSS }} />
@@ -208,7 +240,7 @@ export default function RootLayout({ children }) {
         {/* Shared links (?set= / ?player= / ?search=): hide the prerendered home page until the app opens the page */}
         <script dangerouslySetInnerHTML={{ __html: "try{if(/[?&](set|player|search|compare)=(?!(%20|\\+)*(&|$))/.test(location.search))document.documentElement.classList.add('hq-deep')}catch(e){}" }} />
       </head>
-      <body style={{ margin: 0, fontFamily: "'Inter', system-ui, sans-serif", background: 'transparent', color: '#EDEDEF' }}>
+      <body style={{ margin: 0, fontFamily: "'Chakra Petch', system-ui, sans-serif", background: 'transparent', color: '#EDEDEF' }}>
         <Galaxy />
         {children}
         {/* Vercel Web Analytics: visitors + page views (no cookies) */}
