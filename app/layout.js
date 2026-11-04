@@ -162,6 +162,19 @@ body { background: transparent !important; -webkit-tap-highlight-color: transpar
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #6f9dff, #3b6ef5); border-radius: 5px; border: 2px solid rgba(0, 0, 0, 0.6); }
 
+/* ---------- Controls (Command Center): blue primary, glass keys, recessed inputs ---------- */
+[style*="background:#3B6EF5"], [style*="background: rgb(59, 110, 245)"], [style*="background-color: rgb(59, 110, 245)"] {
+  background: linear-gradient(180deg, #86adff, #4572d9) !important;
+  box-shadow: 0 0 20px -6px rgba(111, 157, 255, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+}
+button[style*="--hq-surface"]:not([role="option"]) { border-color: rgba(111, 157, 255, 0.32) !important; }
+button[style*="--hq-surface"]:not([role="option"]):hover { border-color: rgba(111, 157, 255, 0.7) !important; box-shadow: 0 0 16px -4px rgba(111, 157, 255, 0.5); color: #fff !important; }
+input[style*="border"]:not([type="checkbox"]):not([type="radio"]):not([type="range"]), select[style*="border"], textarea[style*="border"] {
+  background: rgba(3, 7, 16, 0.55) !important; border-color: rgba(111, 157, 255, 0.24) !important;
+}
+input:focus, select:focus, textarea:focus { border-color: rgba(111, 157, 255, 0.75) !important; box-shadow: 0 0 0 3px rgba(111, 157, 255, 0.15) !important; }
+input[type="checkbox"], input[type="radio"] { accent-color: #6f9dff; }
+
 /* Phone tab bar (Pong HQ style) — hidden on wider screens */
 .hq-tabbar { display: none; }
 @media (max-width: 639px) {
