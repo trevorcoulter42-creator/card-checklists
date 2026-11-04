@@ -25,7 +25,9 @@
 //   node scripts/build-player-index.mjs
 import { fixFlagTail } from '../lib/flag-tail.js'
 import { isMultiYear } from '../lib/catalog.js'
-import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 'node:fs'
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, appendFileSync, mkdtempSync, rmSync } from 'node:fs'
+import { tmpdir } from 'node:os'
+import { join } from 'node:path'
 import { splitPlayers, subjects, mergePlayers, splitComposites, norm } from './player-names.mjs'
 
 const dataDir = new URL('../public/data/', import.meta.url)
@@ -177,6 +179,31 @@ class RowStore {
 }
 const newShard = (width, strCols) => ({ slugs: [], slugId: new Map(), sections: [], secId: new Map(), teams: [], teamId: new Map(), labels: [], labelId: new Map(), rows: new RowStore(width, strCols) })
 
+// Card rows are spilled to temp files on disk (one file per shard, fixed-width Int32 rows) instead
+// of held in memory, so memory use stays flat as the catalog grows. Every text value in a row is an
+// id into one global pool (G). Rows are read back one shard at a time, in the order written, so the
+// output files are byte-for-byte what the all-in-memory version produced.
+const G = { keys: [], keyId: new Map(), slugs: [], slugId: new Map(), sections: [], secId: new Map(), teams: [], teamId: new Map(), labels: [], labelId: new Map(), nums: [], numId: new Map() }
+const tmpRoot = mkdtempSync(join(tmpdir(), 'player-index-'))
+process.on('exit', () => { try { rmSync(tmpRoot, { recursive: true, force: true }) } catch {} })
+class DiskRows {
+  constructor(name, width) { this.path = join(tmpRoot, name); this.w = width; this.buf = new Int32Array(width * 4096); this.n = 0; this.length = 0; writeFileSync(this.path, '') }
+  push(row) {
+    const w = this.w
+    for (let i = 0; i < w; i++) { const v = row[i]; this.buf[this.n++] = v === undefined ? NONE : v }
+    this.length++
+    if (this.n === this.buf.length) this.flush()
+  }
+  flush() { if (this.n) { appendFileSync(this.path, new Uint8Array(this.buf.buffer, 0, this.n * 4)); this.n = 0 } }
+  // Reads the whole shard file back (a shard is ~1/512th of all rows). Yields one reused array per row.
+  *[Symbol.iterator]() {
+    this.flush()
+    const b = readFileSync(this.path), a = new Int32Array(b.buffer, b.byteOffset, b.byteLength >> 2), w = this.w, r = new Array(w)
+    for (let o = 0; o < a.length; o += w) { for (let i = 0; i < w; i++) r[i] = a[o + i]; yield r }
+  }
+  drop() { this.flush(); rmSync(this.path, { force: true }) }
+}
+
 // ---- pass 0: who is who ----
 // One name can be two people. Cards are keyed by normalized name, except:
 //  * a name with 30+ cards in a second sport is a different person there
@@ -279,7 +306,7 @@ const keyFor = (base, sport) => {
 }
 
 // ---- pass 1: read every set; rows bucketed by the printed name's key ----
-const shards = Array.from({ length: SHARDS }, () => newShard(13, [0, 3]))   // [0] player key, [3] card number
+const shards = Array.from({ length: SHARDS }, (_, i) => ({ rows: new DiskRows('in-' + i, 13) }))   // every text column is a G pool id
 // key -> { cards, sports:Map, teams:Map, base:Map(name->n), labels:Map(label->n), minYear, maxYear }
 const players = new Map()
 const sportsPool = [], sportIdx = new Map()
@@ -342,14 +369,14 @@ for (const f of setFiles) {
           let mem = vetMem
           if (!c.m && sec.mem && sec.mem.rk && (type & TYPE.RC)) mem = memCode({ k: sec.mem.rk, src: sec.mem.src })
           // [9] season, [10] rookie hints, [11] memorabilia code if the card turns out not to be a rookie, [12] sport
-          sh.rows.push([key, intern(s.slug, sh.slugs, sh.slugId), intern(sec.title || '', sh.sections, sh.secId), c.n == null ? '' : String(c.n), c.t ? intern(c.t, sh.teams, sh.teamId) : -1, serial, type, mem, intern(label, sh.labels, sh.labelId), s.year || 0, hint, vetMem, sp])
+          sh.rows.push([intern(key, G.keys, G.keyId), intern(s.slug, G.slugs, G.slugId), intern(sec.title || '', G.sections, G.secId), intern(c.n == null ? '' : String(c.n), G.nums, G.numId), c.t ? intern(c.t, G.teams, G.teamId) : -1, serial, type, mem, intern(label, G.labels, G.labelId), s.year || 0, hint, vetMem, sp])
         }
       }
     }
   }
 }
 
-for (const sh of shards) sh.rows.trim()
+for (const sh of shards) sh.rows.flush()
 
 // ---- pass 2: roll spellings of one person / character into one player ----
 const moved = mergePlayers(players, sportsPool)
@@ -432,19 +459,19 @@ const cardSeasons = new Map()   // seasons with ordinary cards (not prospect / u
 const firstRookieish = new Map() // earliest rookie-flagged card of any kind
 for (const sh of shards) for (const r of sh.rows) {
   if (r[9] && !(r[10] & (H.PROS | H.WEAK | H.BUY)) && !(r[10] >>> 10)) {
-    const c0 = canon(r[0])
+    const c0 = canon(G.keys[r[0]])
     for (const c of splits.get(c0) || [c0]) { const k = rkKey(c, r[12]); let st = cardSeasons.get(k); if (!st) cardSeasons.set(k, st = new Set()); st.add(r[9]) }
   }
   if (r[9] && (r[6] & TYPE.RC)) {
-    const c0 = canon(r[0])
+    const c0 = canon(G.keys[r[0]])
     for (const c of splits.get(c0) || [c0]) { const k = rkKey(c, r[12]), y = firstRookieish.get(k); if (!y || r[9] < y) firstRookieish.set(k, r[9]) }
   }
   if (!r[9] || !isTrueRookie(r[6], r[10])) continue
-  const c0 = canon(r[0])
+  const c0 = canon(G.keys[r[0]])
   for (const c of splits.get(c0) || [c0]) {
     const k = rkKey(c, r[12]); let m = rookieCounts.get(k); if (!m) rookieCounts.set(k, m = new Map())
     let st = m.get(r[9]); if (!st) m.set(r[9], st = { sets: new Set(), flagged: 0 })
-    st.sets.add(sh.slugs[r[1]]); if (r[10] & H.FLAG) st.flagged++
+    st.sets.add(r[1]); if (r[10] & H.FLAG) st.flagged++
   }
 }
 const rookieSeasons = new Map()
@@ -475,18 +502,18 @@ rookieCounts.clear(); cardSeasons.clear(); firstRookieish.clear()
 const rookieSeasonsFor = (c, yr, sp) => { const st = rookieSeasons.get(rkKey(c, sp)); if (!st) return [0, 0]; let Y = st[0], next = 0; for (const y of st) { if (y <= yr) Y = y; else if (!next) next = y } return [Y, next] }
 const reclassed = { TRIBUTE: 0, BUYBACK: 0, PROSPECT: 0, dropped: 0 }
 
-const out = Array.from({ length: SHARDS }, () => newShard(9, [3]))   // [3] card number; [8] label is optional
+const out = Array.from({ length: SHARDS }, (_, i) => ({ rows: new DiskRows('out-' + i, 9) }))   // G pool ids; [8] label is NONE when not needed
 const dedupe = new Set(), mergedInto = new Set([...moved.values(), ...[...splits.values()].flat()])
 let total = 0
 for (let si = 0; si < SHARDS; si++) {
   const sh = shards[si]
   for (const r of sh.rows) {
-    const c0 = canon(r[0]), targets = splits.get(c0) || [c0]
-    const slug = sh.slugs[r[1]], section = sh.sections[r[2]], label = sh.labels[r[8]]
+    const c0 = canon(G.keys[r[0]]), targets = splits.get(c0) || [c0]
+    const label = G.labels[r[8]]
     for (const c of targets) {
       // the same card listed under two spellings in one set counts once
       if (mergedInto.has(c)) {
-        const dk = c + '|' + slug + '|' + section + '|' + r[3] + '|' + r[5]
+        const dk = c + '|' + r[1] + '|' + r[2] + '|' + r[3] + '|' + r[5]
         if (dedupe.has(dk)) continue
         dedupe.add(dk)
       }
@@ -498,18 +525,23 @@ for (let si = 0; si < SHARDS; si++) {
         const k = type & TYPE.TRIBUTE ? 'TRIBUTE' : type & TYPE.BUYBACK ? 'BUYBACK' : type & TYPE.PROSPECT ? 'PROSPECT' : 'dropped'
         reclassed[k]++
       } else if (type & TYPE.BUYBACK) reclassed.BUYBACK++
-      const row = [id, intern(slug, o.slugs, o.slugId), intern(section, o.sections, o.secId), r[3], r[4] >= 0 ? intern(sh.teams[r[4]], o.teams, o.teamId) : -1, r[5], targets.length > 1 ? type | TYPE.MULTI : type, mem]
-      if (norm(label) !== norm(names.get(c))) row.push(intern(label, o.labels, o.labelId))
-      o.rows.push(row)
+      o.rows.push([id, r[1], r[2], r[3], r[4], r[5], targets.length > 1 ? type | TYPE.MULTI : type, mem, norm(label) !== norm(names.get(c)) ? r[8] : NONE])
       d[2]++
     }
   }
-  shards[si] = null
+  sh.rows.drop(); shards[si] = null
 }
+// Each output shard on its own: text ids are swapped for that shard's own lists, in first-seen order.
 out.forEach((o, i) => {
   total += o.rows.length
-  writeFileSync(new URL(i + '.json', outDir), JSON.stringify({ slugs: o.slugs, sections: o.sections, teams: o.teams, labels: o.labels, rows: [...o.rows] }))
-  out[i] = null
+  const f = newShard(0, []), rows = []
+  for (const r of o.rows) {
+    const row = [r[0], intern(G.slugs[r[1]], f.slugs, f.slugId), intern(G.sections[r[2]], f.sections, f.secId), G.nums[r[3]], r[4] >= 0 ? intern(G.teams[r[4]], f.teams, f.teamId) : -1, r[5], r[6], r[7]]
+    if (r[8] !== NONE) row.push(intern(G.labels[r[8]], f.labels, f.labelId))
+    rows.push(row)
+  }
+  writeFileSync(new URL(i + '.json', outDir), JSON.stringify({ slugs: f.slugs, sections: f.sections, teams: f.teams, labels: f.labels, rows }))
+  o.rows.drop(); out[i] = null
 })
 writeFileSync(new URL('sets.json', outDir), JSON.stringify(setMeta))
 writeFileSync(new URL('dir.json', outDir), JSON.stringify({ v: 2, shards: SHARDS, sports: sportsPool, players: dir, aka }))
