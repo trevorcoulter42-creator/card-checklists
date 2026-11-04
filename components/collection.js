@@ -18,11 +18,11 @@ import { Select } from './dropdown'
 import { useDialogFocus } from './dialog-focus'
 import { ACCENT, ACCENT_TEXT, display, title, buttonText, eyebrow } from '../lib/theme'
 
-const card = { background: 'linear-gradient(155deg, #121626, #0F1320)', border: '1px solid #232A3E', borderRadius: 14 }
+const card = { background: 'linear-gradient(155deg, var(--hq-surface), var(--hq-panel))', border: '1px solid var(--hq-line)', borderRadius: 14 }
 const btnAccent = { ...buttonText, background: ACCENT, color: '#fff', border: 'none', borderRadius: 10, padding: '10px 18px', cursor: 'pointer', fontSize: 14 }
-const btnGhost = { ...buttonText, background: 'transparent', color: '#A1A1AA', border: '1px solid #232A3E', borderRadius: 10, padding: '9px 16px', cursor: 'pointer', fontSize: 13 }
+const btnGhost = { ...buttonText, background: 'transparent', color: '#A1A1AA', border: '1px solid var(--hq-line)', borderRadius: 10, padding: '9px 16px', cursor: 'pointer', fontSize: 13 }
 const btnSmall = { ...btnGhost, padding: '5px 10px', fontSize: 12, borderRadius: 8 }
-const input = { background: '#0F1320', border: '1px solid #232A3E', borderRadius: 10, color: '#EDEDEF', padding: '10px 12px', fontSize: 14, width: '100%', boxSizing: 'border-box', fontFamily: 'inherit' }
+const input = { background: 'var(--hq-panel)', border: '1px solid var(--hq-line)', borderRadius: 10, color: '#EDEDEF', padding: '10px 12px', fontSize: 14, width: '100%', boxSizing: 'border-box', fontFamily: 'inherit' }
 const label = { display: 'block', color: '#A1A1AA', fontSize: 12, fontWeight: 600, margin: '0 0 5px' }
 const muted = { color: '#8A93A8', fontSize: 13 }
 const th = { padding: '9px 10px', fontWeight: 700, textAlign: 'left', fontSize: 12, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#8A93A8', whiteSpace: 'nowrap' }
@@ -94,7 +94,7 @@ function Bars({ heading, rows, fmt = (k) => k, onPick }) {
           <button key={k} onClick={onPick ? () => onPick(k) : undefined} disabled={!onPick} style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) 56px', gap: 10, alignItems: 'center', background: 'none', border: 'none', padding: 0, cursor: onPick ? 'pointer' : 'default', textAlign: 'left', fontFamily: 'inherit' }}>
             <span style={{ minWidth: 0 }}>
               <span style={{ display: 'block', color: '#D4D4D8', fontSize: 13, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{fmt(k)}</span>
-              <span style={{ display: 'block', height: 5, borderRadius: 3, background: '#1A1F31', marginTop: 3 }}><span style={{ display: 'block', height: '100%', borderRadius: 3, width: Math.max(3, 100 * n / max) + '%', background: ACCENT }} /></span>
+              <span style={{ display: 'block', height: 5, borderRadius: 3, background: 'var(--hq-surface-2)', marginTop: 3 }}><span style={{ display: 'block', height: '100%', borderRadius: 3, width: Math.max(3, 100 * n / max) + '%', background: ACCENT }} /></span>
             </span>
             <span style={{ color: '#A1A1AA', fontSize: 13, textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{n.toLocaleString()}</span>
           </button>
@@ -105,7 +105,7 @@ function Bars({ heading, rows, fmt = (k) => k, onPick }) {
 }
 function Progress({ have, total }) {
   const pct = total ? Math.min(100, (100 * have) / total) : 0
-  return <div style={{ height: 6, background: '#1A1F31', borderRadius: 4, overflow: 'hidden' }}><div style={{ height: '100%', width: pct + '%', background: pct >= 100 ? '#4ade80' : ACCENT }} /></div>
+  return <div style={{ height: 6, background: 'var(--hq-surface-2)', borderRadius: 4, overflow: 'hidden' }}><div style={{ height: '100%', width: pct + '%', background: pct >= 100 ? '#4ade80' : ACCENT }} /></div>
 }
 function Notice({ children, onClose, tone }) {
   if (!children) return null
@@ -198,7 +198,7 @@ function ItemEditor({ item, collections, uid, onClose, onSaved, onDeleted, onDup
       <label style={{ ...label, marginTop: 12 }} htmlFor="ie-notes">Notes</label>
       <textarea id="ie-notes" style={{ ...input, minHeight: 70, resize: 'vertical' }} maxLength={2000} value={f.notes || ''} onChange={set('notes')} />
       <div style={{ display: 'flex', gap: 10, alignItems: 'center', marginTop: 12, flexWrap: 'wrap' }}>
-        {f.image_url ? <a href={f.image_url} target="_blank" rel="noreferrer"><img src={f.image_url} alt="Your photo of this card" style={{ height: 72, borderRadius: 6, border: '1px solid #232A3E' }} /></a> : null}
+        {f.image_url ? <a href={f.image_url} target="_blank" rel="noreferrer"><img src={f.image_url} alt="Your photo of this card" style={{ height: 72, borderRadius: 6, border: '1px solid var(--hq-line)' }} /></a> : null}
         <input ref={fileRef} type="file" accept="image/*" style={{ display: 'none' }} onChange={async (e) => {
           const file = e.target.files?.[0]; e.target.value = ''
           if (!file) return
@@ -267,7 +267,7 @@ export function CollectionView({ account, store, indexSets, onOpenAuth, onOpenSe
         <h1 style={{ ...display, fontSize: 40, margin: 0 }}>My Collection</h1>
         <span style={muted}>{items ? plural(stats.cards, 'card') + ' · ' + plural(stats.sets.size, 'set') : 'Loading…'}{stats.value ? ' · ' + fmtMoney(stats.value) : ''}</span>
       </div>
-      <div role="tablist" aria-label="My Collection" style={{ display: 'flex', gap: 4, overflowX: 'auto', borderBottom: '1px solid #232A3E', marginBottom: 18 }}>
+      <div role="tablist" aria-label="My Collection" style={{ display: 'flex', gap: 4, overflowX: 'auto', borderBottom: '1px solid var(--hq-line)', marginBottom: 18 }}>
         {TABS.map(([k, l]) => (
           <button key={k} role="tab" aria-selected={tab === k} onClick={() => setTab(k)}
             style={{ ...buttonText, background: 'none', border: 'none', borderBottom: '2px solid ' + (tab === k ? ACCENT : 'transparent'), color: tab === k ? '#fff' : '#A1A1AA', padding: '10px 12px', fontSize: 14, cursor: 'pointer', whiteSpace: 'nowrap' }}>{l}</button>
@@ -374,7 +374,7 @@ function Overview({ stats, items, store, indexBySlug, profile, setProfile, uid, 
           </div>
           <div style={{ display: 'grid', gap: 10, gridTemplateColumns: 'repeat(auto-fill, minmax(min(280px, 100%), 1fr))' }}>
             {completion.map(s => (
-              <button key={s.slug} onClick={() => onOpenChecklist(s.slug)} style={{ background: 'none', border: '1px solid #232A3E', borderRadius: 10, padding: '10px 12px', textAlign: 'left', cursor: 'pointer', fontFamily: 'inherit' }}>
+              <button key={s.slug} onClick={() => onOpenChecklist(s.slug)} style={{ background: 'none', border: '1px solid var(--hq-line)', borderRadius: 10, padding: '10px 12px', textAlign: 'left', cursor: 'pointer', fontFamily: 'inherit' }}>
                 <span style={{ display: 'block', color: '#EDEDEF', fontSize: 13, fontWeight: 600, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{s.name}</span>
                 <span style={{ display: 'block', ...muted, fontSize: 12, margin: '2px 0 6px' }}>{s.baseTotal ? `base ${s.baseHave}/${s.baseTotal} · ` : ''}{s.have}/{s.total} · {Math.floor(s.pct)}%</span>
                 <Progress have={s.baseTotal ? s.baseHave : s.have} total={s.baseTotal || s.total} />
@@ -504,13 +504,13 @@ function CardsTab({ items, store, preset, indexBySlug, onEdit, say, dropItems })
       {filtered.length === 0 ? <div style={{ ...card, padding: 24, color: '#A1A1AA', fontSize: 14 }}>Nothing matches. Clear the filters, or add cards from any set page.</div> : (
         <div style={{ ...card, overflowX: 'auto' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14, color: '#D4D4D8', minWidth: 720 }}>
-            <thead><tr style={{ borderBottom: '1px solid #232A3E' }}>
+            <thead><tr style={{ borderBottom: '1px solid var(--hq-line)' }}>
               <th style={{ ...th, width: 34 }}><input type="checkbox" aria-label="Select all on this page" checked={allOnPage} onChange={(e) => setSel(s => { const n = new Set(s); for (const it of shown) e.target.checked ? n.add(it.id) : n.delete(it.id); return n })} style={{ accentColor: ACCENT }} /></th>
               <th style={th}>Card</th><th style={th}>Qty</th><th style={th}>Status</th><th style={th}>Collection</th><th style={th}>Grade</th><th style={{ ...th, textAlign: 'right' }}>Paid</th><th style={{ ...th, textAlign: 'right' }}>Value</th><th style={th}><span className="sr-only">Edit</span></th>
             </tr></thead>
             <tbody>
               {shown.map(it => (
-                <tr key={it.id} style={{ borderTop: '1px solid #1a1f31' }}>
+                <tr key={it.id} style={{ borderTop: '1px solid var(--hq-surface-2)' }}>
                   <td style={td}><input type="checkbox" aria-label={'Select ' + it.player} checked={sel.has(it.id)} onChange={(e) => setSel(s => { const n = new Set(s); e.target.checked ? n.add(it.id) : n.delete(it.id); return n })} style={{ accentColor: ACCENT }} /></td>
                   <td style={{ ...td, minWidth: 260 }}>
                     <button onClick={() => onEdit(it)} style={{ background: 'none', border: 'none', padding: 0, textAlign: 'left', cursor: 'pointer', fontFamily: 'inherit', color: '#EDEDEF' }}>
@@ -1189,7 +1189,7 @@ function ImportReview({ incoming, store, uid, indexSets, say, onDone, onCancel, 
             {review.map(({ r, m, i }) => (
               <label key={i} style={{ display: 'grid', gridTemplateColumns: '22px minmax(0,1fr)', gap: 8, fontSize: 13, alignItems: 'start', cursor: 'pointer' }}>
                 <input type="checkbox" checked={!skip.has(i)} onChange={(e) => setSkip(s => { const n = new Set(s); e.target.checked ? n.delete(i) : n.add(i); return n })} style={{ accentColor: ACCENT, marginTop: 2 }} />
-                <span style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>{r.image_url && <a href={r.image_url} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}><img src={r.image_url} alt="" loading="lazy" style={{ width: 52, height: 52, objectFit: 'cover', borderRadius: 6, border: '1px solid #232A3E', flex: 'none' }} /></a>}<span><span style={{ color: '#A1A1AA' }}>{r.label}{r.unsure ? ' (photo unclear)' : ''}</span><br /><span style={{ color: '#EDEDEF' }}>→ {m.setName}{m.section && !/^base( set)?$/i.test(m.section) ? ' · ' + m.section : ''} · {m.card_n ? '#' + m.card_n + ' ' : ''}{m.player}</span></span></span>
+                <span style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>{r.image_url && <a href={r.image_url} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}><img src={r.image_url} alt="" loading="lazy" style={{ width: 52, height: 52, objectFit: 'cover', borderRadius: 6, border: '1px solid var(--hq-line)', flex: 'none' }} /></a>}<span><span style={{ color: '#A1A1AA' }}>{r.label}{r.unsure ? ' (photo unclear)' : ''}</span><br /><span style={{ color: '#EDEDEF' }}>→ {m.setName}{m.section && !/^base( set)?$/i.test(m.section) ? ' · ' + m.section : ''} · {m.card_n ? '#' + m.card_n + ' ' : ''}{m.player}</span></span></span>
               </label>
             ))}
             {likely.length > 60 && !showAll && <button style={btnSmall} onClick={() => setShowAll(true)}>Show all {likely.length}</button>}
@@ -1200,7 +1200,7 @@ function ImportReview({ incoming, store, uid, indexSets, say, onDone, onCancel, 
         <details style={{ ...card, padding: '14px 18px' }}>
           <summary style={{ cursor: 'pointer', color: '#EDEDEF', fontWeight: 600, fontSize: 14 }}>Not on Card HQ yet ({none.length})</summary>
           <div style={{ display: 'grid', gap: 3, marginTop: 10, maxHeight: 360, overflowY: 'auto' }}>
-            {none.slice(0, 500).map(({ r, i }) => <p key={i} style={{ margin: 0, fontSize: 13, color: '#A1A1AA', display: 'flex', gap: 8, alignItems: 'center' }}>{r.image_url && <a href={r.image_url} target="_blank" rel="noreferrer"><img src={r.image_url} alt="" loading="lazy" style={{ width: 36, height: 36, objectFit: 'cover', borderRadius: 4, border: '1px solid #232A3E' }} /></a>}{r.label}{r.sold ? ' · sold/traded per caption' : ''}</p>)}
+            {none.slice(0, 500).map(({ r, i }) => <p key={i} style={{ margin: 0, fontSize: 13, color: '#A1A1AA', display: 'flex', gap: 8, alignItems: 'center' }}>{r.image_url && <a href={r.image_url} target="_blank" rel="noreferrer"><img src={r.image_url} alt="" loading="lazy" style={{ width: 36, height: 36, objectFit: 'cover', borderRadius: 4, border: '1px solid var(--hq-line)' }} /></a>}{r.label}{r.sold ? ' · sold/traded per caption' : ''}</p>)}
             {none.length > 500 && <p style={muted}>…and {none.length - 500} more</p>}
           </div>
         </details>

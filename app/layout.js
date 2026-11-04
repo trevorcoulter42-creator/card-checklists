@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/next'
+import Galaxy from '../components/galaxy'
 
 const DESCRIPTION = 'Complete checklists for 5,000+ sports card and TCG sets — every base card, insert, parallel and print run. Search any player, track your wantlist and collection.'
 export const metadata = {
@@ -12,7 +13,7 @@ export const metadata = {
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#0B0E17',
+  themeColor: '#03050c',
 }
 
 // Responsive rules. Most styling is inline; these classes add the breakpoints
@@ -119,6 +120,78 @@ html.hq-deep .hq-main::before { content: 'Loading…'; display: block; text-alig
 }
 `
 
+// Galaxy theme (Command Center / Pong HQ look): navy glass over an animated
+// star field. Colours used across the site live in these variables (lib/theme.js
+// points at them), so re-tinting the site is a change here.
+const THEME_CSS = `
+:root {
+  --hq-bg: #070b17;
+  --hq-panel: rgba(10, 15, 31, 0.84);
+  --hq-surface: rgba(15, 21, 41, 0.86);
+  --hq-surface-2: rgba(31, 42, 78, 0.78);
+  --hq-line: rgba(111, 157, 255, 0.16);
+  --hq-chip-line: rgba(111, 157, 255, 0.42);
+  --hq-ph-rgb: 111, 157, 255;
+  --hq-glow: rgba(59, 110, 245, 0.5);
+  --hq-frame: 0 0 0 1px rgba(111, 157, 255, 0.22), 0 18px 40px -24px rgba(0, 0, 0, 0.9), 0 0 26px -14px rgba(59, 110, 245, 0.55), inset 0 1px 0 rgba(214, 228, 255, 0.06);
+}
+html { background: #03050c; color-scheme: dark; }
+body { background: transparent !important; -webkit-tap-highlight-color: transparent; }
+.hq-galaxy { position: fixed; inset: 0; z-index: -1; display: block; pointer-events: none; }
+
+/* Glass panels: a faint glowing frame, a top light, and a soft blue lift on hover */
+[style*="--hq-panel"]:not(input):not(select):not(textarea) { box-shadow: var(--hq-frame); }
+.hq-setcard:hover { border-color: rgba(111, 157, 255, 0.6) !important; box-shadow: 0 0 0 1px rgba(111, 157, 255, 0.5), 0 18px 40px -18px rgba(0, 0, 0, 0.9), 0 0 30px -6px var(--hq-glow) !important; }
+/* Menus and pop-ups float over content: blur what's behind so text stays readable */
+[role="listbox"], [role="dialog"]:not([aria-modal="true"]) { -webkit-backdrop-filter: blur(16px) saturate(1.2); backdrop-filter: blur(16px) saturate(1.2); }
+
+/* Header, menu and news ticker: see-through navy glass */
+.hq-header { background: rgba(5, 9, 22, 0.66) !important; -webkit-backdrop-filter: blur(14px) saturate(1.2) !important; backdrop-filter: blur(14px) saturate(1.2) !important; border-bottom-color: rgba(111, 157, 255, 0.16) !important; }
+.hq-wordmark { text-shadow: 0 0 18px rgba(59, 110, 245, 0.45); }
+.hq-navlink[aria-current="page"] { color: #fff !important; text-shadow: 0 0 12px rgba(111, 157, 255, 0.7); }
+.hq-navlink[aria-current="page"]::after { box-shadow: 0 0 12px rgba(59, 110, 245, 0.9); }
+.hq-hsearch, .hq-signin { background: rgba(15, 21, 41, 0.7) !important; border-color: rgba(111, 157, 255, 0.22) !important; }
+.hq-hsearch:focus-within { border-color: #6f9dff !important; box-shadow: 0 0 16px -4px var(--hq-glow); }
+.hq-sheet { background: rgba(5, 9, 22, 0.9) !important; -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); }
+.hq-sheet-row[aria-current="page"] { background: rgba(111, 157, 255, 0.12) !important; }
+.hq-bottomline { background: rgba(5, 9, 22, 0.8) !important; border-top-color: rgba(111, 157, 255, 0.18) !important; }
+
+/* Slim glowing scrollbars */
+* { scrollbar-color: rgba(111, 157, 255, 0.45) transparent; scrollbar-width: thin; }
+::-webkit-scrollbar { width: 9px; height: 9px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #6f9dff, #3b6ef5); border-radius: 5px; border: 2px solid rgba(0, 0, 0, 0.6); }
+
+/* Phone tab bar (Pong HQ style) — hidden on wider screens */
+.hq-tabbar { display: none; }
+@media (max-width: 639px) {
+  .hq-tabbar {
+    display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); align-items: center;
+    position: fixed; z-index: 45; left: 10px; right: 10px; bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+    height: 64px; border-radius: 20px;
+    background: linear-gradient(180deg, rgba(111, 157, 255, 0.08), rgba(111, 157, 255, 0.015) 40%), rgba(7, 12, 28, 0.82);
+    box-shadow: var(--hq-frame);
+    -webkit-backdrop-filter: blur(16px) saturate(1.2); backdrop-filter: blur(16px) saturate(1.2);
+  }
+  .hq-tabbar button {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+    height: 58px; padding: 0; border: 0; background: none; cursor: pointer; color: #8A93A8;
+    font: 700 11px 'Barlow Condensed', 'Arial Narrow', sans-serif; letter-spacing: 0.1em; text-transform: uppercase;
+  }
+  .hq-tabbar button.on { color: #fff; }
+  .hq-tabbar button.on svg { color: #9fbfff; filter: drop-shadow(0 0 6px rgba(111, 157, 255, 0.9)); }
+  .hq-tabbar :focus-visible { outline-offset: -4px !important; border-radius: 14px; }
+  /* the news ticker rides just above the tab bar */
+  .hq-bottomline { bottom: calc(80px + env(safe-area-inset-bottom, 0px)) !important; left: 10px !important; right: 10px !important; height: 34px !important; border: 0 !important; border-radius: 12px; overflow: hidden; box-shadow: var(--hq-frame); }
+  .hq-main { padding-bottom: calc(136px + env(safe-area-inset-bottom, 0px)) !important; }
+}
+
+/* Installed app (home screen): keep clear of the notch and rounded corners */
+.hq-header { padding-top: env(safe-area-inset-top, 0px); }
+.hq-header-inner { padding-left: max(14px, env(safe-area-inset-left, 0px)); padding-right: max(14px, env(safe-area-inset-right, 0px)); }
+@media (prefers-reduced-motion: reduce) { .hq-setcard:hover { transform: none !important; } }
+`
+
 export default function RootLayout({ children }) {
   return (
     // suppressHydrationWarning: the inline script below adds class "hq-deep" to <html> before React hydrates
@@ -131,10 +204,12 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         <style dangerouslySetInnerHTML={{ __html: RESPONSIVE_CSS }} />
+        <style dangerouslySetInnerHTML={{ __html: THEME_CSS }} />
         {/* Shared links (?set= / ?player= / ?search=): hide the prerendered home page until the app opens the page */}
         <script dangerouslySetInnerHTML={{ __html: "try{if(/[?&](set|player|search|compare)=(?!(%20|\\+)*(&|$))/.test(location.search))document.documentElement.classList.add('hq-deep')}catch(e){}" }} />
       </head>
-      <body style={{ margin: 0, fontFamily: "'Inter', system-ui, sans-serif", background: '#0B0E17', color: '#EDEDEF' }}>
+      <body style={{ margin: 0, fontFamily: "'Inter', system-ui, sans-serif", background: 'transparent', color: '#EDEDEF' }}>
+        <Galaxy />
         {children}
         {/* Vercel Web Analytics: visitors + page views (no cookies) */}
         <Analytics />

@@ -79,9 +79,9 @@ const METRICS = [
 const fmt = (v, perSeason) => perSeason ? (v >= 100 ? Math.round(v).toLocaleString() : v.toFixed(1)) : Math.round(v).toLocaleString()
 const lastName = (name) => name.split(/\s+/).slice(-1)[0]
 
-const chip = (solid) => ({ display: 'inline-flex', alignItems: 'center', padding: '4px 10px', borderRadius: 999, fontSize: 12, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', whiteSpace: 'nowrap', background: solid || 'transparent', color: solid ? '#0F1320' : '#A1A1AA', border: solid ? '1px solid ' + solid : '1px solid #A1A1AA66' })
-const pill = (on) => ({ padding: '7px 12px', borderRadius: 999, fontSize: 12, fontWeight: 700, letterSpacing: '0.04em', textTransform: 'uppercase', fontFamily: 'inherit', cursor: 'pointer', background: on ? ACCENT : '#121626', color: on ? '#fff' : '#A1A1AA', border: '1px solid ' + (on ? 'transparent' : '#232A3E'), whiteSpace: 'nowrap' })
-const tile = { background: '#0F1320', border: '1px solid #232A3E', borderRadius: 12 }
+const chip = (solid) => ({ display: 'inline-flex', alignItems: 'center', padding: '4px 10px', borderRadius: 999, fontSize: 12, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', whiteSpace: 'nowrap', background: solid || 'transparent', color: solid ? 'var(--hq-panel)' : '#A1A1AA', border: solid ? '1px solid ' + solid : '1px solid #A1A1AA66' })
+const pill = (on) => ({ padding: '7px 12px', borderRadius: 999, fontSize: 12, fontWeight: 700, letterSpacing: '0.04em', textTransform: 'uppercase', fontFamily: 'inherit', cursor: 'pointer', background: on ? ACCENT : 'var(--hq-surface)', color: on ? '#fff' : '#A1A1AA', border: '1px solid ' + (on ? 'transparent' : 'var(--hq-line)'), whiteSpace: 'nowrap' })
+const tile = { background: 'var(--hq-panel)', border: '1px solid var(--hq-line)', borderRadius: 12 }
 const label = { ...eyebrow, fontSize: 14, color: '#A3ABBD' }
 const bigNum = { ...display, fontSize: 'clamp(30px, 6.5vw, 46px)', lineHeight: 1, fontVariantNumeric: 'tabular-nums' }
 const linkBtn = { background: 'none', border: 'none', padding: 0, color: '#EDEDEF', fontWeight: 600, cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', fontSize: 14 }
@@ -99,8 +99,8 @@ function StatRow({ title, a, b, names, perSeason }) {
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 7, minWidth: 0 }}>
         <span style={{ ...label, textAlign: 'center' }}>{title}</span>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 3, width: '100%', height: 4 }} aria-hidden="true">
-          <div style={{ display: 'flex', justifyContent: 'flex-end', background: '#1A1F31', borderRadius: 2 }}><div style={{ width: (a / max * 100) + '%', background: lead === 1 ? DIM_BAR : BAR[0], borderRadius: 2, transition: 'width .3s' }} /></div>
-          <div style={{ display: 'flex', background: '#1A1F31', borderRadius: 2 }}><div style={{ width: (b / max * 100) + '%', background: lead === 0 ? DIM_BAR : BAR[1], borderRadius: 2, transition: 'width .3s' }} /></div>
+          <div style={{ display: 'flex', justifyContent: 'flex-end', background: 'var(--hq-surface-2)', borderRadius: 2 }}><div style={{ width: (a / max * 100) + '%', background: lead === 1 ? DIM_BAR : BAR[0], borderRadius: 2, transition: 'width .3s' }} /></div>
+          <div style={{ display: 'flex', background: 'var(--hq-surface-2)', borderRadius: 2 }}><div style={{ width: (b / max * 100) + '%', background: lead === 0 ? DIM_BAR : BAR[1], borderRadius: 2, transition: 'width .3s' }} /></div>
         </div>
         <span style={{ fontSize: 12, fontWeight: 600, color: lead < 0 ? DIM : TXT[lead], fontVariantNumeric: 'tabular-nums', textAlign: 'center' }}>
           {lead < 0 ? 'Even' : '+' + fmt(Math.abs(shown(a, perSeason) - shown(b, perSeason)), perSeason) + ' ' + lastName(names[lead])}
@@ -140,19 +140,19 @@ function Slot({ side, player, stats, onPick, other }) {
           <h2 style={{ ...display, fontSize: 'clamp(22px, 5.5vw, 56px)', lineHeight: 0.92, margin: 0, color: TXT[side], overflowWrap: 'normal' }}>{first}{first && <br />}{last}</h2>
           {/* on phones the team / season chips are too wide for half the hero: show them as a line instead */}
           <p className="hq-cmp-sub" style={{ display: 'none', margin: '6px 0 0', color: DIM, fontSize: 12, lineHeight: 1.4 }}>{[stats && stats.topTeam, span].filter(Boolean).join(' · ')}</p>
-          <button onClick={() => { setQ(''); setEditing(true) }} style={{ ...buttonText, marginTop: 12, background: 'transparent', border: '1px solid #2E3D6B', color: '#D4D4D8', borderRadius: 10, padding: '0 14px', height: 36, fontSize: 13, cursor: 'pointer' }}>Change</button>
+          <button onClick={() => { setQ(''); setEditing(true) }} style={{ ...buttonText, marginTop: 12, background: 'transparent', border: '1px solid var(--hq-chip-line)', color: '#D4D4D8', borderRadius: 10, padding: '0 14px', height: 36, fontSize: 13, cursor: 'pointer' }}>Change</button>
         </>
       ) : (
         <>
           <label htmlFor={'cmp-' + side} style={{ ...eyebrow, display: 'block', margin: '0 0 8px', color: TXT[side] }}>{right ? 'Player 2' : 'Player 1'}</label>
           <input id={'cmp-' + side} autoFocus={!!player || right} value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search a player…"
             onKeyDown={(e) => { if (e.key === 'Enter' && hits[0]) { onPick(hits[0]); setQ('') } if (e.key === 'Escape' && player) setEditing(false) }}
-            style={{ width: '100%', boxSizing: 'border-box', background: '#121626', border: '1px solid #2E3D6B', borderRadius: 10, padding: '12px 14px', color: '#EDEDEF', fontSize: 16, fontFamily: 'inherit', outline: 'none', textAlign: 'left' }} />
+            style={{ width: '100%', boxSizing: 'border-box', background: 'var(--hq-surface)', border: '1px solid var(--hq-chip-line)', borderRadius: 10, padding: '12px 14px', color: '#EDEDEF', fontSize: 16, fontFamily: 'inherit', outline: 'none', textAlign: 'left' }} />
           {hits.length > 0 && (
-            <div role="listbox" style={{ position: 'absolute', left: 0, right: 0, top: '100%', marginTop: 4, zIndex: 40, background: '#0F1320', border: '1px solid #232A3E', borderRadius: 10, overflow: 'hidden', textAlign: 'left', boxShadow: '0 20px 40px -12px #000' }}>
+            <div role="listbox" style={{ position: 'absolute', left: 0, right: 0, top: '100%', marginTop: 4, zIndex: 40, background: 'var(--hq-panel)', border: '1px solid var(--hq-line)', borderRadius: 10, overflow: 'hidden', textAlign: 'left', boxShadow: '0 20px 40px -12px #000' }}>
               {hits.map(h => (
                 <button key={h.id} role="option" onClick={() => { onPick(h); setQ('') }}
-                  style={{ display: 'block', width: '100%', textAlign: 'left', background: 'none', border: 'none', borderTop: '1px solid #1A1F31', padding: '9px 12px', color: '#EDEDEF', cursor: 'pointer', fontFamily: 'inherit', minHeight: 44 }}>
+                  style={{ display: 'block', width: '100%', textAlign: 'left', background: 'none', border: 'none', borderTop: '1px solid var(--hq-surface-2)', padding: '9px 12px', color: '#EDEDEF', cursor: 'pointer', fontFamily: 'inherit', minHeight: 44 }}>
                   <span style={{ fontWeight: 600, fontSize: 14 }}>{h.name}</span>
                   <span style={{ display: 'block', color: DIM, fontSize: 12 }}>{h.sport} · {h.cards.toLocaleString()} card{h.cards === 1 ? '' : 's'} · {seasonLabel(h.minYear, h.sport)}{h.maxYear !== h.minYear ? ' – ' + seasonLabel(h.maxYear, h.sport) : ''}</span>
                 </button>
@@ -234,11 +234,11 @@ export function ComparePage({ names, sets, onChange, onOpenSet, onOpenPlayer }) 
       {/* page heading for screen readers and outlines; the hero shows the names visually */}
       <h1 style={{ position: 'absolute', width: 1, height: 1, overflow: 'hidden', clip: 'rect(0 0 0 0)', whiteSpace: 'nowrap', margin: 0 }}>{nm.filter(Boolean).join(' vs ') || 'Compare players'}</h1>
       {/* HERO */}
-      <div className="hq-panel" style={{ background: 'linear-gradient(140deg, #191919, #0F1320)', border: '1px solid #232A3E', borderRadius: 18, padding: 'clamp(18px, 3vw, 26px) clamp(16px, 3vw, 28px)', display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) auto minmax(0, 1fr)', gap: 'clamp(10px, 2vw, 20px)', alignItems: 'end' }}>
+      <div className="hq-panel" style={{ background: 'linear-gradient(140deg, #191919, var(--hq-panel))', border: '1px solid var(--hq-line)', borderRadius: 18, padding: 'clamp(18px, 3vw, 26px) clamp(16px, 3vw, 28px)', display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) auto minmax(0, 1fr)', gap: 'clamp(10px, 2vw, 20px)', alignItems: 'end' }}>
         <Slot side={0} player={players[0]} stats={sA} other={players[1]} onPick={(p) => pick(0, p)} />
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10, alignSelf: 'center' }}>
           <span style={{ ...display, fontSize: 'clamp(26px, 4vw, 40px)', color: ACCENT_TEXT }}>VS</span>
-          {players[0] && players[1] && <button onClick={swap} aria-label="Swap players" title="Swap sides" style={{ background: 'transparent', border: '1px solid #232A3E', color: '#A1A1AA', borderRadius: 10, width: 44, height: 44, cursor: 'pointer', fontSize: 16 }}>⇄</button>}
+          {players[0] && players[1] && <button onClick={swap} aria-label="Swap players" title="Swap sides" style={{ background: 'transparent', border: '1px solid var(--hq-line)', color: '#A1A1AA', borderRadius: 10, width: 44, height: 44, cursor: 'pointer', fontSize: 16 }}>⇄</button>}
         </div>
         <Slot side={1} player={players[1]} stats={sB} other={players[0]} onPick={(p) => pick(1, p)} />
       </div>
@@ -285,7 +285,7 @@ export function ComparePage({ names, sets, onChange, onOpenSet, onOpenPlayer }) 
                     <span style={{ textAlign: 'right', color: TXT[1] }}>{lastName(nm[1])}</span>
                   </div>
                   {shared.slice(0, sharedLimit).map(s => (
-                    <div key={s.slug} style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) 76px 76px', gap: 8, padding: '9px 0', borderTop: '1px solid #1A1F31', fontSize: 14, alignItems: 'center' }}>
+                    <div key={s.slug} style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) 76px 76px', gap: 8, padding: '9px 0', borderTop: '1px solid var(--hq-surface-2)', fontSize: 14, alignItems: 'center' }}>
                       <button onClick={() => onOpenSet(s.slug)} style={{ ...linkBtn, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }} title={s.name}>{s.name}</button>
                       <span style={{ textAlign: 'right', color: TXT[0], fontWeight: 700, fontVariantNumeric: 'tabular-nums' }}>{s.a.toLocaleString()}</span>
                       <span style={{ textAlign: 'right', color: TXT[1], fontWeight: 700, fontVariantNumeric: 'tabular-nums' }}>{s.b.toLocaleString()}</span>
@@ -301,7 +301,7 @@ export function ComparePage({ names, sets, onChange, onOpenSet, onOpenPlayer }) 
               {together.length === 0 ? <p style={{ color: DIM, fontSize: 14, margin: 0 }}>No cards list both players.</p> : (
                 <>
                   {together.slice(0, 40).map((r, i) => (
-                    <div key={i} style={{ display: 'flex', justifyContent: 'space-between', gap: 10, padding: '9px 0', borderTop: '1px solid #1A1F31', fontSize: 14 }}>
+                    <div key={i} style={{ display: 'flex', justifyContent: 'space-between', gap: 10, padding: '9px 0', borderTop: '1px solid var(--hq-surface-2)', fontSize: 14 }}>
                       <span style={{ minWidth: 0 }}>
                         <button onClick={() => onOpenSet(r.slug)} style={linkBtn}>{seasonLabel(r.year, r.sport)} {r.set.replace(/^\d{4}(-\d{2})?(\s*[/&]\s*\d{4}(-\d{2})?)?\s*/, '')}</button>
                         <span style={{ display: 'block', color: DIM, fontSize: 12 }}>{r.section}</span>

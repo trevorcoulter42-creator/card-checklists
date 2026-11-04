@@ -126,7 +126,7 @@ function History({ uid, ver, modes, mode, onOpen, onOpenAuth }) {
   const st = statsOf(list, mode)
   const label = (id) => modes?.find(m => m.id === id)?.label || id
   const tile = (n, l) => (
-    <div style={{ background: '#0F1320', border: '1px solid ' + LINE, borderRadius: 12, padding: '12px 10px', textAlign: 'center' }}>
+    <div style={{ background: 'var(--hq-panel)', border: '1px solid ' + LINE, borderRadius: 12, padding: '12px 10px', textAlign: 'center' }}>
       <div style={{ ...display, fontSize: 30, color: TEXT }}>{n}</div>
       <div style={{ ...eyebrow, fontSize: 11, color: LABEL, marginTop: 4 }}>{l}</div>
     </div>
@@ -146,7 +146,7 @@ function History({ uid, ver, modes, mode, onOpen, onOpenAuth }) {
           {list.slice(0, 12).map((r, i) => (
             <button key={r.mode + r.grid_key} onClick={() => onOpen({ mode: r.mode, seed: r.daily ? '' : r.grid_key.slice(1) })} disabled={r.daily && r.grid_key !== today()}
               style={{ width: '100%', display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'center', minHeight: 40, padding: '0 14px', border: 'none', borderTop: i ? '1px solid ' + LINE : 'none',
-                background: i % 2 ? '#0F1320' : SURFACE, color: TEXT, fontFamily: 'inherit', fontSize: 14, cursor: r.daily && r.grid_key !== today() ? 'default' : 'pointer', textAlign: 'left' }}>
+                background: i % 2 ? 'var(--hq-panel)' : SURFACE, color: TEXT, fontFamily: 'inherit', fontSize: 14, cursor: r.daily && r.grid_key !== today() ? 'default' : 'pointer', textAlign: 'left' }}>
               <span>{label(r.mode)} · {r.daily ? r.grid_key : 'Random grid'}</span>
               <span style={{ color: r.score === 9 ? GOOD : r.finished ? TEXT_2 : ACCENT_TEXT, fontWeight: 600 }}>{r.finished ? r.score + '/9' : 'In progress · ' + r.score + '/9'}</span>
             </button>
@@ -390,7 +390,7 @@ function GuessBox({ data, used, rowCat, colCat, tcg, onPick, onClose }) {
             if (e.key === 'ArrowUp') { e.preventDefault(); setFocus(f => Math.max(f - 1, 0)) }
             if (e.key === 'Enter' && hits[focus] != null && !used.has(data.players[hits[focus]][0])) onPick(hits[focus])
           }}
-          style={{ width: '100%', boxSizing: 'border-box', minHeight: 44, padding: '0 14px', borderRadius: 10, border: '1px solid ' + ACCENT, background: '#0F1320', color: TEXT, fontSize: 16, fontFamily: 'inherit' }} />
+          style={{ width: '100%', boxSizing: 'border-box', minHeight: 44, padding: '0 14px', borderRadius: 10, border: '1px solid ' + ACCENT, background: 'var(--hq-panel)', color: TEXT, fontSize: 16, fontFamily: 'inherit' }} />
         <div style={{ marginTop: 8, display: 'grid', gap: 2 }}>
           {hits.map((i, k) => {
             const isUsed = used.has(data.players[i][0])

@@ -10,10 +10,10 @@ import { submitFeedback, listFeedback, setFeedbackStatus, isAdmin, newFeedbackCo
 import { ACCENT, ACCENT_TEXT, TEXT, TEXT_2, LABEL, LINE, display, eyebrow, title, buttonText } from '../lib/theme'
 
 const SECONDARY = '#8A93A8'
-const card = { background: 'linear-gradient(155deg, #121626, #0F1320)', border: '1px solid ' + LINE, borderRadius: 14 }
+const card = { background: 'linear-gradient(155deg, var(--hq-surface), var(--hq-panel))', border: '1px solid ' + LINE, borderRadius: 14 }
 const btnAccent = { ...buttonText, background: ACCENT, color: '#fff', border: 'none', borderRadius: 10, padding: '10px 18px', cursor: 'pointer', fontSize: 14 }
 const btnGhost = { ...buttonText, background: 'transparent', color: TEXT_2, border: '1px solid ' + LINE, borderRadius: 10, padding: '9px 16px', cursor: 'pointer', fontSize: 13 }
-const input = { background: '#0F1320', border: '1px solid ' + LINE, borderRadius: 10, color: TEXT, padding: '11px 14px', fontSize: 14, width: '100%', boxSizing: 'border-box', fontFamily: 'inherit' }
+const input = { background: 'var(--hq-panel)', border: '1px solid ' + LINE, borderRadius: 10, color: TEXT, padding: '11px 14px', fontSize: 14, width: '100%', boxSizing: 'border-box', fontFamily: 'inherit' }
 const fieldLabel = { ...eyebrow, fontSize: 12, color: SECONDARY, display: 'block', margin: '14px 0 6px' }
 
 export const KINDS = [

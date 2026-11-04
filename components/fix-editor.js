@@ -10,10 +10,10 @@ import { addCorrection, listCorrections, revertCorrection, restoreCorrection, se
 import { ACCENT, ACCENT_TEXT, TEXT, TEXT_2, LABEL, LINE, eyebrow, title, buttonText } from '../lib/theme'
 
 const SECONDARY = '#8A93A8'
-const card = { background: 'linear-gradient(155deg, #121626, #0F1320)', border: '1px solid ' + LINE, borderRadius: 14 }
+const card = { background: 'linear-gradient(155deg, var(--hq-surface), var(--hq-panel))', border: '1px solid ' + LINE, borderRadius: 14 }
 const btnAccent = { ...buttonText, background: ACCENT, color: '#fff', border: 'none', borderRadius: 10, padding: '10px 18px', cursor: 'pointer', fontSize: 14 }
 const btnGhost = { ...buttonText, background: 'transparent', color: TEXT_2, border: '1px solid ' + LINE, borderRadius: 10, padding: '6px 12px', cursor: 'pointer', fontSize: 12 }
-const input = { background: '#0F1320', border: '1px solid ' + LINE, borderRadius: 10, color: TEXT, padding: '10px 12px', fontSize: 14, width: '100%', boxSizing: 'border-box', fontFamily: 'inherit' }
+const input = { background: 'var(--hq-panel)', border: '1px solid ' + LINE, borderRadius: 10, color: TEXT, padding: '10px 12px', fontSize: 14, width: '100%', boxSizing: 'border-box', fontFamily: 'inherit' }
 const fieldLabel = { ...eyebrow, fontSize: 12, color: SECONDARY, display: 'block', margin: '12px 0 6px' }
 const MEM = [['', 'Same as source / none'], ['GU', 'Game-used'], ['PW', 'Player-worn'], ['EW', 'Event-worn'], ['MX', 'Varies by card'], ['MFG', 'Manufactured'], ['UNK', 'Unknown']]
 const NEW = '__new__'

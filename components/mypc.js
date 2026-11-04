@@ -177,13 +177,13 @@ async function chaseCards(c, sets) {
 }
 
 // ---------- UI ----------
-const box = { background: '#0F1320', border: '1px solid #232A3E', borderRadius: 14, padding: '14px 16px' }
-const xBtn = { background: 'none', border: '1px solid #232A3E', color: '#8A93A8', borderRadius: 8, width: 32, height: 32, cursor: 'pointer', fontFamily: 'inherit', flexShrink: 0 }
-const input = { background: '#121626', border: '1px solid #232A3E', borderRadius: 10, color: '#EDEDEF', height: 40, padding: '0 12px', fontSize: 14, fontFamily: 'inherit', minWidth: 0, flex: '1 1 220px' }
+const box = { background: 'var(--hq-panel)', border: '1px solid var(--hq-line)', borderRadius: 14, padding: '14px 16px' }
+const xBtn = { background: 'none', border: '1px solid var(--hq-line)', color: '#8A93A8', borderRadius: 8, width: 32, height: 32, cursor: 'pointer', fontFamily: 'inherit', flexShrink: 0 }
+const input = { background: 'var(--hq-surface)', border: '1px solid var(--hq-line)', borderRadius: 10, color: '#EDEDEF', height: 40, padding: '0 12px', fontSize: 14, fontFamily: 'inherit', minWidth: 0, flex: '1 1 220px' }
 const primary = { ...buttonText, background: ACCENT, color: '#fff', border: 'none', borderRadius: 10, padding: '0 16px', height: 40, cursor: 'pointer', fontSize: 14 }
-const tabBtn = (on) => ({ ...buttonText, background: on ? '#0e1630' : 'transparent', border: '1px solid ' + (on ? ACCENT : '#232A3E'), color: on ? '#c9d8ff' : '#A1A1AA', borderRadius: 999, padding: '7px 14px', cursor: 'pointer', fontSize: 14, display: 'inline-flex', gap: 8, alignItems: 'center' })
-const countPill = (on) => ({ background: on ? ACCENT : '#232A3E', color: on ? '#fff' : '#A1A1AA', borderRadius: 999, padding: '1px 7px', fontSize: 12, fontWeight: 700 })
-const sugBtn = { display: 'flex', width: '100%', gap: 10, alignItems: 'baseline', textAlign: 'left', background: 'none', border: 'none', borderBottom: '1px solid #1A1F31', color: '#D4D4D8', padding: '9px 12px', cursor: 'pointer', fontFamily: 'inherit', fontSize: 14 }
+const tabBtn = (on) => ({ ...buttonText, background: on ? '#0e1630' : 'transparent', border: '1px solid ' + (on ? ACCENT : 'var(--hq-line)'), color: on ? '#c9d8ff' : '#A1A1AA', borderRadius: 999, padding: '7px 14px', cursor: 'pointer', fontSize: 14, display: 'inline-flex', gap: 8, alignItems: 'center' })
+const countPill = (on) => ({ background: on ? ACCENT : 'var(--hq-line)', color: on ? '#fff' : '#A1A1AA', borderRadius: 999, padding: '1px 7px', fontSize: 12, fontWeight: 700 })
+const sugBtn = { display: 'flex', width: '100%', gap: 10, alignItems: 'baseline', textAlign: 'left', background: 'none', border: 'none', borderBottom: '1px solid var(--hq-surface-2)', color: '#D4D4D8', padding: '9px 12px', cursor: 'pointer', fontFamily: 'inherit', fontSize: 14 }
 
 function Initials({ name, color }) {
   const i = name.split(/\s+/).filter(Boolean).map(w => w[0]).slice(0, 2).join('').toUpperCase()
@@ -203,7 +203,7 @@ function Picker({ placeholder, value, onChange, suggestions, onPick, ariaLabel }
       <input aria-label={ariaLabel} value={value} placeholder={placeholder} onFocus={() => setOpen(true)} onChange={(e) => { onChange(e.target.value); setOpen(true) }}
         onKeyDown={(e) => { if (e.key === 'Enter' && suggestions.length) { onPick(suggestions[0]); setOpen(false) } if (e.key === 'Escape') setOpen(false) }} style={{ ...input, width: '100%' }} />
       {open && suggestions.length > 0 && (
-        <div role="listbox" style={{ position: 'absolute', top: 44, left: 0, right: 0, zIndex: 30, background: '#121626', border: '1px solid #2E3D6B', borderRadius: 10, overflow: 'hidden', boxShadow: '0 12px 30px rgba(0,0,0,.45)' }}>
+        <div role="listbox" style={{ position: 'absolute', top: 44, left: 0, right: 0, zIndex: 30, background: 'var(--hq-surface)', border: '1px solid var(--hq-chip-line)', borderRadius: 10, overflow: 'hidden', boxShadow: '0 12px 30px rgba(0,0,0,.45)' }}>
           {suggestions.map(s => (
             <button key={s.id} role="option" onClick={() => { onPick(s); setOpen(false) }} style={sugBtn}>
               <span style={{ fontWeight: 600, flex: 1, minWidth: 0 }}>{s.label}</span>
@@ -241,7 +241,7 @@ export function MyPCPanel({ myPlayers, pc, sets, onOpenPlayer, onOpenSet, initia
   const setMeta = useMemo(() => new Map((sets || []).map(s => [s.slug, s])), [sets])
   const TABS = [['players', 'Players', myPlayers.list.length], ['teams', 'Teams', pc.of('team').length], ['sets', 'Sets', pc.of('set').length], ['chases', 'Chases', pc.of('chase').length]]
   return (
-    <div className="hq-panel" style={{ background: 'linear-gradient(140deg, #0f1526, #0F1320)', border: '1px solid ' + ACCENT + '33', borderRadius: 18, padding: '26px 28px' }}>
+    <div className="hq-panel" style={{ background: 'linear-gradient(140deg, #0f1526, var(--hq-panel))', border: '1px solid ' + ACCENT + '33', borderRadius: 18, padding: '26px 28px' }}>
       <h1 style={{ ...display, fontSize: 40, margin: 0, lineHeight: 1 }}>My PC</h1>
       <p style={{ color: '#A3ABBD', fontSize: 14, lineHeight: 1.6, maxWidth: 720, margin: '12px 0 0' }}>Your personal collection — whatever you chase. Players, teams, sets, or something as specific as Lightning shields or Rays SuperFractors. Turn on <strong style={{ color: ACCENT_TEXT }}>My PC</strong> on any set page to see only your cards.</p>
       <div role="tablist" style={{ display: 'flex', gap: 8, flexWrap: 'wrap', margin: '20px 0 18px' }}>
@@ -394,7 +394,7 @@ function ChasesTab({ pc, myPlayers, sets, onOpenSet }) {
             <div key={key} style={box}>
               <div style={{ display: 'flex', gap: 12, alignItems: 'center', flexWrap: 'wrap' }}>
                 <p style={{ ...title(16), margin: 0, color: '#EDEDEF', flex: 1, minWidth: 0 }}>{label}</p>
-                <button onClick={() => setOpen(open === key ? null : key)} aria-expanded={open === key} style={{ ...buttonText, background: 'transparent', color: ACCENT_TEXT, border: '1px solid #2E3D6B', borderRadius: 9, padding: '0 14px', height: 34, cursor: 'pointer', fontSize: 13 }}>{open === key ? 'Hide cards' : 'See cards'}</button>
+                <button onClick={() => setOpen(open === key ? null : key)} aria-expanded={open === key} style={{ ...buttonText, background: 'transparent', color: ACCENT_TEXT, border: '1px solid var(--hq-chip-line)', borderRadius: 9, padding: '0 14px', height: 34, cursor: 'pointer', fontSize: 13 }}>{open === key ? 'Hide cards' : 'See cards'}</button>
                 <button aria-label={'Remove ' + label} onClick={() => { pc.remove('chase', key); if (open === key) setOpen(null) }} style={xBtn}>×</button>
               </div>
               {open === key && <ChaseResults chase={parseChase(key)} sets={sets} onOpenSet={onOpenSet} />}
@@ -423,7 +423,7 @@ function ChaseResults({ chase, sets, onOpenSet }) {
       <p style={{ color: '#8A93A8', fontSize: 13, margin: '0 0 10px' }}>{cards.length.toLocaleString()} card{cards.length === 1 ? '' : 's'} in {bySet.length.toLocaleString()} set{bySet.length === 1 ? '' : 's'}</p>
       <div style={{ display: 'grid', gap: 6 }}>
         {bySet.slice(0, limit).map(g => (
-          <div key={g.slug} style={{ background: '#0B0E17', border: '1px solid #1A1F31', borderRadius: 10, padding: '10px 14px' }}>
+          <div key={g.slug} style={{ background: 'var(--hq-bg)', border: '1px solid var(--hq-surface-2)', borderRadius: 10, padding: '10px 14px' }}>
             <button onClick={() => onOpenSet(g.slug)} style={{ ...title(14), background: 'none', border: 'none', color: '#EDEDEF', cursor: 'pointer', padding: 0, textAlign: 'left' }}>{g.name}</button>
             <ul style={{ listStyle: 'none', margin: '6px 0 0', padding: 0, display: 'grid', gap: 3 }}>
               {g.cards.slice(0, 12).map((c, i) => (

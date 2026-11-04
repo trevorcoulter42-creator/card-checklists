@@ -82,7 +82,7 @@ function Chip({ children, color, solid, onClick, active }) {
   const style = {
     display: 'inline-flex', alignItems: 'center', gap: 6, padding: '4px 10px', borderRadius: 999, fontSize: 12, fontWeight: 700,
     letterSpacing: '0.06em', textTransform: 'uppercase', whiteSpace: 'nowrap',
-    background: solid || active ? c : 'transparent', color: solid || active ? '#0F1320' : (c === ACCENT ? ACCENT_TEXT : c),   // accent blue as text is too dark on the page background border: '1px solid ' + c + (solid || active ? '' : '66'),
+    background: solid || active ? c : 'transparent', color: solid || active ? 'var(--hq-panel)' : (c === ACCENT ? ACCENT_TEXT : c),   // accent blue as text is too dark on the page background border: '1px solid ' + c + (solid || active ? '' : '66'),
     cursor: onClick ? 'pointer' : 'default', fontFamily: 'inherit'
   }
   return onClick ? <button onClick={onClick} style={style}>{children}</button> : <span style={style}>{children}</span>
@@ -145,8 +145,8 @@ function Initials({ name, color }) {
   const i = name.split(/\s+/).filter(Boolean).map(w => w[0]).slice(0, 2).join('').toUpperCase()
   return <span style={{ width: 34, height: 34, borderRadius: 999, background: color + '22', border: '1px solid ' + color + '55', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, color, fontSize: 13, flexShrink: 0 }}>{i}</span>
 }
-const btn = (primary) => ({ ...buttonText, background: primary ? ACCENT : 'transparent', color: primary ? '#fff' : '#D4D4D8', border: primary ? 'none' : '1px solid #2E3D6B', borderRadius: 10, padding: '0 16px', height: 42, cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 14 })
-const pill = (active, color) => ({ padding: '7px 12px', borderRadius: 999, fontSize: 12, fontWeight: 700, cursor: 'pointer', letterSpacing: '0.04em', textTransform: 'uppercase', fontFamily: 'inherit', background: active ? (color || ACCENT) : '#121626', color: active ? '#fff' : '#A1A1AA', border: '1px solid ' + (active ? 'transparent' : '#232A3E'), whiteSpace: 'nowrap' })
+const btn = (primary) => ({ ...buttonText, background: primary ? ACCENT : 'transparent', color: primary ? '#fff' : '#D4D4D8', border: primary ? 'none' : '1px solid var(--hq-chip-line)', borderRadius: 10, padding: '0 16px', height: 42, cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 14 })
+const pill = (active, color) => ({ padding: '7px 12px', borderRadius: 999, fontSize: 12, fontWeight: 700, cursor: 'pointer', letterSpacing: '0.04em', textTransform: 'uppercase', fontFamily: 'inherit', background: active ? (color || ACCENT) : 'var(--hq-surface)', color: active ? '#fff' : '#A1A1AA', border: '1px solid ' + (active ? 'transparent' : 'var(--hq-line)'), whiteSpace: 'nowrap' })
 
 // ---------- Omnibox ----------
 export function Omnibox({ value, onChange, onSubmit, onPickPlayer, onPickSet, sets, autoFocus, compact, busy }) {
@@ -212,7 +212,7 @@ export function Omnibox({ value, onChange, onSubmit, onPickPlayer, onPickSet, se
   return (
     <div ref={box} style={{ position: 'relative' }}>
       <form role="search" aria-label="Player and set search" onSubmit={(e) => { e.preventDefault(); go(open && items.length && moved && dValue === value ? sel : -1) }}
-        style={{ display: 'flex', alignItems: 'center', background: '#121626', border: '1px solid ' + (open ? ACCENT + '66' : '#232A3E'), borderRadius: open && items.length ? '14px 14px 0 0' : 14, padding: 6, boxShadow: open ? '0 0 0 4px ' + ACCENT + '14' : '0 20px 50px -20px rgba(0,0,0,0.8)' }}>
+        style={{ display: 'flex', alignItems: 'center', background: 'var(--hq-surface)', border: '1px solid ' + (open ? ACCENT + '66' : 'var(--hq-line)'), borderRadius: open && items.length ? '14px 14px 0 0' : 14, padding: 6, boxShadow: open ? '0 0 0 4px ' + ACCENT + '14' : '0 20px 50px -20px rgba(0,0,0,0.8)' }}>
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={open ? ACCENT : '#8A93A8'} strokeWidth="2" aria-hidden="true" style={{ marginLeft: 10, flexShrink: 0 }}><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
         <input className="hq-omni-input" value={value} autoFocus={autoFocus} aria-label="Search players, sets, serials"
           role="combobox" aria-autocomplete="list" aria-controls={listId} aria-expanded={!!(open && items.length)}
@@ -225,11 +225,11 @@ export function Omnibox({ value, onChange, onSubmit, onPickPlayer, onPickSet, se
         <button type="submit" style={{ ...buttonText, background: ACCENT, color: '#fff', border: 'none', borderRadius: 10, padding: '0 22px', height: compact ? 38 : 44, cursor: 'pointer', fontSize: 14, opacity: busy ? 0.75 : 1 }} aria-busy={busy ? 'true' : undefined}>{busy ? 'Searching…' : 'Search'}</button>
       </form>
       {open && (items.length > 0 || understood.length > 0) && (
-        <div role="listbox" id={listId} style={{ position: 'absolute', left: 0, right: 0, top: '100%', zIndex: 60, background: '#0F1320', border: '1px solid #232A3E', borderTop: 'none', borderRadius: '0 0 14px 14px', overflow: 'hidden', boxShadow: '0 30px 60px -20px #000' }}>
+        <div role="listbox" id={listId} style={{ position: 'absolute', left: 0, right: 0, top: '100%', zIndex: 60, background: 'var(--hq-panel)', border: '1px solid var(--hq-line)', borderTop: 'none', borderRadius: '0 0 14px 14px', overflow: 'hidden', boxShadow: '0 30px 60px -20px #000' }}>
           {understood.length > 0 && (
-            <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center', padding: '10px 16px 6px', borderBottom: '1px solid #1A1F31' }}>
+            <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center', padding: '10px 16px 6px', borderBottom: '1px solid var(--hq-surface-2)' }}>
               <span style={{ ...eyebrow, color: '#8A93A8' }}>Understood</span>
-              {parsed.player && <span style={{ background: '#121626', border: '1px solid #232A3E', borderRadius: 999, padding: '4px 10px', fontSize: 12 }}><span style={{ ...eyebrow, color: '#8A93A8', marginRight: 6 }}>player</span>{parsed.player}</span>}
+              {parsed.player && <span style={{ background: 'var(--hq-surface)', border: '1px solid var(--hq-line)', borderRadius: 999, padding: '4px 10px', fontSize: 12 }}><span style={{ ...eyebrow, color: '#8A93A8', marginRight: 6 }}>player</span>{parsed.player}</span>}
               {understood.map(([k, v], i) => <span key={i} style={{ background: '#0e1630', border: '1px solid ' + ACCENT + '66', borderRadius: 999, padding: '4px 10px', fontSize: 12, color: '#8fb0ff' }}><span style={{ ...eyebrow, color: '#5b82e8', marginRight: 6 }}>{k}</span>{v}</span>)}
             </div>
           )}
@@ -247,15 +247,15 @@ export function Omnibox({ value, onChange, onSubmit, onPickPlayer, onPickSet, se
             </button>
           ) : (
             <button key={'s' + it.s.slug} id={listId + '-' + i} role="option" aria-selected={sel === i} onMouseEnter={() => setSel(i)} onClick={() => go(i)}
-              style={{ width: '100%', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 12, padding: '9px 16px', background: sel === i ? '#111a30' : 'transparent', border: 'none', borderTop: i === playerHits.length ? '1px solid #1A1F31' : 'none', color: '#EDEDEF', cursor: 'pointer', fontFamily: 'inherit', minHeight: 44 }}>
+              style={{ width: '100%', textAlign: 'left', display: 'flex', alignItems: 'center', gap: 12, padding: '9px 16px', background: sel === i ? '#111a30' : 'transparent', border: 'none', borderTop: i === playerHits.length ? '1px solid var(--hq-surface-2)' : 'none', color: '#EDEDEF', cursor: 'pointer', fontFamily: 'inherit', minHeight: 44 }}>
               <span style={{ width: 4, height: 28, background: SPORT_COLORS[it.s.sport] || ACCENT, borderRadius: 2 }} />
               <span style={{ flex: 1 }}><span style={{ fontWeight: 600, fontSize: 14 }}>{it.s.name}</span><span style={{ display: 'block', color: '#8A93A8', fontSize: 12 }}>Set · {(it.s.cardCount || 0).toLocaleString()} card{it.s.cardCount === 1 ? '' : 's'} · {it.s.sections} section{it.s.sections === 1 ? '' : 's'}</span></span>
             </button>
           ))}
           {refine.length > 0 && (
-            <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', padding: '8px 16px 12px', borderTop: '1px solid #1A1F31' }}>
+            <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', padding: '8px 16px 12px', borderTop: '1px solid var(--hq-surface-2)' }}>
               <span style={{ ...eyebrow, color: '#8A93A8', alignSelf: 'center', marginRight: 4 }}>Refine</span>
-              {refine.map(([q, label]) => <button key={q} onClick={() => { onChange(q); onSubmit(q); setOpen(false) }} style={{ background: '#121626', color: '#D4D4D8', border: '1px solid #232A3E', padding: '6px 11px', borderRadius: 999, fontSize: 12, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit' }}>{playerHits[0].name.split(' ').pop().toLowerCase()} <span style={{ color: ACCENT_TEXT }}>{label}</span></button>)}
+              {refine.map(([q, label]) => <button key={q} onClick={() => { onChange(q); onSubmit(q); setOpen(false) }} style={{ background: 'var(--hq-surface)', color: '#D4D4D8', border: '1px solid var(--hq-line)', padding: '6px 11px', borderRadius: 999, fontSize: 12, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit' }}>{playerHits[0].name.split(' ').pop().toLowerCase()} <span style={{ color: ACCENT_TEXT }}>{label}</span></button>)}
             </div>
           )}
         </div>
@@ -487,7 +487,7 @@ function PlayerPageInner({ player, parsed, sets, onOpenSet, myPlayers, onWant, o
       <td style={{ padding: '9px 12px' }}><TypeChip t={r.type} /></td>
       <td style={{ padding: '9px 12px' }}>{r.mem ? <MemChip code={r.mem} /> : <span style={{ color: '#5C6478' }}>—</span>}</td>
       <td style={{ padding: '9px 12px', textAlign: 'right', whiteSpace: 'nowrap' }}><Serial s={r.serial} /></td>
-      <td style={{ padding: '9px 12px', textAlign: 'right' }}><button aria-label={'Add #' + r.n + ' ' + r.section + ' to wantlist'} onClick={() => onWant({ set_slug: r.slug, set_name: r.set, card_n: r.n, section: r.section, player: r.label || player.name }, true)} style={{ background: 'none', border: '1px solid #232A3E', color: '#A1A1AA', borderRadius: 6, width: 32, height: 32, cursor: 'pointer', fontFamily: 'inherit' }}>+</button></td>
+      <td style={{ padding: '9px 12px', textAlign: 'right' }}><button aria-label={'Add #' + r.n + ' ' + r.section + ' to wantlist'} onClick={() => onWant({ set_slug: r.slug, set_name: r.set, card_n: r.n, section: r.section, player: r.label || player.name }, true)} style={{ background: 'none', border: '1px solid var(--hq-line)', color: '#A1A1AA', borderRadius: 6, width: 32, height: 32, cursor: 'pointer', fontFamily: 'inherit' }}>+</button></td>
     </tr>
   )
   const th = { padding: '9px 12px', fontWeight: 700, textAlign: 'left', fontSize: 12, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#8A93A8', whiteSpace: 'nowrap' }
@@ -498,13 +498,13 @@ function PlayerPageInner({ player, parsed, sets, onOpenSet, myPlayers, onWant, o
       {candidates && candidates.length > 1 && (
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center', margin: '0 0 14px' }}>
           <span style={{ ...eyebrow, color: '#8A93A8' }}>Also matches</span>
-          {candidates.filter(c => c.id !== player.id).slice(0, 6).map(c => <button key={c.id} onClick={() => onPickCandidate(c)} style={{ background: '#121626', color: '#D4D4D8', border: '1px solid #232A3E', padding: '6px 11px', borderRadius: 999, fontSize: 13, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit' }}>{c.name} <span style={{ color: '#8A93A8' }}>· {c.cards.toLocaleString()}</span></button>)}
+          {candidates.filter(c => c.id !== player.id).slice(0, 6).map(c => <button key={c.id} onClick={() => onPickCandidate(c)} style={{ background: 'var(--hq-surface)', color: '#D4D4D8', border: '1px solid var(--hq-line)', padding: '6px 11px', borderRadius: 999, fontSize: 13, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit' }}>{c.name} <span style={{ color: '#8A93A8' }}>· {c.cards.toLocaleString()}</span></button>)}
         </div>
       )}
 
       {/* HERO */}
       {/* TCG / non-sport cards have no autos, rookies or game-used: hide those empty tiles and views */}
-      <div className="hq-panel" style={{ background: 'linear-gradient(140deg, #191919, #0F1320)', border: '1px solid #232A3E', borderRadius: 18, padding: '26px 28px', display: 'flex', gap: 26, flexWrap: 'wrap', alignItems: 'flex-start' }}>
+      <div className="hq-panel" style={{ background: 'linear-gradient(140deg, #191919, var(--hq-panel))', border: '1px solid var(--hq-line)', borderRadius: 18, padding: '26px 28px', display: 'flex', gap: 26, flexWrap: 'wrap', alignItems: 'flex-start' }}>
         <div style={{ flex: '1 1 300px', minWidth: 0 }}>
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 10 }}>
             <Chip color={color} solid>{player.sport}</Chip>
@@ -529,7 +529,7 @@ function PlayerPageInner({ player, parsed, sets, onOpenSet, myPlayers, onWant, o
         </div>
         <div style={{ flex: '1 1 300px', minWidth: 0, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(110px, 1fr))', gap: 10 }}>
           {[[rows.length, 'Cards', ACCENT], [facets.sets.size, 'Sets'], [facets.au, 'Autographs'], [facets.one, '1/1s'], [facets.rc, 'Rookies'], [facets.patch, 'Patches'], [facets.mem.GU || 0, 'Game-used'], [facets.seasons, 'Years of sets']].filter(([n, l]) => !(nonSports && shard && !n && l !== 'Cards' && l !== 'Sets')).map(([n, l, c]) => (
-            <div key={l} style={{ background: '#0F1320', border: '1px solid #232A3E', borderRadius: 12, padding: '14px 12px' }}>
+            <div key={l} style={{ background: 'var(--hq-panel)', border: '1px solid var(--hq-line)', borderRadius: 12, padding: '14px 12px' }}>
               <p style={{ ...display, margin: 0, fontSize: 32, color: c || '#EDEDEF', lineHeight: 1 }}>{shard ? n.toLocaleString() : '…'}</p>
               <p style={{ ...eyebrow, margin: '6px 0 0', color: '#8A93A8' }}>{l}</p>
             </div>
@@ -545,13 +545,13 @@ function PlayerPageInner({ player, parsed, sets, onOpenSet, myPlayers, onWant, o
 
       {/* BODY */}
       <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', alignItems: 'flex-start', marginTop: 18 }}>
-        <aside aria-label="Filters" className={'hq-aside' + (filtersOpen ? '' : ' hq-collapsed')} style={{ flex: '0 0 280px', maxWidth: 290, minWidth: 0, boxSizing: 'border-box', background: '#0F1320', border: '1px solid #232323', borderRadius: 14, padding: 16, display: 'flex', flexDirection: 'column', gap: 18 }}>
+        <aside aria-label="Filters" className={'hq-aside' + (filtersOpen ? '' : ' hq-collapsed')} style={{ flex: '0 0 280px', maxWidth: 290, minWidth: 0, boxSizing: 'border-box', background: 'var(--hq-panel)', border: '1px solid #232323', borderRadius: 14, padding: 16, display: 'flex', flexDirection: 'column', gap: 18 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 10 }}>
             <span style={{ ...eyebrow }}>Filters</span>
             <span style={{ display: 'inline-flex', gap: 14, alignItems: 'center' }}>
               <button onClick={resetAll} style={{ background: 'none', border: 'none', color: ACCENT_TEXT, fontSize: 12, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit', padding: '6px 0' }}>Reset</button>
               <button className="hq-filters-toggle" aria-expanded={filtersOpen} onClick={() => setFiltersOpen(o => !o)}
-                style={{ background: '#1a1a1a', border: '1px solid #232A3E', color: '#D4D4D8', borderRadius: 8, height: 34, padding: '0 12px', fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit', alignItems: 'center' }}>{filtersOpen ? 'Hide ▴' : 'Show ▾'}</button>
+                style={{ background: '#1a1a1a', border: '1px solid var(--hq-line)', color: '#D4D4D8', borderRadius: 8, height: 34, padding: '0 12px', fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit', alignItems: 'center' }}>{filtersOpen ? 'Hide ▴' : 'Show ▾'}</button>
             </span>
           </div>
           <div>
@@ -621,8 +621,8 @@ function PlayerPageInner({ player, parsed, sets, onOpenSet, myPlayers, onWant, o
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
             <span style={{ ...title(18) }}>{shard ? filtered.length.toLocaleString() : '…'} card{shard && filtered.length === 1 ? '' : 's'} <span style={{ color: '#8A93A8', fontSize: 16 }}>in {(n => n.toLocaleString() + (n === 1 ? ' set' : ' sets'))(new Set(filtered.map(r => r.slug)).size)}</span></span>
             <div style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap' }}>
-              <div role="group" aria-label="Group results" style={{ display: 'inline-flex', border: '1px solid #232A3E', borderRadius: 8, overflow: 'hidden' }}>
-                {[['set', 'By set'], ['season', 'By season'], ['flat', 'Flat list']].map(([k, l]) => <button key={k} onClick={() => setGroup(k)} style={{ background: group === k ? ACCENT : '#121626', color: group === k ? '#fff' : '#A1A1AA', border: 'none', padding: '0 12px', height: 36, fontSize: 12, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit' }}>{l}</button>)}
+              <div role="group" aria-label="Group results" style={{ display: 'inline-flex', border: '1px solid var(--hq-line)', borderRadius: 8, overflow: 'hidden' }}>
+                {[['set', 'By set'], ['season', 'By season'], ['flat', 'Flat list']].map(([k, l]) => <button key={k} onClick={() => setGroup(k)} style={{ background: group === k ? ACCENT : 'var(--hq-surface)', color: group === k ? '#fff' : '#A1A1AA', border: 'none', padding: '0 12px', height: 36, fontSize: 12, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit' }}>{l}</button>)}
               </div>
               <Select label="Sort" ariaLabel="Sort" value={sort} onChange={setSort} width={220} options={[['newest', 'Newest first'], ['oldest', 'Oldest first'], ['rarest', 'Rarest first'], ['set', 'Set A–Z']]} />
             </div>
@@ -632,7 +632,7 @@ function PlayerPageInner({ player, parsed, sets, onOpenSet, myPlayers, onWant, o
             <div aria-label="Cards per season" style={{ display: 'flex', gap: 3, alignItems: 'flex-end', height: 58, padding: '0 2px' }}>
               {years.map((y, yi) => { const n = yearCounts.get(y) || 0; const active = y >= yearFrom && y <= yearTo; const every = Math.ceil(years.length / 14); return (
                 <button key={y} onClick={() => { setYearFrom(y); setYearTo(y) }} title={seasonLabel(y, player.sport) + ': ' + n.toLocaleString() + (n === 1 ? ' card' : ' cards')} aria-label={seasonLabel(y, player.sport) + ', ' + n + ' cards'} style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-end', gap: 4, height: '100%', background: 'none', border: 'none', padding: 0, cursor: 'pointer', fontFamily: 'inherit' }}>
-                  <span style={{ width: '100%', height: n ? 6 + Math.round(38 * n / maxYearCount) : 2, opacity: n ? 1 : 0.5, transition: 'height 300ms ease, background-color 200ms ease, opacity 200ms ease', background: active ? (yearFrom === yearTo && yearFrom === y ? ACCENT : '#2E3D6B') : '#1A1F31', borderRadius: '3px 3px 0 0' }} />
+                  <span style={{ width: '100%', height: n ? 6 + Math.round(38 * n / maxYearCount) : 2, opacity: n ? 1 : 0.5, transition: 'height 300ms ease, background-color 200ms ease, opacity 200ms ease', background: active ? (yearFrom === yearTo && yearFrom === y ? ACCENT : 'var(--hq-chip-line)') : 'var(--hq-surface-2)', borderRadius: '3px 3px 0 0' }} />
                   <span style={{ fontSize: 12, color: active ? '#A1A1AA' : '#8A93A8', visibility: yi % every === 0 || yi === years.length - 1 ? 'visible' : 'hidden' }}>{String(y).slice(2)}</span>
                 </button>) })}
             </div>
@@ -647,8 +647,8 @@ function PlayerPageInner({ player, parsed, sets, onOpenSet, myPlayers, onWant, o
                 const all = showAll.has(g.key)
                 const c = SPORT_COLORS[g.sport] || ACCENT
                 return (
-                  <article key={g.key} style={{ border: '1px solid #232A3E', borderRadius: 14, overflow: 'hidden', background: '#0F1320' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '12px 16px', background: open ? '#121626' : '#0F1320', flexWrap: 'wrap' }}>
+                  <article key={g.key} style={{ border: '1px solid var(--hq-line)', borderRadius: 14, overflow: 'hidden', background: 'var(--hq-panel)' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '12px 16px', background: open ? 'var(--hq-surface)' : 'var(--hq-panel)', flexWrap: 'wrap' }}>
                       <span style={{ width: 4, height: 36, background: c, borderRadius: 2 }} />
                       <div style={{ flex: 1, minWidth: 200 }}>
                         {group === 'set' ? <button onClick={() => onOpenSet(g.slug)} style={{ ...title(16), background: 'none', border: 'none', color: '#EDEDEF', cursor: 'pointer', padding: 0, textAlign: 'left' }}>{g.title}</button>
@@ -669,7 +669,7 @@ function PlayerPageInner({ player, parsed, sets, onOpenSet, myPlayers, onWant, o
                         if (!n.size) n.add('__none')
                         return n
                       })}
-                        style={{ background: 'none', border: '1px solid #232A3E', color: '#A1A1AA', borderRadius: 8, width: 36, height: 36, cursor: 'pointer', fontSize: 16, fontFamily: 'inherit' }}>{open ? '▾' : '▸'}</button>
+                        style={{ background: 'none', border: '1px solid var(--hq-line)', color: '#A1A1AA', borderRadius: 8, width: 36, height: 36, cursor: 'pointer', fontSize: 16, fontFamily: 'inherit' }}>{open ? '▾' : '▸'}</button>
                     </div>
                     {open && (
                       <>
@@ -686,13 +686,13 @@ function PlayerPageInner({ player, parsed, sets, onOpenSet, myPlayers, onWant, o
                 )
               })}
               {groups.length > limit && <div style={{ textAlign: 'center', padding: 8 }}><button onClick={() => setLimit(l => l + 40)} style={btn(false)}>Load {Math.min(40, groups.length - limit)} more {group === 'season' ? 'seasons' : 'sets'} ({groups.length - limit} left)</button></div>}
-              {groups.length === 0 && <div style={{ border: '1px dashed #232A3E', borderRadius: 14, padding: '22px 20px', color: '#8A93A8' }}>No cards match these filters. <button onClick={resetAll} style={{ background: 'none', border: 'none', color: ACCENT_TEXT, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit', fontSize: 14 }}>Clear all filters</button></div>}
+              {groups.length === 0 && <div style={{ border: '1px dashed var(--hq-line)', borderRadius: 14, padding: '22px 20px', color: '#8A93A8' }}>No cards match these filters. <button onClick={resetAll} style={{ background: 'none', border: 'none', color: ACCENT_TEXT, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit', fontSize: 14 }}>Clear all filters</button></div>}
             </>
           ) : (
-            <div style={{ border: '1px solid #232A3E', borderRadius: 14, overflow: 'hidden', background: '#0F1320' }}>
+            <div style={{ border: '1px solid var(--hq-line)', borderRadius: 14, overflow: 'hidden', background: 'var(--hq-panel)' }}>
               <div style={{ overflowX: 'auto' }}>
                 <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14, minWidth: 820 }}>
-                  <thead><tr style={{ background: '#121626' }}><th style={th}>Season</th><th style={th}>Set</th><th style={th}>Card #</th><th style={th}>Section / parallel</th><th style={th}>Type</th><th style={th}>Material</th><th style={{ ...th, textAlign: 'right' }}>Run</th><th style={{ ...th, textAlign: 'right' }}>Want</th></tr></thead>
+                  <thead><tr style={{ background: 'var(--hq-surface)' }}><th style={th}>Season</th><th style={th}>Set</th><th style={th}>Card #</th><th style={th}>Section / parallel</th><th style={th}>Type</th><th style={th}>Material</th><th style={{ ...th, textAlign: 'right' }}>Run</th><th style={{ ...th, textAlign: 'right' }}>Want</th></tr></thead>
                   <tbody>{sorted.slice(0, limit * 5).map((r, i) => row(r, true, i))}</tbody>
                 </table>
               </div>
@@ -762,7 +762,7 @@ export function MyPlayersPanel({ myPlayers, onOpenPlayer, onOpenSet, dirPlayers 
     return dir.players.findIndex((p, x) => (akaOf(dir, x) || []).some(([a]) => a === k))
   }
   return (
-    <div className="hq-panel" style={{ background: 'linear-gradient(140deg, #0f1526, #0F1320)', border: '1px solid ' + ACCENT + '33', borderRadius: 18, padding: '26px 28px' }}>
+    <div className="hq-panel" style={{ background: 'linear-gradient(140deg, #0f1526, var(--hq-panel))', border: '1px solid ' + ACCENT + '33', borderRadius: 18, padding: '26px 28px' }}>
       <h1 style={{ ...display, fontSize: 40, margin: 0, lineHeight: 1 }}>My Players</h1>
       <p style={{ color: '#A3ABBD', fontSize: 14, lineHeight: 1.6, maxWidth: 680, margin: '12px 0 0' }}>The players you collect. They become a one-click filter on every set page, and each one has a full player page with every card, parallel and print run.</p>
       {myPlayers.list.length === 0 ? <p style={{ color: '#8A93A8', fontSize: 14, marginTop: 18 }}>No players yet — search for a player and hit <strong style={{ color: ACCENT_TEXT }}>Collect this player</strong>.</p> : (
@@ -771,13 +771,13 @@ export function MyPlayersPanel({ myPlayers, onOpenPlayer, onOpenSet, dirPlayers 
             const i = resolve(name); const p = i >= 0 ? dir.players[i] : null
             const sport = p ? dir.sports[p[3]] : ''
             return (
-              <div key={name} style={{ background: '#0F1320', border: '1px solid #232A3E', borderRadius: 14, padding: '14px 16px', display: 'flex', gap: 12, alignItems: 'center' }}>
+              <div key={name} style={{ background: 'var(--hq-panel)', border: '1px solid var(--hq-line)', borderRadius: 14, padding: '14px 16px', display: 'flex', gap: 12, alignItems: 'center' }}>
                 <Initials name={name} color={SPORT_COLORS[sport] || ACCENT} />
                 <div style={{ flex: 1, minWidth: 0 }}>
                   <button onClick={() => onOpenPlayer(name)} style={{ ...title(16), background: 'none', border: 'none', color: '#EDEDEF', cursor: 'pointer', padding: 0, textAlign: 'left', lineHeight: 1.05 }}>{name}</button>
                   <p style={{ margin: '3px 0 0', color: '#8A93A8', fontSize: 12 }}>{p ? sport + ' · ' + p[2].toLocaleString() + (p[2] === 1 ? ' card' : ' cards') : dir ? 'Not found in the database' : '…'}</p>
                 </div>
-                <button aria-label={'Remove ' + name} onClick={() => myPlayers.toggle(name)} style={{ background: 'none', border: '1px solid #232A3E', color: '#8A93A8', borderRadius: 8, width: 32, height: 32, cursor: 'pointer', fontFamily: 'inherit' }}>×</button>
+                <button aria-label={'Remove ' + name} onClick={() => myPlayers.toggle(name)} style={{ background: 'none', border: '1px solid var(--hq-line)', color: '#8A93A8', borderRadius: 8, width: 32, height: 32, cursor: 'pointer', fontFamily: 'inherit' }}>×</button>
               </div>
             )
           })}
@@ -790,7 +790,7 @@ export function MyPlayersPanel({ myPlayers, onOpenPlayer, onOpenSet, dirPlayers 
           <div style={{ display: 'grid', gap: 6 }}>
             {fresh.slice(0, 30).map(f => (
               <button key={f.player + f.slug} onClick={() => onOpenSet && onOpenSet(f.slug)}
-                style={{ display: 'flex', gap: 12, alignItems: 'baseline', flexWrap: 'wrap', textAlign: 'left', background: '#0F1320', border: '1px solid #232A3E', borderRadius: 10, padding: '10px 14px', cursor: 'pointer', fontFamily: 'inherit', color: '#D4D4D8' }}>
+                style={{ display: 'flex', gap: 12, alignItems: 'baseline', flexWrap: 'wrap', textAlign: 'left', background: 'var(--hq-panel)', border: '1px solid var(--hq-line)', borderRadius: 10, padding: '10px 14px', cursor: 'pointer', fontFamily: 'inherit', color: '#D4D4D8' }}>
                 <span style={{ fontWeight: 700, minWidth: 140 }}>{f.player}</span>
                 <span style={{ flex: 1, minWidth: 0 }}>{f.set}</span>
                 <span style={{ color: '#8A93A8', fontSize: 13, whiteSpace: 'nowrap' }}>{f.cards.toLocaleString()} card{f.cards === 1 ? '' : 's'}</span>

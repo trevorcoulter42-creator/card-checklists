@@ -5,10 +5,10 @@ import { useDialogFocus } from './dialog-focus'
 import { supa, signOutHere, grailfindrConnectUrl, grailfindrSignupUrl, grailfindrForgotUrl, GRAILFINDR_URL, getProfile, ensureProfile, updateProfile, deletePost, forumFeed, createPost, react, comments, addComment } from '../lib/supa'
 import { ACCENT, ACCENT_TEXT, BG, SURFACE, SURFACE_2, LINE, CHIP_LINE, TEXT, TEXT_2, LABEL, display, eyebrow, title, buttonText } from '../lib/theme'
 
-const card = { background: 'linear-gradient(155deg, #121626, #0F1320)', border: '1px solid #232A3E', borderRadius: 14 }
+const card = { background: 'linear-gradient(155deg, var(--hq-surface), var(--hq-panel))', border: '1px solid var(--hq-line)', borderRadius: 14 }
 const btnAccent = { ...buttonText, background: ACCENT, color: '#fff', border: 'none', borderRadius: 10, padding: '10px 18px', cursor: 'pointer', fontSize: 14 }
-const btnGhost = { ...buttonText, background: 'transparent', color: '#A1A1AA', border: '1px solid #232A3E', borderRadius: 10, padding: '9px 16px', cursor: 'pointer', fontSize: 13 }
-const input = { background: '#0F1320', border: '1px solid #232A3E', borderRadius: 10, color: '#EDEDEF', padding: '11px 14px', fontSize: 14, width: '100%', boxSizing: 'border-box' }
+const btnGhost = { ...buttonText, background: 'transparent', color: '#A1A1AA', border: '1px solid var(--hq-line)', borderRadius: 10, padding: '9px 16px', cursor: 'pointer', fontSize: 13 }
+const input = { background: 'var(--hq-panel)', border: '1px solid var(--hq-line)', borderRadius: 10, color: '#EDEDEF', padding: '11px 14px', fontSize: 14, width: '100%', boxSizing: 'border-box' }
 
 // --------------- auth hook + chip ---------------
 export function useAccount() {
@@ -86,7 +86,7 @@ export function AuthModal({ open, onClose, account }) {
             <p style={{ color: '#A1A1AA', fontSize: 14, lineHeight: 1.6, margin: '10px 0 18px' }}>CardHQ uses your GrailFindr account — one login for both. Track your wantlist, check off cards as you collect them, and share accomplishments.</p>
             <a href={grailfindrConnectUrl()} style={{ ...btnAccent, display: 'block', textAlign: 'center', textDecoration: 'none', boxSizing: 'border-box', width: '100%' }}>Continue with GrailFindr</a>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, margin: '16px 0', color: '#5B6478', fontSize: 12 }}>
-              <span style={{ flex: 1, height: 1, background: '#232A3E' }} />or sign in here<span style={{ flex: 1, height: 1, background: '#232A3E' }} />
+              <span style={{ flex: 1, height: 1, background: 'var(--hq-line)' }} />or sign in here<span style={{ flex: 1, height: 1, background: 'var(--hq-line)' }} />
             </div>
             <form onSubmit={async (e) => {
               e.preventDefault()
@@ -213,7 +213,7 @@ export function CommunityView({ account, indexSets, onOpenAuth }) {
 
   return (
     <section>
-      <div style={{ background: 'linear-gradient(140deg, #0f1526, #0F1320)', border: '1px solid ' + ACCENT + '33', borderRadius: 18, padding: 30, marginBottom: 22 }} className="hq-panel">
+      <div style={{ background: 'linear-gradient(140deg, #0f1526, var(--hq-panel))', border: '1px solid ' + ACCENT + '33', borderRadius: 18, padding: 30, marginBottom: 22 }} className="hq-panel">
         <h1 style={{ ...display, fontSize: 40, margin: 0, lineHeight: 1 }}>Community</h1>
         <p style={{ color: '#A3ABBD', fontSize: 16, lineHeight: 1.6, maxWidth: 720, margin: '14px 0 0' }}>
           Collecting accomplishments from the CardHQ community — completed sets, finished rainbows, grail pulls.
@@ -231,14 +231,14 @@ export function CommunityView({ account, indexSets, onOpenAuth }) {
             <input style={input} maxLength={120} aria-label="Post title" placeholder="Title — e.g. Finished the 2004-05 Megacracks base set!" value={postTitle} onChange={(e) => setPostTitle(e.target.value)} />
             <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
               {ACHIEVEMENTS.map(([v, label]) => (
-                <button key={v} onClick={() => setAch(v)} style={{ ...btnGhost, padding: '7px 12px', fontSize: 12, borderColor: ach === v ? ACCENT : '#232A3E', color: ach === v ? ACCENT_TEXT : '#A1A1AA' }}>{label}</button>
+                <button key={v} onClick={() => setAch(v)} style={{ ...btnGhost, padding: '7px 12px', fontSize: 12, borderColor: ach === v ? ACCENT : 'var(--hq-line)', color: ach === v ? ACCENT_TEXT : '#A1A1AA' }}>{label}</button>
               ))}
             </div>
             <div style={{ position: 'relative' }}>
               <input style={input} aria-label="Link a set" placeholder="Link a set (start typing its name)…" value={chosenSet ? chosenSet.name : setQuery}
                 onChange={(e) => { setChosenSet(null); setSetQuery(e.target.value) }} />
               {setMatches.length > 0 && !chosenSet && (
-                <div style={{ position: 'absolute', top: '100%', left: 0, right: 0, zIndex: 5, background: '#121626', border: '1px solid #232A3E', borderRadius: 10, overflow: 'hidden' }}>
+                <div style={{ position: 'absolute', top: '100%', left: 0, right: 0, zIndex: 5, background: 'var(--hq-surface)', border: '1px solid var(--hq-line)', borderRadius: 10, overflow: 'hidden' }}>
                   {setMatches.map(s => (
                     <div key={s.slug} onClick={() => { setChosenSet(s); setSetQuery('') }} style={{ padding: '9px 13px', fontSize: 13, color: '#ccc', cursor: 'pointer', borderBottom: '1px solid #222' }}>
                       {s.name} <span style={{ color: '#8A93A8' }}>({s.cardCount} card{s.cardCount === 1 ? '' : 's'})</span>
@@ -274,16 +274,16 @@ export function CommunityView({ account, indexSets, onOpenAuth }) {
             return (
               <div key={p.id} style={{ ...card, padding: '20px 22px' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8, flexWrap: 'wrap' }}>
-                  <span style={{ width: 30, height: 30, borderRadius: '50%', background: '#232A3E', color: ACCENT_TEXT, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 14 }}>{(p.profiles?.username || '?')[0].toUpperCase()}</span>
+                  <span style={{ width: 30, height: 30, borderRadius: '50%', background: 'var(--hq-line)', color: ACCENT_TEXT, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 14 }}>{(p.profiles?.username || '?')[0].toUpperCase()}</span>
                   <span style={{ color: '#D4D4D8', fontWeight: 700, fontSize: 14 }}>{p.profiles?.username || 'collector'}</span>
                   <span style={{ color: '#8A93A8', fontSize: 12 }}>{new Date(p.created_at).toLocaleDateString()}</span>
-                  {achLabel && <span style={{ ...eyebrow, marginLeft: 'auto', background: '#1A1F31', color: '#A1A1AA', padding: '4px 10px', borderRadius: 999, fontSize: 12 }}>{achLabel}</span>}
+                  {achLabel && <span style={{ ...eyebrow, marginLeft: 'auto', background: 'var(--hq-surface-2)', color: '#A1A1AA', padding: '4px 10px', borderRadius: 999, fontSize: 12 }}>{achLabel}</span>}
                 </div>
                 <h3 style={{ ...title(20), margin: 0, color: '#fff', lineHeight: 1.15 }}>{p.title}</h3>
                 {p.body && <p style={{ color: '#b5b5b5', fontSize: 14, lineHeight: 1.6, margin: '8px 0 0' }}>{p.body}</p>}
                 <div style={{ display: 'flex', gap: 14, marginTop: 14, alignItems: 'center' }}>
                   <button onClick={async () => { if (!session) { onOpenAuth(); return } await react(p.id, session.user.id, 'fire', !myFire); forumFeed().then(setFeed) }} aria-pressed={myFire} title={myFire ? 'Remove your 🔥' : 'Give this a 🔥'}
-                    style={{ background: myFire ? 'rgba(249,115,22,0.15)' : 'none', border: '1px solid ' + (myFire ? '#f97316' : '#232A3E'), color: '#D4D4D8', borderRadius: 999, padding: '5px 12px', fontSize: 13, cursor: 'pointer' }}>🔥 {fires || ''}</button>
+                    style={{ background: myFire ? 'rgba(249,115,22,0.15)' : 'none', border: '1px solid ' + (myFire ? '#f97316' : 'var(--hq-line)'), color: '#D4D4D8', borderRadius: 999, padding: '5px 12px', fontSize: 13, cursor: 'pointer' }}>🔥 {fires || ''}</button>
                   <button onClick={async () => {
                     const open = !openComments[p.id]
                     setOpenComments(o => ({ ...o, [p.id]: open }))
@@ -293,7 +293,7 @@ export function CommunityView({ account, indexSets, onOpenAuth }) {
                     <span style={{ marginLeft: 'auto', display: 'inline-flex', gap: 8, alignItems: 'center', fontSize: 13 }}>
                       <span style={{ color: '#A1A1AA' }}>Delete this post?</span>
                       <button onClick={async () => { const r = await deletePost(p.id); setConfirmDel(null); if (r.error) setPostErr('Couldn’t delete that post — ' + r.error.message); else forumFeed().then(setFeed) }} style={{ background: '#7f1d1d', border: 'none', color: '#fff', borderRadius: 6, padding: '5px 10px', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit' }}>Delete</button>
-                      <button onClick={() => setConfirmDel(null)} style={{ background: 'none', border: '1px solid #232A3E', color: '#A1A1AA', borderRadius: 6, padding: '5px 10px', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit' }}>Cancel</button>
+                      <button onClick={() => setConfirmDel(null)} style={{ background: 'none', border: '1px solid var(--hq-line)', color: '#A1A1AA', borderRadius: 6, padding: '5px 10px', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit' }}>Cancel</button>
                     </span>
                   ) : (
                     <button onClick={() => setConfirmDel(p.id)} style={{ marginLeft: 'auto', background: 'none', border: 'none', color: '#8A93A8', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit' }}>Delete</button>

@@ -50,7 +50,7 @@ function InstagramEmbeds({ urls }) {
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(326px, 100%), 1fr))', gap: 16 }}>
       {urls.map((u) => (
         <blockquote key={u} className="instagram-media" data-instgrm-permalink={u} data-instgrm-version="14"
-          style={{ background: '#0F1320', border: '1px solid #232A3E', borderRadius: 14, margin: 0, padding: 0, minHeight: 430, maxWidth: '100%' }}>
+          style={{ background: 'var(--hq-panel)', border: '1px solid var(--hq-line)', borderRadius: 14, margin: 0, padding: 0, minHeight: 430, maxWidth: '100%' }}>
           <a href={u} target="_blank" rel="noreferrer" style={{ color: '#8A93A8', fontSize: 12, display: 'block', padding: 16 }}>View this post on Instagram</a>
         </blockquote>
       ))}
@@ -166,7 +166,7 @@ function BottomLine({ segments }) {
   return (
     <div className="hq-bottomline" role="region" aria-label="Sports and card news">
       <button key={'l' + cur.key} className="hq-bl-label" onClick={next} title="Next"
-        style={{ ...eyebrow, flexShrink: 0, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', padding: '0 16px', minWidth: 124, background: cur.color, color: '#0B0E17', border: 0, cursor: 'pointer', fontSize: 14 }}>
+        style={{ ...eyebrow, flexShrink: 0, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', padding: '0 16px', minWidth: 124, background: cur.color, color: 'var(--hq-bg)', border: 0, cursor: 'pointer', fontSize: 14 }}>
         {cur.label}
       </button>
       <div ref={viewport} className="hq-bl-viewport" style={{ position: 'relative', flex: 1, minWidth: 0, overflow: 'hidden' }}>
@@ -182,7 +182,7 @@ function BottomLine({ segments }) {
           ))}
         </div>
       </div>
-      <div style={{ flexShrink: 0, display: 'flex', alignItems: 'center', gap: 2, padding: '0 10px', borderLeft: '1px solid #1C2233', background: '#0B0E17' }}>
+      <div style={{ flexShrink: 0, display: 'flex', alignItems: 'center', gap: 2, padding: '0 10px', borderLeft: '1px solid #1C2233', background: 'var(--hq-bg)' }}>
         <button className="hq-bl-pause" onClick={() => setPaused(v => !v)} aria-pressed={paused} aria-label={paused ? 'Play headlines' : 'Pause headlines'} title={paused ? 'Play' : 'Pause'}
           style={{ width: 28, height: 28, padding: 0, marginRight: 4, background: 'none', border: 0, cursor: 'pointer', color: '#8A93A8', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
           {paused ? <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l13 8-13 8z" /></svg> : <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z" /></svg>}
@@ -211,7 +211,7 @@ function Chip({ children, color, solid, title }) {
                   padding: '3px 10px',
                   borderRadius: 999,
                   background: solid ? (color || ACCENT) : 'transparent',
-                  color: solid ? '#0B0E17' : (color && color !== ACCENT ? color : ACCENT_TEXT),   // dark text on light sport colours (white on violet failed contrast)
+                  color: solid ? 'var(--hq-bg)' : (color && color !== ACCENT ? color : ACCENT_TEXT),   // dark text on light sport colours (white on violet failed contrast)
                   border: '1px solid ' + (color || ACCENT) + (solid ? '' : '55'),
                   fontSize: 13,
                   fontWeight: 600
@@ -883,7 +883,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
             <div style={{ border: '1px solid #222', borderRadius: 12, overflow: 'hidden', marginBottom: first ? 18 : 0 }}>
               {globalHits.sets.map((x, i) => (
                 <button key={x.slug} onClick={() => openSet(x)}
-                  style={{ width: '100%', textAlign: 'left', display: 'flex', gap: 12, padding: '11px 16px', fontSize: 14, alignItems: 'baseline', flexWrap: 'wrap', background: i % 2 === 0 ? '#0F1320' : '#121626', border: 'none', color: '#EDEDEF', cursor: 'pointer', fontFamily: 'inherit' }}>
+                  style={{ width: '100%', textAlign: 'left', display: 'flex', gap: 12, padding: '11px 16px', fontSize: 14, alignItems: 'baseline', flexWrap: 'wrap', background: i % 2 === 0 ? 'var(--hq-panel)' : 'var(--hq-surface)', border: 'none', color: '#EDEDEF', cursor: 'pointer', fontFamily: 'inherit' }}>
                   <span style={{ fontWeight: 600 }}>{x.name}</span>
                   <span style={{ color: '#8A93A8', fontSize: 13 }}>Set · {(x.cardCount || 0).toLocaleString()} card{x.cardCount === 1 ? '' : 's'}</span>
                 </button>
@@ -1033,7 +1033,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
                   </div>
                 )}
                 <div style={{ border: '1px solid #222', borderRadius: 12, overflow: 'hidden' }}>
-                  <div className="hq-setrow" style={{ display: 'flex', gap: 14, padding: '9px 16px', background: '#121626', borderBottom: '1px solid #232A3E', alignItems: 'center' }}>
+                  <div className="hq-setrow" style={{ display: 'flex', gap: 14, padding: '9px 16px', background: 'var(--hq-surface)', borderBottom: '1px solid var(--hq-line)', alignItems: 'center' }}>
                     <div className="hq-col-num" style={{ flex: '0 0 68px' }}><SortHeader label="Card #" field="n" sortField={sortField} sortDir={sortDir} onClick={toggleSort} /></div>
                     <div style={{ flex: '1 1 0', minWidth: 0 }}><SortHeader label={setIsTcg ? 'Card' : setIsSport ? 'Player' : 'Name'} field="p" sortField={sortField} sortDir={sortDir} onClick={toggleSort} grow /></div>
                     {setFacets.team && <div className="hq-col-team" style={{ flex: '1 1 0', minWidth: 0 }}><SortHeader label={setIsTcg ? 'Type' : 'Team'} field="t" sortField={sortField} sortDir={sortDir} onClick={toggleSort} grow /></div>}
@@ -1043,7 +1043,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
                   {sorted.slice(0, openSecs.has(sec.title) ? 5000 : 200).map((c, i) => (
                     <div key={i} className="hq-setrow" style={{
                       display: 'flex', gap: 14, padding: '8px 16px', fontSize: 14,
-                      background: i % 2 === 0 ? '#0F1320' : '#121626', alignItems: 'center'
+                      background: i % 2 === 0 ? 'var(--hq-panel)' : 'var(--hq-surface)', alignItems: 'center'
                     }}>
                       <span className="hq-col-num" style={{ flex: '0 0 68px', color: ACCENT_TEXT, fontWeight: 700, fontVariantNumeric: 'tabular-nums', overflowWrap: 'anywhere' }}>{c.n ? '#' + c.n : '—'}</span>
                       <span style={{ flex: '1 1 0', minWidth: 0 }}>
@@ -1060,17 +1060,17 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
                       {setFacets.flag && <span className="hq-col-flag" style={{ flex: setIsTcg ? '0 0 110px' : '0 0 96px', textAlign: 'right' }}>{c.x ? <Chip color={/\bRC\b/.test(c.x) ? '#4ade80' : '#8A93A8'} title={flagTitle(c.x)}>{c.x}</Chip> : null}</span>}
                       <a href={grailfindrFindUrl({ setName: setData.name, player: c.p, n: c.n, section: sec.title })} target="_blank" rel="noreferrer"
                         title="Find this card for sale on GrailFindr (every marketplace)" aria-label={'Find ' + (c.p || 'this card') + ' on GrailFindr'}
-                        style={{ flex: '0 0 32px', height: 32, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', border: '1px solid #232A3E', borderRadius: 6, color: '#8A93A8', textDecoration: 'none' }}>
+                        style={{ flex: '0 0 32px', height: 32, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', border: '1px solid var(--hq-line)', borderRadius: 6, color: '#8A93A8', textDecoration: 'none' }}>
                         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
                       </a>
                       {(() => { const it = { set_slug: setData.slug, set_name: setData.name, card_n: c.n, section: sec.title, player: c.p }, on = isWanted(it); return (
                       <button title={on ? 'On your wantlist — click to remove' : 'Add this card (and its parallel section) to your wantlist'}
                         onClick={() => cbRef.current.wantIt(it)} aria-pressed={on}
-                        aria-label={on ? 'On your wantlist — remove' : 'Add to wantlist'} style={{ flex: '0 0 32px', height: 32, background: on ? ACCENT : 'none', border: '1px solid ' + (on ? ACCENT : '#232A3E'), color: on ? '#fff' : '#8A93A8', borderRadius: 6, fontSize: 14, cursor: 'pointer', padding: 0 }}>{on ? '✓' : '+'}</button>) })()}
+                        aria-label={on ? 'On your wantlist — remove' : 'Add to wantlist'} style={{ flex: '0 0 32px', height: 32, background: on ? ACCENT : 'none', border: '1px solid ' + (on ? ACCENT : 'var(--hq-line)'), color: on ? '#fff' : '#8A93A8', borderRadius: 6, fontSize: 14, cursor: 'pointer', padding: 0 }}>{on ? '✓' : '+'}</button>) })()}
                     </div>
                   ))}
                   {sorted.length > 200 && !openSecs.has(sec.title) && (
-                    <button onClick={() => setOpenSecs(o => new Set([...o, sec.title]))} style={{ display: 'block', width: '100%', padding: '10px 16px', background: '#0F1320', border: 'none', borderTop: '1px solid #1A1F31', color: ACCENT_TEXT, fontSize: 13, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit', textAlign: 'left' }}>Show all {sorted.length.toLocaleString()} cards in this section →</button>
+                    <button onClick={() => setOpenSecs(o => new Set([...o, sec.title]))} style={{ display: 'block', width: '100%', padding: '10px 16px', background: 'var(--hq-panel)', border: 'none', borderTop: '1px solid var(--hq-surface-2)', color: ACCENT_TEXT, fontSize: 13, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit', textAlign: 'left' }}>Show all {sorted.length.toLocaleString()} cards in this section →</button>
                   )}
                 </div>
               </div>
@@ -1273,8 +1273,18 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
           )}
         </div>
       )}
+      {/* Phones: bottom tab bar (Pong HQ style). Hidden on wider screens by layout.js CSS. */}
+      <nav className="hq-tabbar" aria-label="Main">
+        {NAV_ITEMS.map(([label, fn, v]) => (
+          <button key={label} type="button" className={view === v ? 'on' : undefined} aria-current={view === v ? 'page' : undefined}
+            onClick={() => { setMenuOpen(false); fn(); window.scrollTo(0, 0) }}>
+            <TabIcon name={v} />
+            <span>{label === 'My Collection' ? 'Collection' : label}</span>
+          </button>
+        ))}
+      </nav>
     <main className="hq-main" style={{ maxWidth: 1180, margin: '0 auto', padding: '0 24px 90px' }}>
-      <style>{'.hq-setcard:hover{transform:translateY(-4px);border-color:#2E3D6B;box-shadow:0 18px 40px -18px rgba(0,0,0,0.9)}@keyframes hqticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.hq-track{display:inline-flex;white-space:nowrap;animation:hqticker linear infinite}.hq-track:hover{animation-play-state:paused}'}</style>
+      <style>{'.hq-setcard:hover{transform:translateY(-4px);border-color:var(--hq-chip-line);box-shadow:0 18px 40px -18px rgba(0,0,0,0.9)}@keyframes hqticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.hq-track{display:inline-flex;white-space:nowrap;animation:hqticker linear infinite}.hq-track:hover{animation-play-state:paused}'}</style>
 
       {notice && <div role="status" style={{ background: SURFACE, border: '1px solid ' + LINE, borderRadius: 12, padding: '12px 16px', margin: '0 0 16px', color: TEXT_2, fontSize: 14 }}>{notice}</div>}
       <FeedbackModal open={!!feedback} context={feedback || {}} onClose={() => setFeedback(null)} account={account} onOpenAuth={() => setAuthOpen(true)} />
@@ -1411,7 +1421,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
                   <input type="search" value={teamInput}
                     aria-label="Filter by card name" placeholder={'Card name… e.g. ' + (TCG_EXAMPLE[sportFilter] || 'any card')}
                     onChange={(e) => { const v = e.target.value; setTeamInput(v); const t = v.trim(); setTeamFilter(t.length >= 2 ? t : 'All') }}
-                    style={{ background: '#121626', border: '1px solid ' + (teamFilter !== 'All' ? ACCENT : '#232A3E'), borderRadius: 10, color: TEXT, fontSize: 16, height: 40, boxSizing: 'border-box', padding: '0 12px', minWidth: 0, width: 230, maxWidth: '100%', outline: 'none' }} />
+                    style={{ background: 'var(--hq-surface)', border: '1px solid ' + (teamFilter !== 'All' ? ACCENT : 'var(--hq-line)'), borderRadius: 10, color: TEXT, fontSize: 16, height: 40, boxSizing: 'border-box', padding: '0 12px', minWidth: 0, width: 230, maxWidth: '100%', outline: 'none' }} />
                   <Select ariaLabel="Rarity" value={tcgRarity} onChange={setTcgRarity} defaultValue="All"
                     options={[['All', 'All rarities'], ...tcgOptions.rarities.map(r => [r, r])]} />
                   <Select ariaLabel="Card type" value={tcgType} onChange={setTcgType} defaultValue="All"
@@ -1436,7 +1446,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               aria-label="Filter this set" placeholder={TCG_SET.has(activeSet.sport) ? 'Filter this set (card, type, rarity, card #, section)…' : 'Filter this set (player, team, card #, section)…'}
-              style={{ width: '100%', boxSizing: 'border-box', background: '#121626', border: '1px solid #232A3E', borderRadius: 10, padding: '13px 16px', color: '#EDEDEF', fontSize: 16, outline: 'none' }}
+              style={{ width: '100%', boxSizing: 'border-box', background: 'var(--hq-surface)', border: '1px solid var(--hq-line)', borderRadius: 10, padding: '13px 16px', color: '#EDEDEF', fontSize: 16, outline: 'none' }}
             />
           ) : (
             <Omnibox value={query} onChange={setQuery} onSubmit={runSearch} sets={sets} busy={searching} compact
@@ -1449,7 +1459,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
         <div style={{ padding: '24px 0' }}>
           <p style={{ color: '#EDEDEF', fontSize: 15, margin: '0 0 12px' }}>Couldn’t load the {activeSet.name} checklist.</p>
           <button onClick={() => openSet(activeSet, false)} style={{ background: ACCENT, color: '#fff', border: 'none', borderRadius: 8, padding: '8px 14px', fontWeight: 600, cursor: 'pointer', marginRight: 10 }}>Try again</button>
-          <button onClick={() => goHome()} style={{ background: 'none', border: '1px solid #232A3E', color: '#EDEDEF', borderRadius: 8, padding: '8px 14px', cursor: 'pointer' }}>← All sets</button>
+          <button onClick={() => goHome()} style={{ background: 'none', border: '1px solid var(--hq-line)', color: '#EDEDEF', borderRadius: 8, padding: '8px 14px', cursor: 'pointer' }}>← All sets</button>
         </div>
       ) : activeSet && !setData ? (
         <p style={{ color: '#8A93A8', fontSize: 14, padding: '24px 0' }}>Loading {activeSet.name}…</p>
@@ -1459,7 +1469,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
             style={{ background: 'none', border: 'none', color: ACCENT_TEXT, fontSize: 13, fontWeight: 600, cursor: 'pointer', padding: 0, marginBottom: 14 }}>
             ← All sets
           </button>
-          <div className="hq-panel" style={{ background: 'linear-gradient(140deg, #191919, #0F1320)', border: '1px solid #232A3E', borderRadius: 16, padding: '26px 28px', marginBottom: 20 }}>
+          <div className="hq-panel" style={{ background: 'linear-gradient(140deg, #191919, var(--hq-panel))', border: '1px solid var(--hq-line)', borderRadius: 16, padding: '26px 28px', marginBottom: 20 }}>
             <div style={{ display: 'flex', gap: 8, marginBottom: 10, flexWrap: 'wrap' }}>
               <Chip color={SPORT_COLORS[activeSet.sport]} solid>{activeSet.sport}</Chip>
               <Chip>{yearLabel(activeSet)}</Chip>
@@ -1478,22 +1488,22 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
                 + Wantlist this set
               </button>
               <button onClick={() => { const go = '&cset=' + encodeURIComponent(setData.slug); if (!account.session) { pendingTrack.current = go; setAuthOpen(true) } else openView('collection', undefined, go) }}
-                style={{ ...buttonText, background: 'transparent', color: '#A1A1AA', border: '1px solid #232A3E', borderRadius: 9, padding: '8px 15px', cursor: 'pointer', fontSize: 13 }}>
+                style={{ ...buttonText, background: 'transparent', color: '#A1A1AA', border: '1px solid var(--hq-line)', borderRadius: 9, padding: '8px 15px', cursor: 'pointer', fontSize: 13 }}>
                 Track in My Collection
               </button>
               {(() => { const on = pc.has('set', setData.slug); return (
                 <button aria-pressed={on} onClick={() => pc.toggle('set', setData.slug, setData.name)}
-                  style={{ ...buttonText, background: on ? '#0e1630' : 'transparent', color: on ? '#c9d8ff' : '#A1A1AA', border: '1px solid ' + (on ? ACCENT : '#232A3E'), borderRadius: 9, padding: '8px 15px', cursor: 'pointer', fontSize: 13 }}>
+                  style={{ ...buttonText, background: on ? '#0e1630' : 'transparent', color: on ? '#c9d8ff' : '#A1A1AA', border: '1px solid ' + (on ? ACCENT : 'var(--hq-line)'), borderRadius: 9, padding: '8px 15px', cursor: 'pointer', fontSize: 13 }}>
                   {on ? '✓ In My PC' : '+ Add to My PC'}
                 </button>) })()}
               <button onClick={() => setFeedback({ set_slug: setData.slug, set_name: setData.name, sections: (setData.sections || []).map(x => x.title), section: activeSection !== 'All' ? activeSection : '' })}
                 title="Missing card, wrong info, missing parallel (shield, SuperFractor, game-used…)? Tell us."
-                style={{ ...buttonText, background: 'transparent', color: '#A1A1AA', border: '1px solid #232A3E', borderRadius: 9, padding: '8px 15px', cursor: 'pointer', fontSize: 13 }}>
+                style={{ ...buttonText, background: 'transparent', color: '#A1A1AA', border: '1px solid var(--hq-line)', borderRadius: 9, padding: '8px 15px', cursor: 'pointer', fontSize: 13 }}>
                 Report a problem
               </button>
               {fbAdmin.admin && (
                 <button onClick={() => setFixing({ slug: setData.slug })}
-                  style={{ ...buttonText, background: 'transparent', color: ACCENT_TEXT, border: '1px solid #2E3D6B', borderRadius: 9, padding: '8px 15px', cursor: 'pointer', fontSize: 13 }}>
+                  style={{ ...buttonText, background: 'transparent', color: ACCENT_TEXT, border: '1px solid var(--hq-chip-line)', borderRadius: 9, padding: '8px 15px', cursor: 'pointer', fontSize: 13 }}>
                   Fix data
                 </button>
               )}
@@ -1501,7 +1511,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
           </div>
 
           {verifyHints && verifyHints[setData.slug] && (
-            <div role="note" style={{ background: 'linear-gradient(140deg, #101a33, #0F1320)', border: '1px solid #2E3D6B', borderRadius: 14, padding: '16px 20px', marginBottom: 20, display: 'flex', gap: 16, alignItems: 'center', flexWrap: 'wrap' }}>
+            <div role="note" style={{ background: 'linear-gradient(140deg, #101a33, var(--hq-panel))', border: '1px solid var(--hq-chip-line)', borderRadius: 14, padding: '16px 20px', marginBottom: 20, display: 'flex', gap: 16, alignItems: 'center', flexWrap: 'wrap' }}>
               <div style={{ flex: '1 1 320px', minWidth: 0 }}>
                 <p style={{ ...eyebrow, color: ACCENT_TEXT, margin: '0 0 6px' }}>Help verify this set</p>
                 <p style={{ color: '#D4D4D8', fontSize: 14, lineHeight: 1.55, margin: 0 }}>This checklist may not be complete yet. Know this product? Tell us what’s missing.</p>
@@ -1517,7 +1527,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
           )}
 
           {setData.boxBreak && setData.boxBreak.length > 0 && (
-            <div style={{ background: 'linear-gradient(140deg, #17140c, #0F1320)', border: '1px solid ' + ACCENT + '33', borderRadius: 14, padding: '18px 22px', marginBottom: 20 }}>
+            <div style={{ background: 'linear-gradient(140deg, #17140c, var(--hq-panel))', border: '1px solid ' + ACCENT + '33', borderRadius: 14, padding: '18px 22px', marginBottom: 20 }}>
               <p style={{ ...eyebrow, color: ACCENT_TEXT, margin: '0 0 12px' }}>
                 📦 Box Break — what a hobby box yields
               </p>
@@ -1536,11 +1546,11 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
           )}
 
           {/* FILTER BAR */}
-          <div style={{ background: '#0F1320', border: '1px solid #232323', borderRadius: 14, padding: '10px 12px', display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center', marginBottom: 12 }}>
+          <div style={{ background: 'var(--hq-panel)', border: '1px solid #232323', borderRadius: 14, padding: '10px 12px', display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center', marginBottom: 12 }}>
             {(onlyMine || !setIsTcg) && <button aria-pressed={onlyMine} onClick={() => setOnlyMine(v => !v)} title={pcCount ? 'Only show your PC: players, teams and chases you collect' : 'Add players, teams or chases in My PC first'}
-              style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: onlyMine ? '#0e1630' : '#121626', border: '1px solid ' + (onlyMine ? ACCENT : '#232A3E'), color: onlyMine ? '#8fb0ff' : '#D4D4D8', borderRadius: 10, padding: '0 14px', height: 40, fontSize: 14, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit' }}>
+              style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: onlyMine ? '#0e1630' : 'var(--hq-surface)', border: '1px solid ' + (onlyMine ? ACCENT : 'var(--hq-line)'), color: onlyMine ? '#8fb0ff' : '#D4D4D8', borderRadius: 10, padding: '0 14px', height: 40, fontSize: 14, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit' }}>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0" /><circle cx="12" cy="8" r="4" /></svg>
-              My PC <span style={{ background: onlyMine ? ACCENT : '#232A3E', color: onlyMine ? '#fff' : '#A1A1AA', borderRadius: 999, padding: '1px 7px', fontSize: 12, fontWeight: 700 }}>{pcCount}</span>
+              My PC <span style={{ background: onlyMine ? ACCENT : 'var(--hq-line)', color: onlyMine ? '#fff' : '#A1A1AA', borderRadius: 999, padding: '1px 7px', fontSize: 12, fontWeight: 700 }}>{pcCount}</span>
             </button>}
             <Select ariaLabel="Section" value={activeSection} onChange={setActiveSection} defaultValue="All" width={340}
               options={[['All', 'All sections (' + (setData.sections || []).length + ')'], ...(setData.sections || []).map(s => [s.title, s.title + ' (' + s.cards.length + ')'])]} />
@@ -1562,9 +1572,9 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
               <span style={{ ...eyebrow, color: '#8A93A8' }}>Your PC in this set</span>
               {pcCount === 0 && <span style={{ color: '#8A93A8', fontSize: 13 }}>nothing yet — add players, teams or chases in My PC.</span>}
               {byPlayer.map(g => <button key={g.name} onClick={() => openPlayerByName(g.name, null, true, setData?.sport)} style={{ background: '#0e1630', border: '1px solid ' + ACCENT + '55', color: '#c9d8ff', fontSize: 13, fontWeight: 600, padding: '5px 10px', borderRadius: 999, cursor: 'pointer', fontFamily: 'inherit' }}>{g.name} <span style={{ color: '#5b82e8' }}>· {g.rows.length}</span></button>)}
-              {pc.teams.map(t => <span key={'t:' + t} style={{ border: '1px solid #232A3E', color: '#A1A1AA', fontSize: 13, padding: '5px 10px', borderRadius: 999 }}>{t}</span>)}
-              {pc.of('chase').map(ch => <span key={'c:' + ch.key} style={{ border: '1px solid #232A3E', color: '#A1A1AA', fontSize: 13, padding: '5px 10px', borderRadius: 999 }}>{ch.label}</span>)}
-              {myPlayers.list.filter(n => !byPlayer.some(g => g.name === n)).map(n => <span key={n} style={{ border: '1px solid #232A3E', color: '#8A93A8', fontSize: 13, padding: '5px 10px', borderRadius: 999 }}>{n} · 0</span>)}
+              {pc.teams.map(t => <span key={'t:' + t} style={{ border: '1px solid var(--hq-line)', color: '#A1A1AA', fontSize: 13, padding: '5px 10px', borderRadius: 999 }}>{t}</span>)}
+              {pc.of('chase').map(ch => <span key={'c:' + ch.key} style={{ border: '1px solid var(--hq-line)', color: '#A1A1AA', fontSize: 13, padding: '5px 10px', borderRadius: 999 }}>{ch.label}</span>)}
+              {myPlayers.list.filter(n => !byPlayer.some(g => g.name === n)).map(n => <span key={n} style={{ border: '1px solid var(--hq-line)', color: '#8A93A8', fontSize: 13, padding: '5px 10px', borderRadius: 999 }}>{n} · 0</span>)}
               <button onClick={() => openView('mypc')} style={{ background: 'none', border: 'none', color: ACCENT_TEXT, fontSize: 13, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit' }}>Manage My PC</button>
             </div>
           )}
@@ -1575,9 +1585,9 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
               <button key={t} onClick={() => setActiveSection(t)} aria-pressed={activeSection === t}
                 style={{
                   padding: '6px 13px', borderRadius: 8, fontSize: 12, fontWeight: 700, cursor: 'pointer',
-                  background: activeSection === t ? ACCENT : '#121626',
+                  background: activeSection === t ? ACCENT : 'var(--hq-surface)',
                   color: activeSection === t ? '#fff' : '#A1A1AA',
-                  border: '1px solid ' + (activeSection === t ? 'transparent' : '#232A3E')
+                  border: '1px solid ' + (activeSection === t ? 'transparent' : 'var(--hq-line)')
                 }}>{t}</button>
             ))}
             {(setData.sections || []).length + 1 > 14 && (
@@ -1592,8 +1602,8 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
             {(() => { const n = visibleSections.reduce((a, x) => a + x.cards.length, 0), t = (setData.sections || []).reduce((a, x) => a + x.cards.length, 0); return n < t ? n.toLocaleString() + ' of ' + t.toLocaleString() + ' cards match' : 'Click a column header to sort.' })()}
           </p>
           {onlyMine ? byPlayer.map(g => (
-            <div key={g.name} style={{ border: '1px solid #232A3E', borderRadius: 14, overflow: 'hidden', background: '#0F1320', marginBottom: 12 }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '12px 18px', background: '#121626', flexWrap: 'wrap' }}>
+            <div key={g.name} style={{ border: '1px solid var(--hq-line)', borderRadius: 14, overflow: 'hidden', background: 'var(--hq-panel)', marginBottom: 12 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '12px 18px', background: 'var(--hq-surface)', flexWrap: 'wrap' }}>
                 <div style={{ flex: 1, minWidth: 200 }}>
                   <button onClick={() => openPlayerByName(g.name, null, true, setData?.sport)} style={{ ...title(16), background: 'none', border: 'none', color: '#EDEDEF', cursor: 'pointer', padding: 0, textAlign: 'left' }}>{g.name}</button>
                   <p style={{ margin: '2px 0 0', color: '#8A93A8', fontSize: 12 }}>{g.team ? g.team + ' · ' : ''}{g.rows.length} card{g.rows.length === 1 ? '' : 's'} in this set{g.au ? ' · ' + g.au + ' autos' : ''}{g.one ? ' · ' + g.one + ' × 1/1' : ''}</p>
@@ -1610,7 +1620,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
                       <td style={{ padding: '9px 14px' }}><Chip color={r.kind === 'PA' ? '#e11d48' : r.kind === 'AU' ? '#60a5fa' : r.kind === 'PATCH' ? '#16a34a' : r.kind === 'RELIC' ? '#f97316' : '#9ca3af'}>{r.kind === 'PA' ? 'PATCH AUTO' : r.kind === 'AU' ? 'AUTO' : r.kind === 'OTHER' ? (/\bRC\b/.test(r.x || '') ? 'RC' : 'INSERT') : r.kind}</Chip></td>
                       <td style={{ padding: '9px 14px' }}>{r.memc ? <MemChip code={r.memc} /> : <span style={{ color: '#5C6478' }}>—</span>}</td>
                       <td style={{ padding: '9px 14px', textAlign: 'right', whiteSpace: 'nowrap' }}>{r.serial === 1 ? <span style={{ background: ACCENT, color: '#fff', padding: '2px 8px', borderRadius: 999, fontSize: 12, fontWeight: 700 }}>1/1</span> : r.serial > 0 ? '/' + r.serial : <span style={{ color: '#8A93A8' }}>—</span>}</td>
-                      <td style={{ padding: '9px 14px', textAlign: 'right' }}>{(() => { const it = { set_slug: setData.slug, set_name: setData.name, card_n: r.n, section: r.section, player: r.p }, on = isWanted(it); return <button aria-label={on ? 'On your wantlist — remove' : 'Add to wantlist'} aria-pressed={on} onClick={() => wantIt(it)} style={{ background: on ? ACCENT : 'none', border: '1px solid ' + (on ? ACCENT : '#232A3E'), color: on ? '#fff' : '#A1A1AA', borderRadius: 6, width: 32, height: 32, cursor: 'pointer', fontFamily: 'inherit' }}>{on ? '✓' : '+'}</button> })()}</td>
+                      <td style={{ padding: '9px 14px', textAlign: 'right' }}>{(() => { const it = { set_slug: setData.slug, set_name: setData.name, card_n: r.n, section: r.section, player: r.p }, on = isWanted(it); return <button aria-label={on ? 'On your wantlist — remove' : 'Add to wantlist'} aria-pressed={on} onClick={() => wantIt(it)} style={{ background: on ? ACCENT : 'none', border: '1px solid ' + (on ? ACCENT : 'var(--hq-line)'), color: on ? '#fff' : '#A1A1AA', borderRadius: 6, width: 32, height: 32, cursor: 'pointer', fontFamily: 'inherit' }}>{on ? '✓' : '+'}</button> })()}</td>
                     </tr>
                   ))}</tbody>
                 </table>
@@ -1620,7 +1630,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
           {!onlyMine && visibleSections.length > secLimit && (
             <div style={{ textAlign: 'center', margin: '4px 0 20px' }}>
               <button onClick={() => setSecLimit(n => n + 20)}
-                style={{ ...buttonText, background: 'transparent', color: '#D4D4D8', border: '1px solid #2E3D6B', borderRadius: 10, padding: '0 18px', height: 42, cursor: 'pointer', fontSize: 14 }}>
+                style={{ ...buttonText, background: 'transparent', color: '#D4D4D8', border: '1px solid var(--hq-chip-line)', borderRadius: 10, padding: '0 18px', height: 42, cursor: 'pointer', fontSize: 14 }}>
                 Show {Math.min(20, visibleSections.length - secLimit)} more sections ({(visibleSections.length - secLimit).toLocaleString()} left)
               </button>
             </div>
@@ -1641,7 +1651,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
             <div style={{ border: '1px solid #222', borderRadius: 12, overflow: 'hidden', marginBottom: 18 }}>
               {globalHits.players.map((p, i) => (
                 <button key={p.id} onClick={() => openPlayer(p, null, [])}
-                  style={{ width: '100%', textAlign: 'left', display: 'flex', gap: 12, padding: '11px 16px', fontSize: 14, alignItems: 'baseline', flexWrap: 'wrap', background: i % 2 === 0 ? '#0F1320' : '#121626', border: 'none', color: '#EDEDEF', cursor: 'pointer', fontFamily: 'inherit' }}>
+                  style={{ width: '100%', textAlign: 'left', display: 'flex', gap: 12, padding: '11px 16px', fontSize: 14, alignItems: 'baseline', flexWrap: 'wrap', background: i % 2 === 0 ? 'var(--hq-panel)' : 'var(--hq-surface)', border: 'none', color: '#EDEDEF', cursor: 'pointer', fontFamily: 'inherit' }}>
                   <span style={{ fontWeight: 600 }}>{p.name}</span>
                   <span style={{ color: '#8A93A8', fontSize: 13 }}>{p.sport} · {p.cards.toLocaleString()} card{p.cards === 1 ? '' : 's'}</span>
                 </button>
@@ -1678,7 +1688,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
           onOpenSet={openSetBySlug} onWantsChanged={() => account.session && loadWanted(account.session.user.id)} />
       ) : view === 'rpa' ? (
         <section>
-          <div style={{ background: 'linear-gradient(140deg, #0f1526, #0F1320)', border: '1px solid ' + ACCENT + '33', borderRadius: 18, padding: '30px 30px', marginBottom: 22 }}>
+          <div style={{ background: 'linear-gradient(140deg, #0f1526, var(--hq-panel))', border: '1px solid ' + ACCENT + '33', borderRadius: 18, padding: '30px 30px', marginBottom: 22 }}>
             <h1 style={{ ...display, fontSize: 40, margin: 0, lineHeight: 1 }}>RPA Tracker</h1>
             <p style={{ color: '#A3ABBD', fontSize: 16, lineHeight: 1.6, maxWidth: 720, margin: '14px 0 0' }}>
               Every Rookie Patch Auto, on-card autograph, patch and relic card across {statN.sets.toLocaleString()} sets — with its serial print run — so you can track the hobby's premium hits in one place.
@@ -1690,9 +1700,9 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
               <button key={code} onClick={() => setRpaType(code)}
                 style={{
                   padding: '6px 14px', borderRadius: 999, fontSize: 12, fontWeight: 700, cursor: 'pointer', letterSpacing: '0.04em',
-                  background: rpaType === code ? (RPA_TYPE_COLOR[code] || ACCENT) : '#121626',
-                  color: rpaType === code ? '#0F1320' : '#A1A1AA',
-                  border: '1px solid ' + (rpaType === code ? 'transparent' : '#232A3E')
+                  background: rpaType === code ? (RPA_TYPE_COLOR[code] || ACCENT) : 'var(--hq-surface)',
+                  color: rpaType === code ? 'var(--hq-panel)' : '#A1A1AA',
+                  border: '1px solid ' + (rpaType === code ? 'transparent' : 'var(--hq-line)')
                 }}>{label}</button>
             ))}
           </div>
@@ -1703,22 +1713,22 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
                   padding: '5px 12px',
                   borderRadius: 999,
                   cursor: 'pointer',
-                  background: sportFilter === sp ? (SPORT_COLORS[sp] || ACCENT) : '#121626',
-                  color: sportFilter === sp ? '#0F1320' : '#A1A1AA',
-                  border: '1px solid ' + (sportFilter === sp ? 'transparent' : '#232A3E'),
+                  background: sportFilter === sp ? (SPORT_COLORS[sp] || ACCENT) : 'var(--hq-surface)',
+                  color: sportFilter === sp ? 'var(--hq-panel)' : '#A1A1AA',
+                  border: '1px solid ' + (sportFilter === sp ? 'transparent' : 'var(--hq-line)'),
                   fontSize: 13,
                   fontWeight: 600
                 }}>{sp}</button>
             ))}
           </div>
           <input value={rpaQuery} onChange={(e) => setRpaQuery(e.target.value)} aria-label="Filter by player" placeholder="Filter by player…"
-            style={{ width: '100%', boxSizing: 'border-box', background: '#121626', border: '1px solid #232A3E', borderRadius: 10, padding: '12px 16px', color: '#EDEDEF', fontSize: 16, outline: 'none', marginBottom: 16 }} />
+            style={{ width: '100%', boxSizing: 'border-box', background: 'var(--hq-surface)', border: '1px solid var(--hq-line)', borderRadius: 10, padding: '12px 16px', color: '#EDEDEF', fontSize: 16, outline: 'none', marginBottom: 16 }} />
 
           {!rpaData ? <p style={{ color: '#8A93A8' }}>Loading RPA database…</p> : (
             <>
               <p style={{ color: '#8A93A8', fontSize: 12, margin: '0 0 10px' }}>{rpaResults.length >= 1200 ? '1,200+' : rpaResults.length.toLocaleString()} card{rpaResults.length === 1 ? '' : 's'}{rpaQuery ? ' for “' + rpaQuery + '”' : ''}</p>
               <div style={{ border: '1px solid #222', borderRadius: 12, overflow: 'hidden' }}>
-                <div style={{ ...eyebrow, display: 'flex', gap: 12, padding: '9px 16px', background: '#121626', borderBottom: '1px solid #232A3E', color: '#8A93A8' }}>
+                <div style={{ ...eyebrow, display: 'flex', gap: 12, padding: '9px 16px', background: 'var(--hq-surface)', borderBottom: '1px solid var(--hq-line)', color: '#8A93A8' }}>
                   <span style={{ flex: '0 0 56px' }}>Card</span>
                   <span style={{ flex: '1 1 auto', minWidth: 0 }}>Player</span>
                   <span style={{ flex: '0 0 88px' }}>Type</span>
@@ -1727,7 +1737,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
                 </div>
                 {rpaResults.map((c, i) => (
                   <button key={i} onClick={() => { const s = sets.find(x => x.slug === c.slug); if (s) openSet(Object.assign({}, s, classifySet(s.name, s.year))) }}
-                    style={{ width: '100%', textAlign: 'left', display: 'flex', gap: 12, padding: '8px 16px', fontSize: 14, alignItems: 'baseline', background: i % 2 === 0 ? '#0F1320' : '#121626', border: 'none', color: '#EDEDEF', cursor: 'pointer' }}>
+                    style={{ width: '100%', textAlign: 'left', display: 'flex', gap: 12, padding: '8px 16px', fontSize: 14, alignItems: 'baseline', background: i % 2 === 0 ? 'var(--hq-panel)' : 'var(--hq-surface)', border: 'none', color: '#EDEDEF', cursor: 'pointer' }}>
                     <span style={{ flex: '0 0 56px', color: ACCENT_TEXT, fontWeight: 700, fontVariantNumeric: 'tabular-nums' }}>{c.n ? '#' + c.n : '—'}</span>
                     <span style={{ flex: '1 1 auto', minWidth: 0, fontWeight: 600 }}>{c.p}</span>
                     <span style={{ flex: '0 0 88px' }}><Chip color={RPA_TYPE_COLOR[c.type]}>{c.type}</Chip></span>
@@ -1742,7 +1752,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
         </section>
       ) : view === 'patchswaps' ? (
         <section>
-          <div style={{ background: 'linear-gradient(140deg, #0f1526, #0F1320)', border: '1px solid ' + ACCENT + '33', borderRadius: 18, padding: '30px 30px', marginBottom: 24 }}>
+          <div style={{ background: 'linear-gradient(140deg, #0f1526, var(--hq-panel))', border: '1px solid ' + ACCENT + '33', borderRadius: 18, padding: '30px 30px', marginBottom: 24 }}>
             <h1 style={{ ...display, fontSize: 40, margin: 0, lineHeight: 1 }}>Patch Swaps</h1>
             <p style={{ color: '#A3ABBD', fontSize: 16, lineHeight: 1.6, maxWidth: 720, margin: '14px 0 0' }}>
               A running record of cards known to have had their game-used or manufactured patches swapped — with the original and the replacement patch side by side so collectors can spot altered cards before they buy.
@@ -1790,7 +1800,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
               <h2 style={{ ...title(24), margin: '0 0 16px' }}>How to spot a swap</h2>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(300px, 100%), 1fr))', gap: 14, marginBottom: 34 }}>
                 {(patchData.redFlags || []).map((f, i) => (
-                  <div key={i} style={{ background: 'linear-gradient(155deg, #121626, #0F1320)', border: '1px solid #232A3E', borderRadius: 14, padding: '18px 20px' }}>
+                  <div key={i} style={{ background: 'linear-gradient(155deg, var(--hq-surface), var(--hq-panel))', border: '1px solid var(--hq-line)', borderRadius: 14, padding: '18px 20px' }}>
                     <div style={{ display: 'flex', alignItems: 'baseline', gap: 10, marginBottom: 8 }}>
                       <span style={{ ...display, color: '#e11d48', fontSize: 20 }}>{String(i + 1).padStart(2, '0')}</span>
                       <p style={{ ...title(16), margin: 0, lineHeight: 1.15 }}>{f.title}</p>
@@ -1802,7 +1812,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
 
               {/* HIGHEST-RISK PRODUCTS → link into RPA tracker patch view */}
               {(patchData.watchSets || []).length > 0 && (
-                <div style={{ background: 'linear-gradient(140deg, #17140c, #0F1320)', border: '1px solid ' + ACCENT + '2e', borderRadius: 16, padding: '22px 24px', marginBottom: 24 }}>
+                <div style={{ background: 'linear-gradient(140deg, #17140c, var(--hq-panel))', border: '1px solid ' + ACCENT + '2e', borderRadius: 16, padding: '22px 24px', marginBottom: 24 }}>
                   <h2 style={{ ...title(16), color: ACCENT_TEXT, margin: '0 0 6px' }}>Products most targeted</h2>
                   <p style={{ color: '#A1A1AA', fontSize: 14, lineHeight: 1.6, margin: '0 0 14px', maxWidth: 720 }}>High-end patch and RPA products carry the most swap risk. Cross-reference any patch card against its checklist print run — browse the patch and RPA cards in the tracker.</p>
                   <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 4 }}>
@@ -1821,12 +1831,12 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
               {patchData.entries && patchData.entries.filter(e => e.player || e.card).length > 0 && (
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(320px, 100%), 1fr))', gap: 16, marginTop: 24 }}>
                   {patchData.entries.filter(e => e.player || e.card).map((e) => (
-                    <div key={e.id} style={{ background: 'linear-gradient(155deg, #121626, #0F1320)', border: '1px solid #232A3E', borderRadius: 14, overflow: 'hidden' }}>
+                    <div key={e.id} style={{ background: 'linear-gradient(155deg, var(--hq-surface), var(--hq-panel))', border: '1px solid var(--hq-line)', borderRadius: 14, overflow: 'hidden' }}>
                       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2, background: '#000' }}>
                         {[['Original', e.originalImg], ['Swapped', e.swappedImg]].map(([lbl, img]) => (
-                          <div key={lbl} style={{ position: 'relative', aspectRatio: '1', background: '#0B0E17', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                          <div key={lbl} style={{ position: 'relative', aspectRatio: '1', background: 'var(--hq-bg)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                             {img ? <img src={img} alt={lbl} style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : <span style={{ color: '#5C6478', fontSize: 12 }}>{lbl} photo</span>}
-                            <span style={{ ...eyebrow, position: 'absolute', top: 8, left: 8, background: lbl === 'Swapped' ? '#e11d48' : '#232A3E', color: '#fff', padding: '3px 8px', borderRadius: 4 }}>{lbl}</span>
+                            <span style={{ ...eyebrow, position: 'absolute', top: 8, left: 8, background: lbl === 'Swapped' ? '#e11d48' : 'var(--hq-line)', color: '#fff', padding: '3px 8px', borderRadius: 4 }}>{lbl}</span>
                           </div>
                         ))}
                       </div>
@@ -1852,7 +1862,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
             </h2>
           </div>
           <div style={{ border: '1px solid #222', borderRadius: 12, overflow: 'hidden' }}>
-            <div className="hq-browse-row hq-browse-head" style={{ ...eyebrow, display: 'flex', gap: 12, padding: '9px 16px', background: '#121626', borderBottom: '1px solid #232A3E', color: '#8A93A8' }}>
+            <div className="hq-browse-row hq-browse-head" style={{ ...eyebrow, display: 'flex', gap: 12, padding: '9px 16px', background: 'var(--hq-surface)', borderBottom: '1px solid var(--hq-line)', color: '#8A93A8' }}>
               <span style={{ flex: '0 0 60px' }}>Card #</span>
               <span style={{ flex: '1 1 0', minWidth: 0 }}>{isTcg ? 'Name' : 'Player'}</span>
               <span style={{ flex: isTcg ? '0 0 120px' : '0 0 96px' }}>{isTcg ? 'Rarity' : 'Flag'}</span>
@@ -1860,7 +1870,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
             </div>
             {teamHits.map((c, i) => (
               <button key={i} onClick={() => { const s = sets.find(x => x.slug === c.slug); if (s) openSet(Object.assign({}, s, classifySet(s.name, s.year))) }}
-                className="hq-browse-row" style={{ width: '100%', textAlign: 'left', display: 'flex', gap: 12, padding: '8px 16px', fontSize: 14, alignItems: 'baseline', background: i % 2 === 0 ? '#0F1320' : '#121626', border: 'none', color: '#EDEDEF', cursor: 'pointer', fontFamily: 'inherit' }}>
+                className="hq-browse-row" style={{ width: '100%', textAlign: 'left', display: 'flex', gap: 12, padding: '8px 16px', fontSize: 14, alignItems: 'baseline', background: i % 2 === 0 ? 'var(--hq-panel)' : 'var(--hq-surface)', border: 'none', color: '#EDEDEF', cursor: 'pointer', fontFamily: 'inherit' }}>
                 <span style={{ flex: '0 0 60px', color: ACCENT_TEXT, fontWeight: 700, fontVariantNumeric: 'tabular-nums', overflowWrap: 'anywhere' }}>{c.n ? '#' + c.n : '—'}</span>
                 <span style={{ flex: '1 1 0', minWidth: 0, fontWeight: 600, overflowWrap: 'anywhere' }}>{c.p}{isTcg && c.t ? <span style={{ color: '#8A93A8', fontWeight: 400, fontSize: 13 }}> · {c.t}</span> : null}</span>
                 <span style={{ flex: isTcg ? '0 0 120px' : '0 0 96px' }}>{c.x ? <Chip color={/\bRC\b/.test(c.x) ? '#4ade80' : '#8A93A8'} title={flagTitle(c.x)}>{c.x}</Chip> : null}</span>
@@ -1879,8 +1889,8 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
               return (
                 <button key={s.slug} onClick={() => openSet(s)} className="hq-setcard"
                   style={{
-                    position: 'relative', textAlign: 'left', background: 'linear-gradient(155deg, #121626, #0F1320)',
-                    border: '1px solid #1A1F31', borderRadius: 14, padding: '18px 18px 16px', color: '#EDEDEF',
+                    position: 'relative', textAlign: 'left', background: 'linear-gradient(155deg, var(--hq-surface), var(--hq-panel))',
+                    border: '1px solid var(--hq-surface-2)', borderRadius: 14, padding: '18px 18px 16px', color: '#EDEDEF',
                     cursor: 'pointer', overflow: 'hidden', transition: 'transform .16s ease, border-color .16s ease, box-shadow .16s ease'
                   }}>
                   {/* foil edge in the sport color */}
@@ -1917,7 +1927,7 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
         </section>
       )}
 
-      <footer style={{ marginTop: 60, borderTop: '1px solid #1A1F31', paddingTop: 18, display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8 }}>
+      <footer style={{ marginTop: 60, borderTop: '1px solid var(--hq-surface-2)', paddingTop: 18, display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8 }}>
         <span style={{ color: '#8A93A8', fontSize: 12 }}>Checklist data compiled from TCDB, Cardboard Connection, Break Ninja, Checklist Center, Scryfall, YGOPRODeck and the Pokémon TCG API, plus collector corrections.</span>
         <span style={{ display: 'inline-flex', gap: 14, flexWrap: 'wrap' }}>
           {[['Report a problem', () => setFeedback(activeSet && setData ? { set_slug: setData.slug, set_name: setData.name, sections: (setData.sections || []).map(x => x.title) } : { kind: 'other_data' })],
@@ -1931,5 +1941,21 @@ export default function Home() {   // rendered by app/page.js (server wrapper th
     </main>
     <BottomLine segments={news.segments} />
     </>
+  )
+}
+
+// Line icons for the phone tab bar
+const TAB_ICONS = {
+  browse: 'M7 3h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM4 7v13a1 1 0 0 0 1 1h11',
+  mypc: 'M12 3.5l2.6 5.3 5.9.9-4.25 4.1 1 5.8L12 16.9l-5.25 2.7 1-5.8L3.5 9.7l5.9-.9z',
+  grid: 'M4 4h16v16H4zM4 9.33h16M4 14.67h16M9.33 4v16M14.67 4v16',
+  community: 'M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z',
+  collection: 'M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zM12 4v16M7 8h2M7 12h2M15 8h2M15 12h2',
+}
+function TabIcon({ name }) {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d={TAB_ICONS[name] || TAB_ICONS.browse} />
+    </svg>
   )
 }
