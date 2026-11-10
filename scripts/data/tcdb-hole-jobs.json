@@ -17207,7 +17207,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2016-panini-national-treasures-collegiate-football: 828 -> 4019 cards, 33 -> 92 sections, covers 99.7% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2016-panini-nfl-stickers-collection",
@@ -17272,7 +17274,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2016-panini-playoff-football-cards: 827 -> 4194 cards, 20 -> 82 sections, covers 100.0% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2016-panini-preferred-football-cards",
@@ -17302,7 +17306,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2016-panini-prime-signatures-football: 676 -> 4568 cards, 18 -> 67 sections, covers 100.0% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2016-panini-prizm-collegiate-draft-picks-football",
