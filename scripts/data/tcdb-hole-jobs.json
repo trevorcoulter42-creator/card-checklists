@@ -16286,7 +16286,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2013-topps-football-cards: 790 -> 6909 cards, 13 -> 73 sections, covers 90.8% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2013-topps-football-complete-set-hobby-edition",
@@ -16783,7 +16785,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2015-panini-clear-vision-football-cards: 786 -> 2529 cards, 27 -> 63 sections, covers 95.2% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2015-panini-flawless-football-cards",
@@ -16835,7 +16839,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2015-panini-immaculate-football-cards: 1692 -> 4015 cards, 38 -> 96 sections, covers 100.0% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2015-panini-luxe-football-cards",
@@ -16863,7 +16869,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2015-panini-rookies-stars-football: 693 -> 5372 cards, 14 -> 112 sections, covers 88.8% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2015-topps-definitive-collection-football",
