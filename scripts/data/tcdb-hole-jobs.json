@@ -81,7 +81,9 @@
   "why": [
    "base checklist missing: only 42 insert/variation cards, base set is about 598 cards"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "1968-topps-baseball-cards: 42 -> 646 cards, 2 -> 3 sections, covers 81.0% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "1970-topps-baseball-cards",
@@ -122,7 +124,9 @@
   "why": [
    "base checklist missing: only 17 insert/variation cards, base set is about 660 cards"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "1973-topps-baseball-cards: 17 -> 775 cards, 1 -> 2 sections, covers 0.0% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "1977-topps-baseball-cards",
@@ -163,7 +167,9 @@
   "why": [
    "only Series 2 is on the site (base 251-500); Series 1 missing — replace with TCDB 2015-16 Upper Deck (both series)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2015-16-upper-deck-series-hockey-cards: 665 -> 6357 cards, 12 -> 66 sections, covers 99.8% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "25-26-topps-winners-collection-arsenal-soccer-card",
@@ -16200,7 +16206,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2013-panini-rookies-stars-football-cards: 1446 -> 5595 cards, 29 -> 75 sections, covers 100.0% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2013-panini-spectra-football-cards",
@@ -16214,7 +16222,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2013-panini-spectra-football-cards: 1243 -> 4613 cards, 25 -> 90 sections, covers 79.3% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2013-score-football-cards",
