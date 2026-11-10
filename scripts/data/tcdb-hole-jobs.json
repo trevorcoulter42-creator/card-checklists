@@ -16904,7 +16904,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2015-topps-football-cards: 717 -> 10172 cards, 7 -> 76 sections, covers 91.1% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2015-topps-heritage-football-cards",
@@ -17103,7 +17105,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2016-panini-flawless-football-cards: 867 -> 4351 cards, 31 -> 209 sections, covers 94.6% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2016-panini-football-cards",
@@ -17117,7 +17121,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2016-panini-football-cards: 764 -> 4288 cards, 17 -> 57 sections, covers 92.4% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2016-panini-gala-football-cards",
@@ -17166,7 +17172,9 @@
   "why": [
    "verify against TCDB (partial copies block the TCDB import)"
   ],
-  "status": "claimed-l2v"
+  "status": "done",
+  "note": "2016-panini-impeccable-football-cards: 646 -> 1703 cards, 17 -> 42 sections, covers 100.0% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2016-panini-infinity-football-cards",
