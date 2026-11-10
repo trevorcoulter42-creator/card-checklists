@@ -6779,7 +6779,9 @@
   "why": [
    "base skips 15 numbers in #91-240 (e.g. 152, 160, 164, 167, 169)"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2023-donruss-baseball: 11439 -> 11067 cards, 285 -> 181 sections, covers 98.6% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2019-panini-prestige-football",
@@ -7099,7 +7101,9 @@
   "why": [
    "missing inserts: 1972 insert, connection die cut, dynamic die cuts, update postseason heroes"
   ],
-  "status": "todo"
+  "status": "done",
+  "note": "2013-topps-chrome-baseball-cards: 595 -> 4918 cards, 8 -> 51 sections, covers 96.2% of current",
+  "at": "2026-11-10"
  },
  {
   "slug": "2017-donruss-elite-football-cards",
